@@ -1,3 +1,19 @@
+.green {
+  color: #5B6556;
+}
+
+.black {
+  color: #31331F;
+}
+
+.creme {
+  color: #F5F3EE;
+}
+
+.orange {
+  color: #B98B68;
+}
+
 .center {
   text-align: center;
 }
@@ -49,10 +65,29 @@ ul {
   padding-inline-start: 0;
 }
 
+h1 {
+  color: #F5F3EE;
+  font-size: 3.3854166667vw;
+  font-family: "Manrope Light";
+  font-weight: 300;
+  line-height: 1.12;
+}
+
 .test-bloc {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn-cta {
+  background-color: #B98B68;
+  border-radius: 1.5625vw;
+  font-size: 1.0416666667vw;
+  font-family: "Manrope Regular";
+  padding: 1.1458333333vw 1.5625vw;
+  color: white;
+  display: inline-block;
+  text-align: center;
 }
 
 .full-width .vce.vce-single-image-wrapper {

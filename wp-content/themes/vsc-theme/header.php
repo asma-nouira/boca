@@ -44,7 +44,7 @@
 
 				<a href="tel:+14502325202" class="site-header__phone">(450) 232-5202</a>
 
-				<a href="/urgence-dentaire/" class="btn btn--pill"><?php esc_html_e( 'Urgence dentaire', 'vsc-theme' ); ?></a>
+				<a href="/urgence-dentaire/" class="btn-cta btn--pill"><?php esc_html_e( 'Urgence dentaire', 'vsc-theme' ); ?></a>
 
 				<a href="/prendre-rendez-vous/" class="btn btn--round" aria-label="<?php esc_attr_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>">
 					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -56,16 +56,6 @@
 				</a>
 
 				<div class="lang-switcher">
-					<button type="button" class="lang-switcher__current" id="lang-switcher-toggle" aria-expanded="false" aria-haspopup="true">
-						EN
-						<svg width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
-							<path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
-					</button>
-					<ul class="lang-switcher__menu" id="lang-switcher-menu">
-						<li><a href="#">FR</a></li>
-						<li><a href="#">EN</a></li>
-					</ul>
 				</div>
 
 			</div><!-- .site-header__actions -->

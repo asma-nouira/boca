@@ -1,3 +1,19 @@
+.green {
+  color: #5B6556;
+}
+
+.black {
+  color: #31331F;
+}
+
+.creme {
+  color: #F5F3EE;
+}
+
+.orange {
+  color: #B98B68;
+}
+
 .center {
   text-align: center;
 }
@@ -49,10 +65,29 @@ ul {
   padding-inline-start: 0;
 }
 
+h1 {
+  color: #F5F3EE;
+  font-size: 3.3854166667vw;
+  font-family: "Manrope Light";
+  font-weight: 300;
+  line-height: 1.12;
+}
+
 .test-bloc {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn-cta {
+  background-color: #B98B68;
+  border-radius: 1.5625vw;
+  font-size: 1.0416666667vw;
+  font-family: "Manrope Regular";
+  padding: 1.1458333333vw 1.5625vw;
+  color: white;
+  display: inline-block;
+  text-align: center;
 }
 
 .full-width .vce.vce-single-image-wrapper {
@@ -66,13 +101,6 @@ ul {
 .full-width .vce.vce-single-image-wrapper figure .vce-single-image-figure-inner {
   width: 100% !important;
   height: auto;
-}
-
-:root {
-  --color-dark: #1b251b;
-  --color-cream: #f5f3ee;
-  --color-accent: #b98d66;
-  --color-text: #2e2a22;
 }
 
 * {
@@ -112,19 +140,15 @@ body.menu-is-open {
   left: 0;
   width: 100%;
   z-index: 200;
-  background-color: var(--color-dark);
-  color: var(--color-cream);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #31331F;
+  color: #F5F3EE;
 }
 
 .site-header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 2.2395833333vw 4.4791666667vw 2.2395833333vw 2.4479166667vw;
 }
 @media (min-width: 993px) {
   .site-header__inner {
@@ -140,9 +164,10 @@ body.menu-is-open {
   background: none;
   border: 0;
   padding: 0;
-  color: var(--color-cream);
+  color: #F5F3EE;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 1.25vw;
+  font-family: "Manrope Regular";
   letter-spacing: 0.03em;
 }
 
@@ -151,13 +176,13 @@ body.menu-is-open {
   flex-direction: column;
   justify-content: center;
   gap: 4px;
-  width: 22px;
+  width: 56px;
 }
 .menu-toggle__icon span {
   display: block;
-  height: 1.5px;
+  height: 2px;
   width: 100%;
-  background: currentColor;
+  background: #F5F3EE;
 }
 
 @media (max-width: 480px) {
@@ -175,19 +200,12 @@ body.menu-is-open {
 }
 .site-branding .custom-logo {
   height: auto;
-  max-width: 130px;
+  max-width: 9.6354166667vw;
 }
 @media (max-width: 600px) {
   .site-branding .custom-logo {
-    max-width: 96px;
+    max-width: 130px;
   }
-}
-.site-branding .site-title a {
-  color: var(--color-cream);
-  text-decoration: none;
-  font-size: 1.4rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 /* Right-hand actions */
@@ -200,10 +218,13 @@ body.menu-is-open {
 
 .site-header__phone {
   display: none;
-  color: var(--color-cream);
+  color: white;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.0416666667vw;
+  font-family: "Manrope Bold";
+  font-weight: 700;
   white-space: nowrap;
+  padding-right: 1.1979166667vw;
 }
 @media (min-width: 993px) {
   .site-header__phone {
@@ -211,38 +232,15 @@ body.menu-is-open {
   }
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  text-decoration: none;
-  font-size: 0.8rem;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-  cursor: pointer;
-  border: 1px solid transparent;
-}
-
 .btn--pill {
-  display: none;
-  background-color: var(--color-accent);
-  color: var(--color-dark);
-  padding: 0.65rem 1.3rem;
-  border-radius: 999px;
-}
-@media (min-width: 769px) {
-  .btn--pill {
-    display: inline-flex;
-  }
+  margin-right: 0.6770833333vw;
 }
 
 .btn--round {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--color-accent);
-  color: var(--color-dark);
+  padding: 0.78125vw 1.7708333333vw;
+  border-radius: 1.5625vw;
+  background-color: #B98B68;
+  color: white;
   flex-shrink: 0;
 }
 

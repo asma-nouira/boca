@@ -1,4 +1,19 @@
-$black : #000;
+$green : #5B6556;
+$dark : #31331F;
+$creme: #F5F3EE;
+$orange: #B98B68;
+.green{
+  color:$green;
+}
+.black{
+color:$dark;
+}
+.creme{
+  color: $creme;
+}
+.orange{
+  color:$orange;
+}
 .center{
   text-align: center;
 }
@@ -38,6 +53,13 @@ ul{
   margin-block-end: 0;
   padding-inline-start: 0;
 }
+h1{
+  color:$creme;
+   font-size: calc(65vw / 19.2);
+   font-family: 'Manrope Light';
+   font-weight: 300;
+   line-height: 1.12;
+}
 @mixin flex-center {
   display: flex;
   align-items: center;
@@ -45,6 +67,16 @@ ul{
 }
 .test-bloc{
     @include flex-center;
+}
+.btn-cta{
+  background-color: $orange;
+  border-radius: calc(30vw / 19.2);
+  font-size: calc(20vw / 19.2);
+  font-family: 'Manrope Regular';
+  padding: calc(22vw / 19.2) calc(30vw / 19.2);
+  color:white;
+  display: inline-block;
+  text-align: center;
 }
 .full-width{
   .vce.vce-single-image-wrapper{

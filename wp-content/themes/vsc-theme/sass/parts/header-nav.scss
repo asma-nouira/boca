@@ -1,12 +1,6 @@
 // Header + full-screen menu overlay
 // Brand colours pulled from the Boca logo/favicon assets — tweak here if the
 // client provides an official colour spec.
-:root {
-	--color-dark: #1b251b;
-	--color-cream: #f5f3ee;
-	--color-accent: #b98d66;
-	--color-text: #2e2a22;
-}
 
 * {
 	box-sizing: border-box;
@@ -46,20 +40,16 @@ body.menu-is-open {
 	left: 0;
 	width: 100%;
 	z-index: 200;
-	background-color: var(--color-dark);
-	color: var(--color-cream);
-	font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	background-color: $dark;
+	color: $creme;
+	
 }
 
 .site-header__inner {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 1rem;
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 1rem 1.5rem;
-
+	padding: calc(43vw / 19.2) calc(86vw / 19.2) calc(43vw / 19.2) calc(47vw / 19.2);
 	@media (min-width: 993px) {
 		padding: 1.25rem 3rem;
 	}
@@ -74,9 +64,10 @@ body.menu-is-open {
 	background: none;
 	border: 0;
 	padding: 0;
-	color: var(--color-cream);
+	color: $creme;
 	cursor: pointer;
-	font-size: 0.85rem;
+	font-size: calc(24vw / 19.2);
+	font-family: 'Manrope Regular';
 	letter-spacing: 0.03em;
 }
 
@@ -85,13 +76,13 @@ body.menu-is-open {
 	flex-direction: column;
 	justify-content: center;
 	gap: 4px;
-	width: 22px;
+	width: 56px;
 
 	span {
 		display: block;
-		height: 1.5px;
+		height: 2px;
 		width: 100%;
-		background: currentColor;
+		background: $creme;
 	}
 }
 
@@ -111,19 +102,11 @@ body.menu-is-open {
 
 	.custom-logo {
 		height: auto;
-		max-width: 130px;
+		max-width: calc(185vw / 19.2);
 
 		@media (max-width: 600px) {
-			max-width: 96px;
+			max-width: 130px;
 		}
-	}
-
-	.site-title a {
-		color: var(--color-cream);
-		text-decoration: none;
-		font-size: 1.4rem;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
 	}
 }
 
@@ -138,47 +121,28 @@ body.menu-is-open {
 
 .site-header__phone {
 	display: none;
-	color: var(--color-cream);
+	color: white;
 	text-decoration: none;
-	font-size: 0.9rem;
+	font-size:calc(20vw / 19.2);
+	font-family: 'Manrope Bold';
+	font-weight: 700;
 	white-space: nowrap;
-
+    padding-right: calc(23vw / 19.2);
 	@media (min-width: 993px) {
 		display: inline;
 	}
 }
 
-.btn {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-	text-decoration: none;
-	font-size: 0.8rem;
-	letter-spacing: 0.02em;
-	white-space: nowrap;
-	cursor: pointer;
-	border: 1px solid transparent;
-}
 
 .btn--pill {
-	display: none;
-	background-color: var(--color-accent);
-	color: var(--color-dark);
-	padding: 0.65rem 1.3rem;
-	border-radius: 999px;
-
-	@media (min-width: 769px) {
-		display: inline-flex;
-	}
+margin-right: calc(13vw / 19.2);
 }
 
 .btn--round {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background-color: var(--color-accent);
-	color: var(--color-dark);
+	padding: calc(15vw / 19.2) calc(34vw / 19.2);
+	border-radius: calc(30vw / 19.2);
+	background-color: $orange;
+	color: white;
 	flex-shrink: 0;
 }
 
