@@ -192,6 +192,7 @@ body.menu-is-open {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  top: 2.2395833333vw;
 }
 .site-branding .custom-logo {
   height: auto;
