@@ -60,7 +60,7 @@ body.menu-is-open {
 .menu-toggle {
 	display: flex;
 	align-items: center;
-	gap: 0.6rem;
+	gap: calc(37vw / 19.2);
 	background: none;
 	border: 0;
 	padding: 0;
