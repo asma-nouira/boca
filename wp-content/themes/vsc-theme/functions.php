@@ -42,9 +42,12 @@ if ( ! function_exists( 'vsc_theme_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
+		// This theme uses wp_nav_menu() in several locations.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'vsc-theme' ),
+			'menu-1'            => esc_html__( 'Primary', 'vsc-theme' ),
+			'menu-overlay-col-1' => esc_html__( 'Menu plein écran — Colonne 1 (À propos)', 'vsc-theme' ),
+			'menu-overlay-col-2' => esc_html__( 'Menu plein écran — Colonne 2 (Services)', 'vsc-theme' ),
+			'menu-overlay-col-3' => esc_html__( 'Menu plein écran — Colonne 3 (Espace patient)', 'vsc-theme' ),
 		) );
 
 		/*
@@ -121,6 +124,7 @@ add_action( 'widgets_init', 'vsc_theme_widgets_init' );
  */
 function vsc_theme_scripts() {
 	wp_enqueue_style('vsc-header-style',get_template_directory_uri().'/css/header.css',array(),null);
+	wp_enqueue_script( 'vsc-theme-menu', get_template_directory_uri() . '/js/menu.js', array(), null, true );
 	}
 add_action( 'wp_enqueue_scripts', 'vsc_theme_scripts' );
 
@@ -159,6 +163,11 @@ function vc_remove_wp_ver_css_js( $src ) {
 }
 add_filter( 'style_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
+
+/**
+ * Custom walker for the header's full-screen menu overlay.
+ */
+require get_template_directory() . '/inc/class-boca-overlay-menu-walker.php';
 
 /**
  * Implement the Custom Header feature.
