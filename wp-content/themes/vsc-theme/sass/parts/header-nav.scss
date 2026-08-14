@@ -50,9 +50,6 @@ body.menu-is-open {
 	align-items: center;
 	justify-content: space-between;
 	padding: calc(43vw / 19.2) calc(86vw / 19.2) calc(43vw / 19.2) calc(47vw / 19.2);
-	@media (min-width: 993px) {
-		padding: 1.25rem 3rem;
-	}
 }
 
 /* Hamburger */

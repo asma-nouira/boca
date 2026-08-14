@@ -150,11 +150,6 @@ body.menu-is-open {
   justify-content: space-between;
   padding: 2.2395833333vw 4.4791666667vw 2.2395833333vw 2.4479166667vw;
 }
-@media (min-width: 993px) {
-  .site-header__inner {
-    padding: 1.25rem 3rem;
-  }
-}
 
 /* Hamburger */
 .menu-toggle {
