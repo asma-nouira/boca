@@ -383,7 +383,7 @@ body.menu-is-open .menu-overlay {
 .menu-overlay__social a:hover svg path {
   fill: #B98B68;
 }
-.menu-overlay__social a:hover circle {
+.menu-overlay__social a:hover svg circle {
   stroke: #B98B68;
 }
 
