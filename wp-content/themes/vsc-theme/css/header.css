@@ -170,7 +170,7 @@ body.menu-is-open {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 4px;
+  gap: 10px;
   width: 56px;
 }
 .menu-toggle__icon span {
