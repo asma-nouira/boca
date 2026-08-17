@@ -376,4 +376,8 @@ body {
 .smile-group.in-view .smile-dot:nth-child(6) {
   transition-delay: 0.5s;
 }
+
+.service-bloc {
+  padding: 7.5520833333vw 29.7916666667vw 2.5vw;
+}
 /*# sourceMappingURL=../css/style.css.map */
