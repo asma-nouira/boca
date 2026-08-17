@@ -89,6 +89,10 @@ h1 {
   justify-content: center;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .btn-cta {
   background-color: #B98B68;
   border-radius: 1.5625vw;

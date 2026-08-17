@@ -89,6 +89,10 @@ h1 {
   justify-content: center;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .btn-cta {
   background-color: #B98B68;
   border-radius: 1.5625vw;
@@ -412,6 +416,9 @@ body.menu-is-open .menu-overlay {
 }
 .menu-overlay__columns .col-2 {
   padding-right: 5.2083333333vw;
+}
+.menu-overlay__columns .col-3 {
+  padding-right: 2.0833333333vw;
 }
 
 .menu-col__title {

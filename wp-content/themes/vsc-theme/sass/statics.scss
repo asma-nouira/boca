@@ -76,6 +76,9 @@ h1{
 .test-bloc{
     @include flex-center;
 }
+.nowrap{
+  white-space: nowrap;
+}
 .btn-cta{
   background-color: $orange;
   border-radius: calc(30vw / 19.2);
