@@ -248,18 +248,9 @@ body.menu-is-open .menu-overlay {
 }
 
 .menu-overlay__inner {
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 5rem 1.5rem 3rem;
+	padding: calc(60vw / 19.2) calc(46vw / 19.2) calc(43vw / 19.2) calc(75vw / 19.2);
+	display: flex;
 
-	@media (min-width: 993px) {
-		display: grid;
-		grid-template-columns: 360px 1fr;
-		gap: 4rem;
-		padding: 6rem 3rem 4rem;
-		min-height: 100vh;
-		align-items: start;
-	}
 }
 
 .menu-overlay__media {
@@ -272,14 +263,8 @@ body.menu-is-open .menu-overlay {
 
 .menu-overlay__photo {
 	width: 100%;
-	height: 220px;
+	height: auto;
 	object-fit: cover;
-	border-radius: 6px;
-	background-color: var(--color-dark);
-
-	@media (min-width: 993px) {
-		height: 420px;
-	}
 }
 
 .menu-overlay__social {
@@ -328,15 +313,11 @@ body.menu-is-open .menu-overlay {
 
 .menu-col {
 	&__title {
-		text-transform: uppercase;
-		font-size: 0.8rem;
-		letter-spacing: 0.05em;
-		font-weight: 600;
-		margin-bottom: 1rem;
-
-		&:not(:first-child) {
-			margin-top: 1.75rem;
-		}
+	
+		font-size: calc(25vw / 19.2);
+		font-weight: 700;
+		font-family: 'Manrope Bold';
+		margin-bottom: 10px;
 
 		a {
 			color: inherit;

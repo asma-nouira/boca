@@ -341,19 +341,8 @@ body.menu-is-open .menu-overlay {
 }
 
 .menu-overlay__inner {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 5rem 1.5rem 3rem;
-}
-@media (min-width: 993px) {
-  .menu-overlay__inner {
-    display: grid;
-    grid-template-columns: 360px 1fr;
-    gap: 4rem;
-    padding: 6rem 3rem 4rem;
-    min-height: 100vh;
-    align-items: start;
-  }
+  padding: 3.125vw 2.3958333333vw 2.2395833333vw 3.90625vw;
+  display: flex;
 }
 
 .menu-overlay__media {
@@ -367,15 +356,8 @@ body.menu-is-open .menu-overlay {
 
 .menu-overlay__photo {
   width: 100%;
-  height: 220px;
+  height: auto;
   object-fit: cover;
-  border-radius: 6px;
-  background-color: var(--color-dark);
-}
-@media (min-width: 993px) {
-  .menu-overlay__photo {
-    height: 420px;
-  }
 }
 
 .menu-overlay__social {
@@ -424,14 +406,10 @@ body.menu-is-open .menu-overlay {
 }
 
 .menu-col__title {
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 0.05em;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-.menu-col__title:not(:first-child) {
-  margin-top: 1.75rem;
+  font-size: 1.3020833333vw;
+  font-weight: 700;
+  font-family: "Manrope Bold";
+  margin-bottom: 10px;
 }
 .menu-col__title a {
   color: inherit;
