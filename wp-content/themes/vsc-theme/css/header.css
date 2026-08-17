@@ -453,7 +453,7 @@ body.menu-is-open .menu-overlay {
   border-collapse: collapse;
   font-size: 1.1458333333vw;
   letter-spacing: -0.68px;
-  padding-top: 1.25vw;
+  margin-top: 1.25vw;
 }
 .menu-col__hours th,
 .menu-col__hours td {
