@@ -475,7 +475,6 @@ body.menu-is-open .menu-overlay {
 .menu-col__hours td {
   text-align: left;
   font-weight: 400;
-  padding: 0.2rem 0;
 }
 .menu-col__hours th {
   padding-right: 1.5rem;
