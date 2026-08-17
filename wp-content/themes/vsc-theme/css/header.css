@@ -152,6 +152,9 @@ p:last-child {
   border-radius: 1.6145833333vw;
   background-color: transparent;
   border: 2px solid #F5F3EE;
+  padding: 0.8854166667vw 1.8229166667vw;
+  text-align: center;
+  display: inline-block;
 }
 
 .full-width .vce.vce-single-image-wrapper {

@@ -134,6 +134,9 @@ p{
   border-radius: calc(31vw / 19.2);
   background-color: transparent;
   border:2px solid $creme;
+  padding: calc(17vw / 19.2) calc(35vw / 19.2);
+  text-align: center;
+  display: inline-block;
 }
 .full-width{
   .vce.vce-single-image-wrapper{
