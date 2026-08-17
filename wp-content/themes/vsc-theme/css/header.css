@@ -405,6 +405,7 @@ body.menu-is-open .menu-overlay {
   font-weight: 700;
   font-family: "Manrope Bold";
   margin-bottom: 10px;
+  line-height: 1.4;
 }
 .menu-col__title a {
   color: inherit;
@@ -414,7 +415,8 @@ body.menu-is-open .menu-overlay {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 0.6px;
+  letter-spacing: -0.68px;
 }
 .menu-col__list a {
   color: inherit;
