@@ -31,6 +31,10 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script>
+document.querySelector('.scroll-arrow').addEventListener('click', () => {
+  document.querySelector('#next-section').scrollIntoView({ behavior: 'smooth' });
+});
+</script>
 </body>
 </html>

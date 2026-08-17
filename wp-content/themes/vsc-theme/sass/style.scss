@@ -76,5 +76,25 @@ body{
 	}
 }
 
+.scroll-arrow {
+  width:calc(103vw / 19.2);
+  height: calc(103vw / 19.2);
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  transition: background 0.2s ease;
+  animation: scrollBounce 1.8s ease-in-out infinite;
+}
 
+
+@keyframes scrollBounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(6px);
+  }
+}
 
