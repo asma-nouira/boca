@@ -442,6 +442,7 @@ body.menu-is-open .menu-overlay {
   flex-direction: column;
   gap: 1.25vw;
   font-size: 1.1458333333vw;
+  letter-spacing: -0.68px;
   font-style: normal;
 }
 .menu-col__address a {
@@ -450,7 +451,9 @@ body.menu-is-open .menu-overlay {
 }
 .menu-col__hours {
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: 1.1458333333vw;
+  letter-spacing: -0.68px;
+  padding-top: 1.25vw;
 }
 .menu-col__hours th,
 .menu-col__hours td {
