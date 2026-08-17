@@ -150,4 +150,10 @@ body .wpcf7-mail-sent-ok {
 }
 
 /***************/
+body {
+  font-family: "Manrope Regular";
+  font-weight: 400;
+  font-size: 0.9375vw;
+  line-height: 1.33;
+}
 /*# sourceMappingURL=../css/style.css.map */
