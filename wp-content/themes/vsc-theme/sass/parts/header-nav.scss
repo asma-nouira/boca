@@ -272,11 +272,13 @@ body.menu-is-open .menu-overlay {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 34px;
-		height: 34px;
-		border-radius: 50%;
-		border: 1px solid var(--color-text);
-		color: var(--color-text);
+		width: calc(55vw / 19.2);
+		height: calc(55vw / 19.2);
+		&:hover{
+			svg path{
+				fill:#B98B68;
+			}
+		}
 	}
 }
 
