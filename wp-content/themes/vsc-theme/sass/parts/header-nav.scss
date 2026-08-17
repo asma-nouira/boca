@@ -344,9 +344,8 @@ display: flex;
 	&__address {
 		display: flex;
 		flex-direction: column;
-		gap: 0.35rem;
-		font-size: 0.95rem;
-		margin-bottom: 1.25rem;
+		gap: calc(25vw / 19.2);
+		font-size: calc(22vw / 19.2);
 
 		a {
 			color: inherit;

@@ -59,6 +59,16 @@ h1, h2, h3 {
   margin-bottom: 0;
 }
 
+.bold {
+  font-family: "Manrope Bold";
+  font-weight: 700;
+}
+
+.semiBold {
+  font-family: "Manrope SemiBold";
+  font-weight: 600;
+}
+
 ul {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -430,9 +440,8 @@ body.menu-is-open .menu-overlay {
 .menu-col__address {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
-  font-size: 0.95rem;
-  margin-bottom: 1.25rem;
+  gap: 1.3020833333vw;
+  font-size: 1.1458333333vw;
 }
 .menu-col__address a {
   color: inherit;
