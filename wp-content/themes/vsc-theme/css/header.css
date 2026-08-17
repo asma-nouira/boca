@@ -464,6 +464,9 @@ body.menu-is-open .menu-overlay {
   color: inherit;
   text-decoration: none;
 }
+.menu-col__address a:hover {
+  color: #5B6556;
+}
 .menu-col__hours {
   border-collapse: collapse;
   font-size: 1.1458333333vw;

@@ -362,6 +362,10 @@ display: flex;
 		a {
 			color: inherit;
 			text-decoration: none;
+
+			&:hover{
+				color:$green;
+			}
 		}
 	}
 
