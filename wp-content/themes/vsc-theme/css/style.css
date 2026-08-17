@@ -93,6 +93,13 @@ h2 {
   color: #5B6556;
 }
 
+p {
+  padding-bottom: 1.3020833333vw;
+}
+p:last-child {
+  padding-bottom: 0;
+}
+
 .test-bloc {
   display: flex;
   align-items: center;
