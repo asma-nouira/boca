@@ -81,15 +81,16 @@
 
 		<div class="menu-overlay" id="site-navigation">
 			<button type="button" class="menu-close" id="menu-close" aria-label="<?php esc_attr_e( 'Fermer le menu', 'vsc-theme' ); ?>">
-				<svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-					<path d="M1 1L17 17M17 1L1 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" width="120.915" height="120.915" viewBox="0 0 120.915 120.915">
+  <text id="_" data-name="+" transform="translate(66.468 102.53) rotate(-45)" fill="#fff" font-size="88" font-family="Manrope-Regular, Manrope" letter-spacing="-0.015em"><tspan x="0" y="0">+</tspan></text>
+</svg>
+
 			</button>
 
 			<div class="menu-overlay__inner">
 
 				<div class="menu-overlay__media">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/menu-photo.jpg' ); ?>" alt="" class="menu-overlay__photo">
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/wp-content/uploads/2026/08/Boca-Clinique.jpg' ); ?>" alt="Clinique dentaire BOCA" class="menu-overlay__photo">
 
 					<div class="menu-overlay__social">
 						<a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">

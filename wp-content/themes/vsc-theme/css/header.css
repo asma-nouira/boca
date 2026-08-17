@@ -140,7 +140,7 @@ body.menu-is-open {
   left: 0;
   width: 100%;
   z-index: 200;
-  background-color: #31331F;
+  background-color: rgba(49, 51, 31, 0.5);
   color: #F5F3EE;
 }
 
@@ -233,7 +233,7 @@ body.menu-is-open {
 }
 
 .btn--round {
-  padding: 0.78125vw 1.7708333333vw;
+  padding: 0.6510416667vw 1.7708333333vw;
   border-radius: 1.5625vw;
   background-color: #B98B68;
   color: white;
@@ -302,8 +302,8 @@ body.menu-is-open {
   position: fixed;
   inset: 0;
   z-index: 300;
-  background: var(--color-cream);
-  color: var(--color-text);
+  background: #DED8CC;
+  color: #31331F;
   overflow-y: auto;
   opacity: 0;
   visibility: hidden;
