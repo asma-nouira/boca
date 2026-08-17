@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .green {
   color: #5B6556;
 }
@@ -340,49 +339,46 @@ body {
     transform: translateX(-50%) translateY(6px);
   }
 }
-/* le trait qui se dessine */
 .smile-curve {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
+  stroke-dasharray: 260;
+  stroke-dashoffset: 260;
   transition: stroke-dashoffset 0.9s ease-in-out;
 }
 
-.smile-group.in-view ~ .smile-curve,
-#smile-svg.in-view .smile-curve {
-  stroke-dashoffset: 0;
-}
-
-/* les points, en fondu, après le trait */
 .smile-dot {
   opacity: 0;
   transition: opacity 0.4s ease;
+}
+
+#smile-svg.in-view .smile-curve {
+  stroke-dashoffset: 0;
 }
 
 #smile-svg.in-view .smile-dot {
   opacity: 1;
 }
 
-#smile-svg.in-view .smile-dot:nth-child(1) {
+#smile-svg.in-view .smile-dot:nth-child(2) {
   transition-delay: 0.9s;
 }
 
-#smile-svg.in-view .smile-dot:nth-child(2) {
+#smile-svg.in-view .smile-dot:nth-child(3) {
   transition-delay: 1s;
 }
 
-#smile-svg.in-view .smile-dot:nth-child(3) {
+#smile-svg.in-view .smile-dot:nth-child(4) {
   transition-delay: 1.1s;
 }
 
-#smile-svg.in-view .smile-dot:nth-child(4) {
+#smile-svg.in-view .smile-dot:nth-child(5) {
   transition-delay: 1.2s;
 }
 
-#smile-svg.in-view .smile-dot:nth-child(5) {
+#smile-svg.in-view .smile-dot:nth-child(6) {
   transition-delay: 1.3s;
 }
 
-#smile-svg.in-view .smile-dot:nth-child(6) {
+#smile-svg.in-view .smile-dot:nth-child(7) {
   transition-delay: 1.4s;
 }
 
