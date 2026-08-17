@@ -72,6 +72,10 @@ body{
 	}
 	.cta-action{
 		display: flex;
+		justify-content: center;
+		.btn-cta{
+          margin-right:calc(20vw / 19.2);
+		}
 	}
 }
 

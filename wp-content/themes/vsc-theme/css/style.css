@@ -306,6 +306,10 @@ body {
 }
 .center-bloc .cta-action {
   display: flex;
+  justify-content: center;
+}
+.center-bloc .cta-action .btn-cta {
+  margin-right: 1.0416666667vw;
 }
 
 .scroll-arrow {
