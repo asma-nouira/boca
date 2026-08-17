@@ -107,6 +107,20 @@ h1 {
   background-color: #5B6556;
 }
 
+.btn-appointment {
+  background-color: #B98B68;
+  border-radius: 1.5625vw;
+  font-size: 1.0416666667vw;
+  font-family: "Manrope Regular";
+  padding: 0.8854166667vw 2.6041666667vw;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+.btn-appointment:hover {
+  background-color: #5B6556;
+}
+
 .full-width .vce.vce-single-image-wrapper {
   width: 100%;
   height: auto;

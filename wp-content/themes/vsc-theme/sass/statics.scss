@@ -92,6 +92,19 @@ h1{
     background-color: #5B6556;
   }
 }
+.btn-appointment{
+  background-color: $orange;
+  border-radius: calc(30vw / 19.2);
+  font-size: calc(20vw / 19.2);
+  font-family: 'Manrope Regular';
+  padding: calc(17vw / 19.2) calc(50vw / 19.2);
+  color:white;
+  display: inline-block;
+  text-align: center;
+  &:hover{
+    background-color: #5B6556;
+  }
+}
 .full-width{
   .vce.vce-single-image-wrapper{
     width:100%;
