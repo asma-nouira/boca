@@ -90,7 +90,7 @@
 			<div class="menu-overlay__inner">
 
 				<div class="menu-overlay__media">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/wp-content/uploads/2026/08/Boca-Clinique.jpg' ); ?>" alt="Clinique dentaire BOCA" class="menu-overlay__photo">
+					<img src="/wp-content/uploads/2026/08/Boca-Clinique.jpg" alt="Clinique dentaire BOCA" class="menu-overlay__photo">
 
 					
 				</div><!-- .menu-overlay__media -->
