@@ -97,7 +97,7 @@
 
 				<div class="menu-overlay__columns">
 
-					<div class="menu-col">
+					<div class="menu-col col-1">
 						<?php
 						wp_nav_menu( array(
 							'theme_location' => 'menu-overlay-col-1',
@@ -132,7 +132,7 @@
 
 					</div>
 
-					<div class="menu-col">
+					<div class="menu-col col-2">
 						<?php
 						wp_nav_menu( array(
 							'theme_location' => 'menu-overlay-col-2',

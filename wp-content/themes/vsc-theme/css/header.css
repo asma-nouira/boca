@@ -389,15 +389,13 @@ body.menu-is-open .menu-overlay {
 }
 
 .menu-overlay__columns {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 4.0104166667vw;
+  display: flex;
 }
-@media (min-width: 769px) {
-  .menu-overlay__columns {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
+.menu-overlay__columns .col-1 {
+  padding-right: 4.0104166667vw;
+}
+.menu-overlay__columns .col-2 {
+  padding-right: 5.2083333333vw;
 }
 
 .menu-col__title {
@@ -417,6 +415,7 @@ body.menu-is-open .menu-overlay {
   flex-direction: column;
   gap: 0.6px;
   letter-spacing: -0.68px;
+  padding-bottom: 0.8333333333vw;
 }
 .menu-col__list a {
   color: inherit;

@@ -297,14 +297,13 @@ body.menu-is-open .menu-overlay {
 }
 
 .menu-overlay__columns {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: calc(77vw / 19.2);
-
-	@media (min-width: 769px) {
-		grid-template-columns: repeat(3, 1fr);
-		gap: 2rem;
-	}
+display: flex;
+.col-1{
+	padding-right: calc(77vw / 19.2);
+}
+.col-2{
+	padding-right: calc(100vw / 19.2);
+}
 }
 
 .menu-col {
@@ -327,6 +326,7 @@ body.menu-is-open .menu-overlay {
 		flex-direction: column;
 		gap: 0.6px;
 		letter-spacing: -0.68px;
+		padding-bottom: calc(16vw / 19.2);
         
 		a {
 			color: inherit;
