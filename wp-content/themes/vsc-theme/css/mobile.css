@@ -138,6 +138,17 @@ p:last-child {
   background-color: #5B6556;
 }
 
+.white-btn {
+  font-family: "Manrope Bold";
+  font-size: 1.0416666667vw;
+  font-weight: 700;
+  color: #F5F3EE;
+  line-height: 1.35;
+  border-radius: 1.6145833333vw;
+  background-color: transparent;
+  border: 2px solid #F5F3EE;
+}
+
 .full-width .vce.vce-single-image-wrapper {
   width: 100%;
   height: auto;

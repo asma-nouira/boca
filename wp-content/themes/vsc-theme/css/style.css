@@ -138,6 +138,17 @@ p:last-child {
   background-color: #5B6556;
 }
 
+.white-btn {
+  font-family: "Manrope Bold";
+  font-size: 1.0416666667vw;
+  font-weight: 700;
+  color: #F5F3EE;
+  line-height: 1.35;
+  border-radius: 1.6145833333vw;
+  background-color: transparent;
+  border: 2px solid #F5F3EE;
+}
+
 .full-width .vce.vce-single-image-wrapper {
   width: 100%;
   height: auto;
@@ -268,5 +279,15 @@ body {
 }
 .hero-section h1 {
   padding-bottom: 15px;
+}
+
+.center-bloc {
+  padding: 12.2916666667vw 28.8541666667vw 13.8020833333vw;
+}
+.center-bloc h2 {
+  padding-bottom: 15px;
+}
+.center-bloc .cta-action {
+  display: flex;
 }
 /*# sourceMappingURL=../css/style.css.map */
