@@ -440,8 +440,9 @@ body.menu-is-open .menu-overlay {
 .menu-col__address {
   display: flex;
   flex-direction: column;
-  gap: 1.3020833333vw;
+  gap: 1.25vw;
   font-size: 1.1458333333vw;
+  font-style: normal;
 }
 .menu-col__address a {
   color: inherit;
