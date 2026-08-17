@@ -413,9 +413,11 @@ body.menu-is-open .menu-overlay {
 }
 .menu-overlay__columns .col-1 {
   padding-right: 4.0104166667vw;
+  width: 25%;
 }
 .menu-overlay__columns .col-2 {
   padding-right: 5.2083333333vw;
+  width: 40%;
 }
 .menu-overlay__columns .col-3 {
   padding-right: 2.0833333333vw;

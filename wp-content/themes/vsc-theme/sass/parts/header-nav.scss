@@ -305,9 +305,11 @@ body.menu-is-open .menu-overlay {
 display: flex;
 .col-1{
 	padding-right: calc(77vw / 19.2);
+	width:25%;
 }
 .col-2{
 	padding-right: calc(100vw / 19.2);
+	width:40%;
 }
 .col-3{
 	padding-right: calc(40vw / 19.2);
