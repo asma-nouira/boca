@@ -128,6 +128,16 @@
 							'fallback_cb'    => false,
 						) );
 						?>
+
+							<?php
+						wp_nav_menu( array(
+							'theme_location' => 'menu-overlay-col-3',
+							'container'      => false,
+							'items_wrap'     => '%3$s',
+							'walker'         => new Boca_Overlay_Menu_Walker(),
+							'fallback_cb'    => false,
+						) );
+						?>
 					</div>
 
 					<div class="menu-col">
