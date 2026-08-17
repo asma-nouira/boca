@@ -81,6 +81,7 @@ h1 {
   font-family: "Manrope Light";
   font-weight: 300;
   line-height: 1.12;
+  letter-spacing: -0.23px;
 }
 
 .test-bloc {
