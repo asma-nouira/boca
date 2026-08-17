@@ -156,6 +156,9 @@ p:last-child {
   text-align: center;
   display: inline-block;
 }
+.white-btn:hover {
+  background-color: #B98B68;
+}
 
 .full-width .vce.vce-single-image-wrapper {
   width: 100%;

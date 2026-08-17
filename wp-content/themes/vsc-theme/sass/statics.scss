@@ -137,6 +137,9 @@ p{
   padding: calc(17vw / 19.2) calc(35vw / 19.2);
   text-align: center;
   display: inline-block;
+  &:hover{
+    background-color: #B98B68;
+  }
 }
 .full-width{
   .vce.vce-single-image-wrapper{
