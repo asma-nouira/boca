@@ -454,6 +454,7 @@ body.menu-is-open .menu-overlay {
   font-size: 1.1458333333vw;
   letter-spacing: -0.68px;
   margin-top: 1.25vw;
+  margin-bottom: 2.0833333333vw;
 }
 .menu-col__hours th,
 .menu-col__hours td {
