@@ -254,11 +254,7 @@ body.menu-is-open .menu-overlay {
 }
 
 .menu-overlay__media {
-	margin-bottom: 2.5rem;
-
-	@media (min-width: 993px) {
-		margin-bottom: 0;
-	}
+	margin-right:calc(125vw / 19.2);
 }
 
 .menu-overlay__photo {
@@ -303,7 +299,7 @@ body.menu-is-open .menu-overlay {
 .menu-overlay__columns {
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 2.5rem;
+	gap: calc(77vw / 19.2);
 
 	@media (min-width: 769px) {
 		grid-template-columns: repeat(3, 1fr);
@@ -330,11 +326,13 @@ body.menu-is-open .menu-overlay {
 		display: flex;
 		flex-direction: column;
 		gap: 0.7rem;
-
+        
 		a {
 			color: inherit;
 			text-decoration: none;
-			font-size: 0.95rem;
+			font-size: calc(22vw / 19.2);
+			font-family: 'Manrope Regular';
+			line-height: 1.36;
 
 			&:hover {
 				text-decoration: underline;
