@@ -84,6 +84,15 @@ h1 {
   letter-spacing: -0.23px;
 }
 
+h2 {
+  font-family: "Manrope Light";
+  font-weight: 300;
+  font-size: 2.6041666667vw;
+  line-height: 1.3;
+  letter-spacing: -0.3px;
+  color: #5B6556;
+}
+
 .test-bloc {
   display: flex;
   align-items: center;
