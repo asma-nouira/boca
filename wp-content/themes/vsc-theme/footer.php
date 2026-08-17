@@ -37,7 +37,7 @@ document.querySelector('.scroll-arrow').addEventListener('click', () => {
 });
 </script>
 <script>
-const smileGroup = document.querySelector('.smile-group');
+const smileSvg = document.getElementById('smile-svg');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -48,7 +48,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.5 });
 
-observer.observe(smileGroup);
+observer.observe(smileSvg);
 </script>
 </body>
 </html>
