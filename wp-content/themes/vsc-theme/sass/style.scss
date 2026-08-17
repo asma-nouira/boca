@@ -84,8 +84,8 @@ body{
   height: calc(103vw / 19.2);
   cursor: pointer;
   position: absolute;
-  left: 50%;
-  bottom: 24px;
+  left: 71%;
+  top: calc(-51vw / 19.2);
   transform: translateX(-50%);
   transition: background 0.2s ease;
   animation: scrollBounce 1.8s ease-in-out infinite;

@@ -324,8 +324,8 @@ body {
   height: 5.3645833333vw;
   cursor: pointer;
   position: absolute;
-  left: 50%;
-  bottom: 24px;
+  left: 71%;
+  top: -2.65625vw;
   transform: translateX(-50%);
   transition: background 0.2s ease;
   animation: scrollBounce 1.8s ease-in-out infinite;
