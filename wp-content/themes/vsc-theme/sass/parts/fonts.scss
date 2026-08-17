@@ -32,6 +32,16 @@ $mobile-width: 425px;
     }
   }
 }
-%fs21{
-  @include fontSize(21);
+%fs45{
+  @include fontSize(45);
+}
+
+/************ fonts *************/
+.fs45{
+  @extend %fs45;
+  h1,h2,p,h3{
+    @extend %fs45;
+    line-height: 1.22;
+    letter-spacing: -0.33px;
+  }
 }
