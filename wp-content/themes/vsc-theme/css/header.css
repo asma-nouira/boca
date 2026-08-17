@@ -75,6 +75,11 @@ ul {
   padding-inline-start: 0;
 }
 
+.light {
+  font-family: "Manrope Light";
+  font-weight: 300;
+}
+
 h1 {
   color: #F5F3EE;
   font-size: 3.3854166667vw;
@@ -85,8 +90,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Manrope Light";
-  font-weight: 300;
+  font-family: "Manrope Regular";
+  font-weight: 400;
   font-size: 2.6041666667vw;
   line-height: 1.3;
   letter-spacing: -0.3px;
