@@ -36,5 +36,20 @@ document.querySelector('.scroll-arrow').addEventListener('click', () => {
   document.querySelector('#next-section').scrollIntoView({ behavior: 'smooth' });
 });
 </script>
+<script>
+const smileGroup = document.querySelector('.smile-group');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.5 });
+
+observer.observe(smileGroup);
+
+</script>
 </body>
 </html>
