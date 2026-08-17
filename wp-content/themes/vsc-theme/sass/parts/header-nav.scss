@@ -229,12 +229,12 @@ body.menu-is-open .menu-overlay {
 	position: absolute;
 	top: 1.5rem;
 	right: 1.5rem;
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
+	width: calc(103vw / 19.2);
+	height: calc(85vw / 19.2);
+	border-radius: 40%;
 	border: 0;
-	background: var(--color-accent);
-	color: var(--color-dark);
+	background: #B98B68;
+	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
