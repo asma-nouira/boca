@@ -119,4 +119,8 @@ h1 {
   width: 100% !important;
   height: auto;
 }
+
+.pb-30 {
+  padding-bottom: 1.5625vw;
+}
 /*# sourceMappingURL=../css/mobile.css.map */

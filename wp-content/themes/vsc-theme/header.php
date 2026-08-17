@@ -184,7 +184,7 @@
 							</tr>
 						</table>
 
-						<a href="/prendre-rendez-vous/" class="btn-cta btn--outline menu-overlay__cta">
+						<a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--outline menu-overlay__cta">
 						<?php esc_html_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>
 						<svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true"><path d="M1 6H15M15 6L10 1M15 6L10 11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
 					</a>

@@ -120,6 +120,10 @@ h1 {
   height: auto;
 }
 
+.pb-30 {
+  padding-bottom: 1.5625vw;
+}
+
 * {
   box-sizing: border-box;
 }

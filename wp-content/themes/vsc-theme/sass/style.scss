@@ -36,13 +36,33 @@ border: 1px solid #6fdf51;
 color: #1ea524;
 }
 /***************/
-
+html{
+	scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+	width: 5px !important
+}
+body::-webkit-scrollbar-track {
+	background: $green; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+	background-color: $green; /* color of the scroll thumb */
+	border-radius: 20px; /* roundness of the scroll thumb */
+	border: 5px solid $green; /* creates padding around scroll thumb */
+}
 body{
 	font-family: 'Manrope Regular';
 	font-weight: 400;
 	font-size: calc(18vw / 19.2);
 	line-height: 1.33;
+	margin:0;
 }
-
+.hero-section{
+	position: relative;
+	padding: calc(365vw / 19.2) calc(1174vw / 19.2) calc(448vw / 19.2) calc(140vw / 19.2);
+	h1{
+		padding-bottom: 10px;
+	}
+}
 
 
