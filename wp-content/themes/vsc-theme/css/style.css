@@ -139,6 +139,10 @@ h1 {
   padding-bottom: 1.5625vw;
 }
 
+.pb-50 {
+  padding-bottom: 2.6041666667vw;
+}
+
 .pl-140 {
   padding-left: 7.2916666667vw;
 }
@@ -149,6 +153,14 @@ h1 {
 
 .pb-160 {
   padding-bottom: 8.3333333333vw;
+}
+
+.pr-96 {
+  padding-right: 5vw;
+}
+
+.pr-26 {
+  padding-right: 1.3541666667vw;
 }
 
 /**************/

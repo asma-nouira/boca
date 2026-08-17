@@ -135,22 +135,6 @@ h1 {
   height: auto;
 }
 
-.pb-30 {
-  padding-bottom: 1.5625vw;
-}
-
-.pl-140 {
-  padding-left: 7.2916666667vw;
-}
-
-.pt-160 {
-  padding-top: 8.3333333333vw;
-}
-
-.pb-160 {
-  padding-bottom: 8.3333333333vw;
-}
-
 * {
   box-sizing: border-box;
 }
