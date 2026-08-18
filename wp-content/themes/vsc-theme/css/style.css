@@ -378,7 +378,11 @@ body {
 }
 
 .services-slider {
-  padding: 5.3125vw 2.96875vw 12.5vw;
+  padding: 5.3125vw 2.6041666667vw 12.5vw;
+}
+.services-slider .slick-slide {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
 }
 .services-slider .slide-arrow {
   position: absolute;

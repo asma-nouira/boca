@@ -121,7 +121,11 @@ body{
 	padding: calc(145vw / 19.2) calc(572vw / 19.2) calc(48vw / 19.2);
 }
 .services-slider{
-	padding: calc(102vw / 19.2) calc(57vw / 19.2) calc(240vw / 19.2);
+	padding: calc(102vw / 19.2) calc(50vw / 19.2) calc(240vw / 19.2);
+	.slick-slide{
+		padding-left: 7.5px;
+		padding-right: 7.5px;
+	}
 .slide-arrow {
     position: absolute;
     bottom: -18px;
