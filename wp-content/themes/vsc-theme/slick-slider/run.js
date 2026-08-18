@@ -1,8 +1,8 @@
 jQuery(document).on('ready', function() {
-    jQuery(".center-slider-full").slick({
-        centerMode: true,
+    jQuery(".services-slider > .vce-row-content").slick({
+        centerMode: false,
         centerPadding: '0',
-        slidesToShow: 1,
+        slidesToShow: 4,
         autoplay: false,
         autoplaySpeed: 20000,
         infinite: true,
@@ -13,25 +13,23 @@ jQuery(document).on('ready', function() {
                 breakpoint: 1366,
                 settings: {
                     arrows: true,
-                    centerMode: true,
                     centerPadding: '0',
-                    slidesToShow: 1
+                    slidesToShow: 4
                 }
             },
             {
                 breakpoint: 766,
                 settings: {
                     arrows: true,
-                    centerMode: true,
+                    
                     centerPadding: '0',
-                    slidesToShow: 1
+                    slidesToShow: 2
                 }
             },
             {
                 breakpoint: 400,
                 settings: {
                     arrows: true,
-                    centerMode: true,
                     centerPadding: '0',
                     slidesToShow: 1
                 }

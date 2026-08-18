@@ -120,3 +120,42 @@ body{
 .service-bloc{
 	padding: calc(145vw / 19.2) calc(572vw / 19.2) calc(48vw / 19.2);
 }
+.services-slider{
+	padding: calc(102vw / 19.2) calc(57vw / 19.2) calc(240vw / 19.2);
+
+	.slick-arrow {
+    position: absolute;
+    top: auto;
+    bottom: 30px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    z-index: 5;
+}
+.slick-arrow::before {
+    font-family: inherit;
+    font-size: 26px;
+    font-weight: 300;
+    color: #7d7168;
+    opacity: 1;
+    line-height: 1;
+}
+.slick-prev {
+    left: calc(50% - 40px);
+}
+.slick-next {
+    left: calc(50% + 8px);
+}
+.slick-arrow:hover::before {
+    color: #4a4038;
+}
+.slick-prev::before {
+    content: "‹";
+}
+.slick-next::before {
+    content: "›";
+}
+}
