@@ -385,8 +385,8 @@ body {
 }
 .services-slider .slide-arrow {
   position: absolute;
-  bottom: -18px;
-  right: 16px;
+  top: 25.7291666667vw;
+  right: 1.40625vw;
   width: 4.1145833333vw;
   height: 4.1145833333vw;
   border-radius: 50%;
