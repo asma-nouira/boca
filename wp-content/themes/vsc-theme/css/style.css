@@ -412,6 +412,10 @@ body {
   font-family: "Manrope Medium";
   font-weight: 500;
 }
+.services-slider .slide-caption a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
 .services-slider .slick-arrow {
   position: absolute;
   top: auto;

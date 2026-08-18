@@ -155,6 +155,10 @@ body{
     color: $green;
 	font-family: 'Manrope Medium';
 	font-weight: 500;
+	a:hover{
+		text-decoration: underline;
+		font-weight: 700;
+	}
 }
 	.slick-arrow {
     position: absolute;
