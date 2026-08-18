@@ -474,6 +474,9 @@ body {
   padding: 7.4479166667vw 11.5104166667vw 7.4479166667vw 3.90625vw;
   color: white;
 }
+.infos-appointment .contacts-infos {
+  padding-bottom: 1.8229166667vw;
+}
 .infos-appointment .contacts-infos .circle-item {
   position: relative;
   width: 10.7291666667vw;
