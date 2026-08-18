@@ -469,4 +469,89 @@ body {
 .services-slider .slick-next {
   left: calc(50% + 8px);
 }
+
+.infos-appointment {
+  padding: 7.4479166667vw 11.5104166667vw 7.4479166667vw 3.90625vw;
+  color: white;
+}
+.infos-appointment .contacts-infos .circle-item {
+  position: relative;
+  width: 10.7291666667vw;
+  height: 10.7291666667vw;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.infos-appointment .contacts-infos .circle-item.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+.infos-appointment .contacts-infos .circle-item:nth-child(1) {
+  transition-delay: 0s;
+}
+.infos-appointment .contacts-infos .circle-item:nth-child(2) {
+  transition-delay: 0.15s;
+}
+.infos-appointment .contacts-infos .circle-item:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.infos-appointment .contacts-infos .circle-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  transform: scale(1);
+}
+.infos-appointment .contacts-infos .circle-item:hover::before {
+  animation: sonar-ping 1.1s ease-out;
+}
+@keyframes sonar-ping {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.35);
+  }
+}
+.infos-appointment .contacts-infos .circle-icon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  background-color: transparent;
+  transition: transform 0.35s ease, background-color 0.35s ease, border-color 0.35s ease;
+}
+.infos-appointment .contacts-infos .circle-item:hover .circle-icon {
+  transform: scale(1.06);
+  background-color: rgba(255, 255, 255, 0.07);
+  border-color: #ffffff;
+}
+.infos-appointment .contacts-infos .circle-icon img {
+  width: 2.1354166667vw;
+  height: 2.1354166667vw;
+  transition: transform 0.35s ease;
+}
+.infos-appointment .contacts-infos .circle-item:hover .circle-icon img {
+  transform: rotate(-6deg) scale(1.08);
+}
+.infos-appointment .contacts-infos .circle-icon .title {
+  margin: 0;
+  font-size: 1.0416666667vw;
+  font-family: "Manrope SemiBold";
+  font-weight: 600;
+  line-height: 1.1;
+}
 /*# sourceMappingURL=../css/style.css.map */
