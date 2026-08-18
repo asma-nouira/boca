@@ -396,6 +396,10 @@ body {
   justify-content: center;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
+.services-slider .slide-img {
+  display: block;
+  position: relative;
+}
 .services-slider .slide-arrow:hover {
   background-color: #5B6556;
   transform: scale(1.05);
