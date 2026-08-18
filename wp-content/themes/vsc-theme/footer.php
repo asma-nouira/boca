@@ -37,6 +37,19 @@ document.querySelector('.scroll-arrow').addEventListener('click', () => {
 });
 </script>
 <script>
+const items = document.querySelectorAll('.circle-item');
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.3 });
+
+items.forEach(item => observer.observe(item));
+</script>
+<script>
 const smileSvg = document.getElementById('smile-svg');
 
 const observer = new IntersectionObserver((entries) => {
@@ -50,18 +63,6 @@ const observer = new IntersectionObserver((entries) => {
 
 observer.observe(smileSvg);
 </script>
-<script>
-const items = document.querySelectorAll('.circle-item');
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('in-view');
-            observer.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.3 });
 
-items.forEach(item => observer.observe(item));
-</script>
 </body>
 </html>
