@@ -8,6 +8,8 @@ jQuery(document).on('ready', function() {
         infinite: true,
         dots: false,
         arrows:true,
+         nextArrow: '<img src="/wp-content/uploads/2026/08/next-arrow.svg" class="slick-btn slick-next" />',
+        prevArrow: '<img src="/wp-content/uploads/2026/08/previous-arrow.svg" class="slick-btn slick-prev" />',
         responsive: [
             {
                 breakpoint: 1366,
