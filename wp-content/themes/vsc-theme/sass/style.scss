@@ -159,9 +159,7 @@ body{
 	.slick-arrow {
     position: absolute;
     top: auto;
-    bottom: 30px;
-    width: 32px;
-    height: 32px;
+    bottom: calc(-140vw / 19.2);
     display: flex;
     align-items: center;
     justify-content: center;
