@@ -6,31 +6,24 @@ jQuery(document).on('ready', function() {
         autoplay: false,
         autoplaySpeed: 20000,
         infinite: true,
-        dots: true,
-        arrows:false,
+        dots: false,
+        arrows:true,
         responsive: [
             {
                 breakpoint: 1366,
                 settings: {
-                    arrows: true,
-                    centerPadding: '0',
                     slidesToShow: 4
                 }
             },
             {
                 breakpoint: 766,
                 settings: {
-                    arrows: true,
-                    
-                    centerPadding: '0',
                     slidesToShow: 2
                 }
             },
             {
                 breakpoint: 400,
                 settings: {
-                    arrows: true,
-                    centerPadding: '0',
                     slidesToShow: 1
                 }
             }
