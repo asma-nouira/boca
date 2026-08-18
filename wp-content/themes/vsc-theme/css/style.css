@@ -209,6 +209,10 @@ p:last-child {
   padding-bottom: 1.8229166667vw;
 }
 
+.pb-45 {
+  padding-bottom: 2.34375vw;
+}
+
 .pb-50 {
   padding-bottom: 2.6041666667vw;
 }
@@ -249,8 +253,16 @@ p:last-child {
   padding-right: 9.375vw;
 }
 
+.pr-100 {
+  padding-right: 5.2083333333vw;
+}
+
 .pr-26 {
   padding-right: 1.3541666667vw;
+}
+
+.pr-22 {
+  padding-right: 1.1458333333vw;
 }
 
 /**************/
