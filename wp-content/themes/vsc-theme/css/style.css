@@ -197,6 +197,10 @@ p:last-child {
   padding-bottom: 1.5625vw;
 }
 
+.pb-15 {
+  padding-bottom: 0.78125vw;
+}
+
 .pb-20 {
   padding-bottom: 1.0416666667vw;
 }
