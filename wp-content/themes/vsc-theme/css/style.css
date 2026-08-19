@@ -237,12 +237,20 @@ p:last-child {
   padding-top: 5.7291666667vw;
 }
 
+.pt-100 {
+  padding-top: 5.2083333333vw;
+}
+
 .pb-160 {
   padding-bottom: 8.3333333333vw;
 }
 
 .pb-90 {
   padding-bottom: 4.6875vw;
+}
+
+.pb-130 {
+  padding-bottom: 6.7708333333vw;
 }
 
 .pb-195 {
