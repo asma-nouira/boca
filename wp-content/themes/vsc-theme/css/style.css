@@ -298,14 +298,10 @@ p:last-child {
 }
 .site-footer .footer-inner {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 .site-footer .footer-brand {
-  flex: 0 0 13.5416666667vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 25%;
   padding-right: 5.8854166667vw;
 }
 .site-footer .footer-brand img {
@@ -313,7 +309,7 @@ p:last-child {
   height: auto;
 }
 .site-footer .col-2 {
-  width: 25%;
+  width: 22%;
   padding-right: 3.90625vw;
 }
 .site-footer .col-3 {
