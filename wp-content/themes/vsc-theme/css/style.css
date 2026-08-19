@@ -329,6 +329,9 @@ p:last-child {
 .site-footer .menu-col__title {
   padding-bottom: 0;
 }
+.site-footer .menu-col__title a {
+  text-decoration: underline;
+}
 
 /**************/
 .wpcf7-not-valid-tip {
