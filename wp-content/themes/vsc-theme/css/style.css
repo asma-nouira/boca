@@ -337,6 +337,9 @@ p:last-child {
 .site-footer .footer-social a:hover svg path {
   fill: #B98B68;
 }
+.site-footer .menu-col__list {
+  gap: 1.1px;
+}
 .site-footer .menu-col__list a {
   text-decoration: underline;
 }
