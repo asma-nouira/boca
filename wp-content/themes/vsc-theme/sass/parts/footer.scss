@@ -61,11 +61,12 @@
     font-style: normal;
     font-size: calc(22vw / 19.2);
     line-height: 1.6;
-  margin-bottom: calc(30vw / 19.2);
+  margin-bottom: calc(25vw / 19.2);
   }
   .footer-hours {
     font-size: calc(22vw / 19.2);
    margin-bottom: calc(30vw / 19.2);
+   padding-right: calc(70vw / 19.2);
   }
 
   .footer-hours div {
@@ -73,5 +74,8 @@
     justify-content: space-between;
     gap: 24px;
     padding: 2px 0;
+  }
+  .menu-overlay__cta{
+    margin-top:0;
   }
   }

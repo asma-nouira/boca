@@ -350,17 +350,21 @@ p:last-child {
   font-style: normal;
   font-size: 1.1458333333vw;
   line-height: 1.6;
-  margin-bottom: 1.5625vw;
+  margin-bottom: 1.3020833333vw;
 }
 .site-footer .footer-hours {
   font-size: 1.1458333333vw;
   margin-bottom: 1.5625vw;
+  padding-right: 3.6458333333vw;
 }
 .site-footer .footer-hours div {
   display: flex;
   justify-content: space-between;
   gap: 24px;
   padding: 2px 0;
+}
+.site-footer .menu-overlay__cta {
+  margin-top: 0;
 }
 
 /**************/
