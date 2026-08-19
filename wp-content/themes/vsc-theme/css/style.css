@@ -301,7 +301,7 @@ p:last-child {
   justify-content: space-between;
 }
 .site-footer .footer-brand {
-  width: 25%;
+  width: 38.5%;
   padding-right: 5.8854166667vw;
 }
 .site-footer .footer-brand img {
@@ -309,12 +309,12 @@ p:last-child {
   height: auto;
 }
 .site-footer .col-2 {
-  width: 22%;
+  width: 26%;
   padding-right: 3.90625vw;
 }
 .site-footer .col-3 {
   padding-right: 5.5729166667vw;
-  width: 35%;
+  width: 45%;
 }
 .site-footer .footer-social {
   display: flex;
