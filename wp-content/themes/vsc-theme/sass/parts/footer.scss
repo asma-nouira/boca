@@ -22,15 +22,18 @@
     display: flex;
     gap: 10px;
     a {
-    width: 38px;
-    height: 38px;
-    border: 1px solid var(--footer-text);
+    width: calc(56vw / 19.2);
+    height: calc(56vw / 19.2);
+    border: 1px solid white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--footer-text);
+    color: white;
     text-decoration: none;
   }
+  }
+  .menu-col__title{
+    padding-bottom: 0;
   }
   }

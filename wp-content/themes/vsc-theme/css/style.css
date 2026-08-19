@@ -316,15 +316,18 @@ p:last-child {
   gap: 10px;
 }
 .site-footer .footer-social a {
-  width: 38px;
-  height: 38px;
-  border: 1px solid var(--footer-text);
+  width: 2.9166666667vw;
+  height: 2.9166666667vw;
+  border: 1px solid white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--footer-text);
+  color: white;
   text-decoration: none;
+}
+.site-footer .menu-col__title {
+  padding-bottom: 0;
 }
 
 /**************/
