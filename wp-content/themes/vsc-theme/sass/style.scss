@@ -300,9 +300,15 @@ body{
   align-items: center;
   justify-content: center;
 }
+.vce-faq-toggle-title{
+    padding-left: 0;
+}
 
 .vce-faq-toggle-icon::before {
   content: none !important;
+}
+.vce-faq-toggle-icon:after{
+    display: none;
 }
 /* On injecte ta flèche SVG en background */
 .vce-faq-toggle-icon {
@@ -311,6 +317,7 @@ body{
   background-position: center;
   background-size: 16px 22px;
   transition: transform 0.3s ease;
+  left:94%;
 }
 
 /* Rotation de la flèche quand la question est ouverte (↗ devient ↘) */
