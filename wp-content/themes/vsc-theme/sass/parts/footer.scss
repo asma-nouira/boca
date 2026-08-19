@@ -84,6 +84,9 @@ svg path{
   }
   .menu-overlay__cta{
     margin-top:0;
+    &:hover{
+        background-color: $dark;
+    }
   }
   }
 .site-footer__bottom{

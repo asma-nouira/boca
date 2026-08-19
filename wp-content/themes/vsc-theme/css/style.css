@@ -375,6 +375,9 @@ p:last-child {
 .site-footer .menu-overlay__cta {
   margin-top: 0;
 }
+.site-footer .menu-overlay__cta:hover {
+  background-color: #31331F;
+}
 
 .site-footer__bottom {
   padding: 2.0833333333vw 7.2916666667vw;
