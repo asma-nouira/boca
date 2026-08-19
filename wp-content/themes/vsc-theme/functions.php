@@ -138,6 +138,7 @@ add_action('wp_footer',function(){
 	wp_enqueue_style('vsc-theme-style',get_template_directory_uri().'/css/style.css',array(),null);
 	wp_enqueue_style('vsc-theme-fonts',get_template_directory_uri().'/css/fonts/fonts.css',array(),null);
 	wp_enqueue_style('vsc-animation-style',get_template_directory_uri().'/css/bocaanimations.css',array(),null);
+	wp_enqueue_style('vsc-theme-mobile',get_template_directory_uri().'/css/mobile.css',array(),null);
 	//////////////// Slick Slider CSS ///////////////
 	 wp_enqueue_style('vsc-theme-slick',get_template_directory_uri().'/slick-slider/slick-theme.css',array(),null);
 		
