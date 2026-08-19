@@ -23,7 +23,7 @@
     </div>
 
     <!-- À propos -->
-    <div class="footer-col">
+    <div class="footer-col col-2">
       	<?php
 						wp_nav_menu( array(
 							'theme_location' => 'menu-overlay-col-1',
@@ -54,7 +54,7 @@
     </div>
 
     <!-- Services / Urgence / Espace patient -->
-    <div class="footer-col">
+    <div class="footer-col col-3">
      <?php
 						wp_nav_menu( array(
 							'theme_location' => 'menu-overlay-col-2',

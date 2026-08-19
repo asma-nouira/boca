@@ -302,14 +302,23 @@ p:last-child {
   justify-content: space-between;
 }
 .site-footer .footer-brand {
-  flex: 0 0 260px;
+  flex: 0 0 13.5416666667vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-right: 5.8854166667vw;
 }
 .site-footer .footer-brand img {
   width: 100%;
   height: auto;
+}
+.site-footer .col-2 {
+  width: 25%;
+  padding-right: 3.90625vw;
+}
+.site-footer .col-3 {
+  padding-right: 5.5729166667vw;
+  width: 35%;
 }
 .site-footer .footer-social {
   display: flex;
