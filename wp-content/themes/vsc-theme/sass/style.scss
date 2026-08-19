@@ -334,4 +334,10 @@ body{
     position: absolute;
     top: 15px;
     left: -55%;
+        width: calc(257vw / 19.2);
+    height: auto;
+    img{
+        width:100%;
+        height: auto;
+    }
 }

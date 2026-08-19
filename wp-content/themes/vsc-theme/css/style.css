@@ -652,5 +652,11 @@ body {
   position: absolute;
   top: 15px;
   left: -55%;
+  width: 13.3854166667vw;
+  height: auto;
+}
+.absolute-img img {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=../css/style.css.map */
