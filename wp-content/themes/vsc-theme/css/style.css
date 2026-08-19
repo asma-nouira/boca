@@ -290,6 +290,43 @@ p:last-child {
   padding-right: 1.1458333333vw;
 }
 
+.site-footer {
+  background-color: #5B6556;
+  color: white;
+  padding: 3.6458333333vw 9.8958333333vw 4.6875vw 14.4791666667vw;
+  border-radius: 6px;
+}
+.site-footer .footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.site-footer .footer-brand {
+  flex: 0 0 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.site-footer .footer-brand img {
+  width: 100%;
+  height: auto;
+}
+.site-footer .footer-social {
+  display: flex;
+  gap: 10px;
+}
+.site-footer .footer-social a {
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--footer-text);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--footer-text);
+  text-decoration: none;
+}
+
 /**************/
 .wpcf7-not-valid-tip {
   display: none !important;

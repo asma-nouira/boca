@@ -1,0 +1,36 @@
+ .site-footer {
+    background-color: $green;
+    color: white;
+    padding: calc(70vw / 19.2) calc(190vw / 19.2) calc(90vw / 19.2) calc(278vw / 19.2);
+    border-radius: 6px;
+    .footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+    .footer-brand {
+    flex: 0 0 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    img{
+        width:100%;
+        height: auto;
+    }
+  }
+   .footer-social {
+    display: flex;
+    gap: 10px;
+    a {
+    width: 38px;
+    height: 38px;
+    border: 1px solid var(--footer-text);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--footer-text);
+    text-decoration: none;
+  }
+  }
+  }
