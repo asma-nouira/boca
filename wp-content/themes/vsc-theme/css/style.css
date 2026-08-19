@@ -647,4 +647,10 @@ body {
 .list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon {
   transform: translateY(-50%) rotate(90deg);
 }
+
+.absolute-img {
+  position: absolute;
+  top: 15px;
+  left: -55%;
+}
 /*# sourceMappingURL=../css/style.css.map */
