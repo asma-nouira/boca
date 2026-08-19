@@ -1,6 +1,118 @@
 @import './statics.scss';
-@media(max-width:767px){
+@media(max-width:992px){
     .no-mobile{
         display: none!important;
     }
-}
+    .btn.btn--round svg{
+        width:25px!important;
+        height: auto;
+    }
+    .menu-overlay__media {
+    display: none;
+  }
+.menu-overlay__inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5.5rem 1.5rem 3rem;
+    box-sizing: border-box;
+  }
+ 
+  .menu-overlay {
+    overflow-y: auto;
+  }
+ 
+  /* 3. Les 3 colonnes (À propos / Services / Contact) passent
+        en pleine largeur, empilées, séparées par un filet léger
+        pour rythmer la lecture. */
+  .menu-overlay__columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+ 
+  .menu-overlay__columns .col-1,
+  .menu-overlay__columns .col-2,
+  .menu-overlay__columns .col-3,
+  .menu-overlay__columns .col-4 {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 1.75rem;
+    margin-bottom: 1.75rem;
+    border-bottom: 1px solid rgba(49, 51, 31, 0.12);
+  }
+ 
+  .menu-overlay__columns .col-3 {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+ 
+  /* 4. Tailles de texte fixes et lisibles (fini le "1.3vw") +
+        zones tactiles confortables (mini. ~44px de hauteur). */
+  .menu-col__title {
+    font-size: 1.05rem;
+    line-height: 1.4;
+    margin-bottom: 0.85rem;
+  }
+ 
+  .menu-col__list {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .menu-col__list li {
+    border-top: 1px solid rgba(49, 51, 31, 0.06);
+  }
+ 
+  .menu-col__list li:first-child {
+    border-top: none;
+  }
+ 
+  .menu-col__list a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+ 
+  .menu-col__address,
+  .menu-col__hours {
+    font-size: 0.95rem;
+    gap: 0.6rem;
+  }
+ 
+  .menu-col__hours th,
+  .menu-col__hours td {
+    padding: 0.2rem 0;
+  }
+ 
+  /* 5. Icônes sociales et bouton "Prendre rendez-vous" du menu :
+        taille fixe, confortable au doigt. */
+  .menu-overlay__social {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+ 
+  .menu-overlay__social a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+ 
+  .menu-overlay__cta {
+    margin-top: 1.25rem;
+    padding: 1rem 1.4rem;
+    font-size: 0.8rem;
+  }
+ 
+  /* 6. Bouton de fermeture (X) : taille fixe plutôt qu'en vw,
+        pour rester facilement cliquable sur petit écran. */
+  .menu-close {
+    top: 1rem;
+    right: 1rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+  }
+}  
