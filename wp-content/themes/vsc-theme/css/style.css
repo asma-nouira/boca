@@ -334,7 +334,7 @@ p:last-child {
 .site-footer .footer-social a:hover {
   border-color: #B98B68;
 }
-.site-footer .footer-social a:hover svg {
+.site-footer .footer-social a:hover svg path {
   fill: #B98B68;
 }
 .site-footer .menu-col__list a {
