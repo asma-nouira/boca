@@ -79,3 +79,20 @@
     margin-top:0;
   }
   }
+.site-footer__bottom{
+     padding: calc(40vw / 19.2) calc(140vw / 19.2);
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+      .site-footer__copyright,
+      .site-footer__policy,
+      .site-footer__credit {
+        display: block;
+        color:black;
+      }
+      a:hover{
+        text-decoration: underline;
+        color:$green;
+      }
+   
+}

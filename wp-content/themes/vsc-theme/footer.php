@@ -101,6 +101,22 @@
 
   </div>
 	</footer><!-- #colophon -->
+	<!-- Barre bas : copyright + politique + signature -->
+    <div class="site-footer__bottom">
+ 
+      <span class="site-footer__copyright">
+        &copy; <?php echo date('Y'); ?> Clinique dentaire BOCA. Tous droits réservés.
+      </span>
+ 
+      <a href="/politique-de-confidentialite" class="site-footer__policy">
+        Politique de confidentialité
+      </a>
+ 
+      <span class="site-footer__credit">
+        Conception web par <a href="https://virussantecommunication.com" target="_blank" rel="noopener">Virus Santé Communication</a>
+      </span>
+ 
+    </div><!-- .site-footer__bottom -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

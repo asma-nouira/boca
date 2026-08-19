@@ -367,6 +367,23 @@ p:last-child {
   margin-top: 0;
 }
 
+.site-footer__bottom {
+  padding: 2.0833333333vw 7.2916666667vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.site-footer__bottom .site-footer__copyright,
+.site-footer__bottom .site-footer__policy,
+.site-footer__bottom .site-footer__credit {
+  display: block;
+  color: black;
+}
+.site-footer__bottom a:hover {
+  text-decoration: underline;
+  color: #5B6556;
+}
+
 /**************/
 .wpcf7-not-valid-tip {
   display: none !important;
