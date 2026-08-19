@@ -27,6 +27,27 @@
   }
 
   /* -------------------------------------------------------
+     1bis. Hero : entrée en fondu-translation au chargement
+     (titre, sous-titre puis bouton, en cascade). Ne dépend
+     pas du scroll puisque le hero est visible immédiatement.
+     ------------------------------------------------------- */
+  if (!reduceMotion) {
+    var heroTitle = document.querySelector("h1");
+    var heroWrapper = heroTitle ? heroTitle.closest(".vce-text-block-wrapper") : null;
+    var heroSubtitle = heroWrapper ? heroWrapper.querySelector("p") : null;
+    var heroRow = heroTitle ? heroTitle.closest(".vce-row") : null;
+    var heroBtn = heroRow
+      ? heroRow.querySelector(".btn-cta, .btn-appointment, a[class*='btn']")
+      : null;
+
+    [heroTitle, heroSubtitle, heroBtn].forEach(function (el, index) {
+      if (!el) return;
+      el.classList.add("hero-fade-in");
+      el.style.animationDelay = index * 0.15 + 0.1 + "s";
+    });
+  }
+
+  /* -------------------------------------------------------
      2. Reveal au scroll (fade-up) via IntersectionObserver
      Cible automatiquement :
        - les titres (h1, h2, h3) hors du header
@@ -37,7 +58,7 @@
      ------------------------------------------------------- */
   if (!reduceMotion && "IntersectionObserver" in window) {
     var targets = document.querySelectorAll(
-      "main h1, main h2, main h3, .vce-col-content > *, main img:not(.slick-slide img)"
+      "main h1:not(.hero-fade-in), main h2, main h3, .vce-col-content > *, main img:not(.slick-slide img)"
     );
 
     var observer = new IntersectionObserver(

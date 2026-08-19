@@ -21,18 +21,36 @@
 }
 
 /* ---------------------------------------------------------
-   1. Header sticky — légère contraction au scroll
-   Le script ajoute la classe "is-scrolled" sur .site-header
-   après ~60px de scroll.
+   1. Header sticky
+   Le thème place actuellement le header en "position: absolute"
+   (il ne fait que se superposer au hero, puis disparaît au
+   scroll avec le reste de la page). On le passe en "fixed" pour
+   qu'il reste épinglé en haut, avec un fond qui apparaît une
+   fois qu'on a quitté le hero (classe .is-scrolled ajoutée par
+   le JS après ~60px de scroll).
    --------------------------------------------------------- */
 header.site-header {
-  transition: padding 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(20, 18, 15, 0);
+  transition: padding 0.35s ease, box-shadow 0.35s ease,
+              background-color 0.35s ease, backdrop-filter 0.35s ease;
 }
+
+/* Le header étant maintenant fixed, il ne pousse plus le contenu :
+   comme il était déjà en absolute avant (donc hors flux), aucun
+   padding-top supplémentaire n'est nécessaire sur le body. */
 
 header.site-header.is-scrolled {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  background-color: rgba(20, 18, 15, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 header.site-header.is-scrolled .site-logo,
@@ -40,6 +58,38 @@ header.site-header.is-scrolled img {
   transition: transform 0.35s ease;
   transform: scale(0.92);
   transform-origin: left center;
+}
+
+/* ---------------------------------------------------------
+   1bis. Hero — entrée en fondu-translation au chargement
+   Le JS ajoute .hero-fade-in sur le H1, le sous-titre et le
+   bouton du hero, avec un délai croissant appliqué en inline
+   (style="animation-delay: ...") pour créer la cascade.
+   --------------------------------------------------------- */
+.hero-fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: bocaHeroFadeUp 0.85s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes bocaHeroFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Léger effet "Ken Burns" sur l'image de fond du hero, pour
+   éviter une image totalement figée. S'applique à l'élément
+   généré par le page builder pour l'image de fond du hero. */
+.vce-row.vce-element--has-background:first-of-type .vce-asset-background-simple-item,
+main .vce-row:has(h1) .vce-asset-background-simple-item {
+  animation: bocaKenBurns 18s ease-in-out infinite alternate;
+}
+
+@keyframes bocaKenBurns {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
 }
 
 /* ---------------------------------------------------------
