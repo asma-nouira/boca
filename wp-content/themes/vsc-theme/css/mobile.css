@@ -172,4 +172,10 @@ p:last-child {
   width: 100% !important;
   height: auto;
 }
+
+@media (max-width: 767px) {
+  .no-mobile {
+    display: none !important;
+  }
+}
 /*# sourceMappingURL=../css/mobile.css.map */

@@ -44,7 +44,7 @@
 
 				<a href="tel:+14502325202" class="site-header__phone">(450) 232-5202</a>
 
-				<a href="/urgence-dentaire/" class="btn-cta btn--pill"><?php esc_html_e( 'Urgence dentaire', 'vsc-theme' ); ?></a>
+				<a href="/urgence-dentaire/" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'Urgence dentaire', 'vsc-theme' ); ?></a>
 
 				<a href="/prendre-rendez-vous/" class="btn btn--round" aria-label="<?php esc_attr_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>">
 					<svg xmlns="http://www.w3.org/2000/svg" width="35" height="41.077" viewBox="0 0 35 41.077">

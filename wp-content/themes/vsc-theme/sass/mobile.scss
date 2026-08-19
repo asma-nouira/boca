@@ -1,1 +1,6 @@
 @import './statics.scss';
+@media(max-width:767px){
+    .no-mobile{
+        display: none!important;
+    }
+}
