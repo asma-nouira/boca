@@ -1,0 +1,208 @@
+/* =========================================================
+   BOCA — Patch d'animations
+   À enqueuer APRES le style.css du thème (vsc-theme)
+   Ne modifie aucune règle existante : n'ajoute que des
+   transitions, keyframes et états déclenchés par la classe
+   ".is-visible" (ajoutée en JS au scroll).
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   0. Base : on respecte les préférences d'accessibilité.
+   Si l'utilisateur a désactivé les animations au niveau OS,
+   on neutralise tout instantanément.
+   --------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   1. Header sticky — légère contraction au scroll
+   Le script ajoute la classe "is-scrolled" sur .site-header
+   après ~60px de scroll.
+   --------------------------------------------------------- */
+header.site-header {
+  transition: padding 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease;
+}
+
+header.site-header.is-scrolled {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+header.site-header.is-scrolled .site-logo,
+header.site-header.is-scrolled img {
+  transition: transform 0.35s ease;
+  transform: scale(0.92);
+  transform-origin: left center;
+}
+
+/* ---------------------------------------------------------
+   2. Boutons — micro-interactions au survol
+   Couvre .btn-cta, .btn-cta--outline, .btn-appointment,
+   .menu-overlay__cta
+   --------------------------------------------------------- */
+.btn-cta,
+.btn-cta--outline,
+.btn-appointment,
+.menu-overlay__cta {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+  will-change: transform;
+}
+
+.btn-cta:hover,
+.btn-cta--outline:hover,
+.btn-appointment:hover,
+.menu-overlay__cta:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.btn-cta:active,
+.btn-cta--outline:active,
+.btn-appointment:active,
+.menu-overlay__cta:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flèche à l'intérieur d'un bouton (ex: "Prendre rendez-vous →") :
+   glisse légèrement vers la droite au survol. */
+.btn-cta svg,
+.btn-cta i,
+.btn-appointment svg,
+.btn-appointment i {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.btn-cta:hover svg,
+.btn-cta:hover i,
+.btn-appointment:hover svg,
+.btn-appointment:hover i {
+  transform: translateX(4px);
+}
+
+/* Bouton rond flèche vers le bas (scroll indicator sous le bandeau vert) */
+.scroll-down,
+[class*="scroll-indicator"],
+[class*="anchor-scroll"] {
+  animation: boca-bounce 2.2s ease-in-out infinite;
+}
+
+@keyframes boca-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+/* ---------------------------------------------------------
+   3. Liens texte (footer, menus, FAQ liens externes)
+   --------------------------------------------------------- */
+a {
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* ---------------------------------------------------------
+   4. Reveal au scroll — blocs image + texte alternés
+   Cible les colonnes générées par le page builder (vce-col)
+   et les titres. Le JS ajoute .in-view quand l'élément entre
+   dans le viewport ; sans JS (fallback), tout reste visible.
+   --------------------------------------------------------- */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Décalage en cascade pour les groupes d'éléments (ex: colonnes
+   côte à côte) : le JS ajoute reveal-delay-1, -2, -3... */
+.reveal-delay-1.in-view { transition-delay: 0.08s; }
+.reveal-delay-2.in-view { transition-delay: 0.16s; }
+.reveal-delay-3.in-view { transition-delay: 0.24s; }
+.reveal-delay-4.in-view { transition-delay: 0.32s; }
+
+/* ---------------------------------------------------------
+   5. Section "feuille de palmier" — parallax léger
+   Le JS déplace .vce-row-content ou le background-position
+   en fonction du scroll ; ici on ne fait qu'assurer une
+   transition douce et éviter les saccades.
+   --------------------------------------------------------- */
+[data-parallax] {
+  will-change: transform, background-position;
+}
+
+/* ---------------------------------------------------------
+   6. Cartes de soins (carrousel Slick) — zoom au survol
+   --------------------------------------------------------- */
+.slick-slide {
+  overflow: hidden;
+}
+
+.slick-slide img {
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.slick-slide:hover img {
+  transform: scale(1.06);
+}
+
+/* Cercle avec flèche diagonale sur chaque carte de soin */
+.slick-slide a[class*="icon"],
+.slick-slide [class*="arrow"] {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.slick-slide:hover a[class*="icon"],
+.slick-slide:hover [class*="arrow"] {
+  transform: scale(1.12) rotate(8deg);
+}
+
+/* Flèches de navigation du carrousel (< >) */
+.slick-prev,
+.slick-next {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  transform: scale(1.15);
+}
+
+/* ---------------------------------------------------------
+   7. FAQ (vce-faq-toggle) — icône qui pivote, réponse en fondu
+   --------------------------------------------------------- */
+.vce-faq-toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.vce-faq-toggle-title.vce-faq-toggle-state--opened .vce-faq-toggle-icon {
+  transform: rotate(180deg);
+}
+
+.vce-faq-toggle-text-block {
+  transition: opacity 0.35s ease;
+}
+
+.vce-faq-toggle-title.vce-faq-toggle-state--opened + .vce-faq-toggle-text-block,
+.vce-faq-toggle-title.vce-faq-toggle-state--opened ~ .vce-faq-toggle-text-block {
+  opacity: 1;
+}
+
+.vce-faq-toggle {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.vce-faq-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
