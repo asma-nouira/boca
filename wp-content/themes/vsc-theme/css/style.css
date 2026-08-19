@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .green {
   color: #5B6556;
 }
@@ -576,5 +577,62 @@ body {
   font-family: "Manrope SemiBold";
   font-weight: 600;
   line-height: 1.1;
+}
+
+.list-faq {
+  /* Conteneur : on enlève le fond et la bordure de la "carte" */
+  /* Titre de la question */
+  /* Texte de la réponse */
+  /* Le rond avec la flèche */
+  /* On injecte ta flèche SVG en background */
+  /* Rotation de la flèche quand la question est ouverte (↗ devient ↘) */
+}
+.list-faq .vce-faq-toggle-wrapper {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #31331F !important; /* la ligne de séparation */
+  border-radius: 0 !important;
+  padding: 1.5625vw 0 !important;
+  margin: 0 !important;
+}
+.list-faq .vce-faq-toggle-inner {
+  padding: 0 !important;
+}
+.list-faq .vce-faq-toggle-title-text {
+  font-size: 1.25vw;
+  font-family: "Manrope SemiBold";
+  font-weight: 600;
+  color: #31331F;
+  padding-right: 40px; /* pour laisser la place au rond à droite */
+  position: relative;
+}
+.list-faq .vce-faq-toggle-text-block p {
+  margin-top: 10px;
+}
+.list-faq .vce-faq-toggle-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.34375vw;
+  height: 2.34375vw;
+  border-radius: 50%;
+  background-color: #B98B68; /* ta couleur terracotta, à ajuster */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-faq .vce-faq-toggle-icon::before {
+  content: none !important;
+}
+.list-faq .vce-faq-toggle-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31.724' height='31.724' viewBox='0 0 31.724 31.724'%3E%3Cg transform='translate(17.511 3) rotate(45)'%3E%3Cpath d='M7.929,0V21.143M7.929,0,0,7.929M7.929,0l7.929,7.929' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 22px;
+  transition: transform 0.3s ease;
+}
+.list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon {
+  transform: translateY(-50%) rotate(90deg);
 }
 /*# sourceMappingURL=../css/style.css.map */
