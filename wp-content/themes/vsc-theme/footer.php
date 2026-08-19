@@ -78,12 +78,11 @@
 
     <!-- Contact -->
     <div class="footer-col footer-contact">
-      <h4>Contact</h4>
-      <a class="phone" href="tel:+14502325202">T (450) 232-5202</a>
+      <p class="menu-col__title">+ <?php esc_html_e( 'Contact', 'vsc-theme' ); ?></p>
+      <a class="phone underline" href="tel:+14502325202">T (450) 232-5202</a>
 
       <address>
-        1500 Rue Montgolfier, suite 201<br>
-        Chomedey (Laval), Québec  H7T 0A2
+        1500 Rue Montgolfier, suite 201 <span class="nowrap">Chomedey (Laval), Québec  H7T 0A2</p>
       </address>
 
       <div class="footer-hours">
@@ -94,13 +93,10 @@
         <div><span>Dimanche</span><span>Fermé</span></div>
       </div>
 
-      <a href="#" class="footer-cta">
-        Prendre rendez-vous
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12"/>
-          <polyline points="12 5 19 12 12 19"/>
-        </svg>
-      </a>
+      <a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--outline menu-overlay__cta">
+						<?php esc_html_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>
+						<svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true"><path d="M1 6H15M15 6L10 1M15 6L10 11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</a>
     </div>
 
   </div>

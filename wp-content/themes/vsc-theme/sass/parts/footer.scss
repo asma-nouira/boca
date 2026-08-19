@@ -33,10 +33,40 @@
     text-decoration: none;
   }
   }
-  .menu-col__title{
-    padding-bottom: 0;
-    a{
+  .menu-col__list{
+   a{
         text-decoration: underline;
     }
+  }
+  .menu-col__title{
+    padding-bottom: 0;
+   
+  }
+  .phone {
+    display: block;
+    
+    font-weight: 700;
+    font-size: calc(22vw / 19.2);
+    font-family: 'Manrope Bold';
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-bottom: calc(30vw / 19.2);
+  }
+  address {
+    font-style: normal;
+    font-size: calc(22vw / 19.2);
+    line-height: 1.6;
+  margin-bottom: calc(30vw / 19.2);
+  }
+  .footer-hours {
+    font-size: calc(22vw / 19.2);
+   margin-bottom: calc(30vw / 19.2);
+  }
+
+  .footer-hours div {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 2px 0;
   }
   }

@@ -326,11 +326,36 @@ p:last-child {
   color: white;
   text-decoration: none;
 }
+.site-footer .menu-col__list a {
+  text-decoration: underline;
+}
 .site-footer .menu-col__title {
   padding-bottom: 0;
 }
-.site-footer .menu-col__title a {
+.site-footer .phone {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1458333333vw;
+  font-family: "Manrope Bold";
   text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 1.5625vw;
+}
+.site-footer address {
+  font-style: normal;
+  font-size: 1.1458333333vw;
+  line-height: 1.6;
+  margin-bottom: 1.5625vw;
+}
+.site-footer .footer-hours {
+  font-size: 1.1458333333vw;
+  margin-bottom: 1.5625vw;
+}
+.site-footer .footer-hours div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 2px 0;
 }
 
 /**************/
