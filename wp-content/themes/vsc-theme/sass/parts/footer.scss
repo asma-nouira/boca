@@ -36,6 +36,12 @@
     justify-content: center;
     color: white;
     text-decoration: none;
+    &:hover {
+        border-color: $orange;
+svg{
+        fill:$orange;
+    }
+    } 
   }
   }
   .menu-col__list{
