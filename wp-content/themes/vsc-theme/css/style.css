@@ -631,6 +631,11 @@ body {
 .list-faq .vce-faq-toggle-icon:after {
   display: none;
 }
+.list-faq .vce-faq-toggle-text-block {
+  padding-left: 0;
+  padding-top: 10px;
+  padding-right: 4.6875vw;
+}
 .list-faq .vce-faq-toggle-icon {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31.724' height='31.724' viewBox='0 0 31.724 31.724'%3E%3Cg transform='translate(17.511 3) rotate(45)'%3E%3Cpath d='M7.929,0V21.143M7.929,0,0,7.929M7.929,0l7.929,7.929' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
