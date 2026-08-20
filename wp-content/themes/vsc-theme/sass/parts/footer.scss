@@ -8,6 +8,9 @@
     .footer-inner {
     display: flex;
     justify-content: space-between;
+      @media(max-width:767px){
+        display: inline-block;
+      }
   }
     .footer-brand {
    width:38.5%;
@@ -17,16 +20,18 @@
         height: auto;
     }
     @media(max-width:767px){
-      width:48%;
+      width:50%;
       padding-right: 50px;
+      float:left;
     }
   }
   .col-2{
     width:26%;
     padding-right: calc(75vw / 19.2);
     @media(max-width:767px){
-      width:48%;
+      width:45%;
       padding-right:0;
+      float:left;
     }
   }
   .col-3{
