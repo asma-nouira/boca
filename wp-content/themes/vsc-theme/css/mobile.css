@@ -230,7 +230,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 5.5rem 1.5rem 3rem;
+    padding: 4rem 1.5rem 3rem;
     box-sizing: border-box;
   }
   .menu-overlay {
@@ -250,7 +250,6 @@ h2 {
   .menu-overlay__columns .col-4 {
     width: 100%;
     padding-right: 0;
-    padding-bottom: 1.75rem;
     margin-bottom: 1.75rem;
     border-bottom: 1px solid rgba(49, 51, 31, 0.12);
   }
@@ -279,13 +278,13 @@ h2 {
   .menu-col__list a {
     display: flex;
     align-items: center;
-    min-height: 44px;
-    font-size: 1rem;
+    min-height: 40px;
+    font-size: 14px;
     line-height: 1.4;
   }
   .menu-col__address,
   .menu-col__hours {
-    font-size: 0.95rem;
+    font-size: 14px;
     gap: 0.6rem;
   }
   .menu-col__hours th,
@@ -299,8 +298,8 @@ h2 {
     margin-bottom: 0.5rem;
   }
   .menu-overlay__social a {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
   }
   .menu-overlay__cta {
     margin-top: 1.25rem;
