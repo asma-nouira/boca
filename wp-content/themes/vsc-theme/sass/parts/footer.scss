@@ -147,7 +147,8 @@ svg path{
       }
        @media(max-width:767px){
      padding: 30px 25px;
-     display: inline-block;
+     display: grid;
+     gap:12px;
      text-align: center;
      }
    

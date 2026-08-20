@@ -580,7 +580,8 @@ h2 {
 @media (max-width: 767px) {
   .site-footer__bottom {
     padding: 30px 25px;
-    display: inline-block;
+    display: grid;
+    gap: 12px;
     text-align: center;
   }
 }
