@@ -16,7 +16,7 @@ $mobile-width: 425px;
   @media (max-width: $table-width) {
 
     @if ($int==45) {
-      font-size: 20px !important;
+      font-size: 25px !important;
     }
   }
 }

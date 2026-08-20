@@ -220,7 +220,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .fs45 h1, .fs45 h2, .fs45 p, .fs45 h3, .fs45 {
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
 }
 
@@ -832,6 +832,11 @@ body {
   padding: 1.5625vw 0 !important;
   margin: 0 !important;
 }
+@media (max-width: 767px) {
+  .list-faq .vce-faq-toggle-wrapper {
+    padding: 25px 0 !important;
+  }
+}
 .list-faq .vce-faq-toggle-inner {
   padding: 0 !important;
 }
@@ -842,6 +847,11 @@ body {
   color: #31331F;
   padding-right: 40px; /* pour laisser la place au rond à droite */
   position: relative;
+}
+@media (max-width: 767px) {
+  .list-faq .vce-faq-toggle-title-text {
+    font-size: 18px;
+  }
 }
 .list-faq .vce-faq-toggle-text-block p {
   margin-top: 10px;
@@ -859,6 +869,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 767px) {
+  .list-faq .vce-faq-toggle-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
 .list-faq .vce-faq-toggle-title {
   padding-left: 0;
 }
@@ -873,6 +889,11 @@ body {
   padding-top: 10px;
   padding-right: 4.6875vw;
 }
+@media (max-width: 767px) {
+  .list-faq .vce-faq-toggle-text-block {
+    padding-right: 50px;
+  }
+}
 .list-faq .vce-faq-toggle-icon {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31.724' height='31.724' viewBox='0 0 31.724 31.724'%3E%3Cg transform='translate(17.511 3) rotate(45)'%3E%3Cpath d='M7.929,0V21.143M7.929,0,0,7.929M7.929,0l7.929,7.929' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -880,6 +901,11 @@ body {
   background-size: 1.6666666667vw 1.6666666667vw;
   transition: transform 0.3s ease;
   left: 94%;
+}
+@media (max-width: 767px) {
+  .list-faq .vce-faq-toggle-icon {
+    background-size: 20px 20px;
+  }
 }
 .list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon {
   transform: translateY(-50%) rotate(90deg);
