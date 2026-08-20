@@ -343,8 +343,8 @@ h2 {
     padding: 40px 25px !important;
   }
   .service-bloc svg {
-    width: 200px;
-    height: auto;
+    width: 200px !important;
+    height: auto !important;
   }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
