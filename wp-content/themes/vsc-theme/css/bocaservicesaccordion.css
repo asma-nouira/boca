@@ -1,0 +1,93 @@
+/* =========================================================
+   BOCA — Style de l'accordéon des sous-services
+   À enqueuer avec boca-services-accordion.js (et, si utilisés,
+   après boca-animations.css / boca-menu-mobile.css — l'ordre
+   entre les trois n'a pas d'importance, ils ne se chevauchent
+   pas).
+   ========================================================= */
+
+/* Ligne contenant le lien du service + le bouton "+" */
+.menu-service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.menu-service-row a {
+  flex: 1 1 auto;
+}
+
+/* Bouton "+" */
+.menu-service-toggle {
+  flex: 0 0 auto;
+  width: 1.75rem;
+  height: 1.75rem;
+  min-width: 1.75rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.3s ease, background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.menu-service-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.menu-service-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Le "+" pivote à 45° pour devenir visuellement un "×" à l'ouverture */
+li.has-sub-services.is-open > .menu-service-row .menu-service-toggle {
+  transform: rotate(45deg);
+}
+
+/* Liste des sous-services, repliée par défaut */
+.menu-service-sub {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1rem;
+  max-height: 0;
+  overflow: hidden;
+  border-left: 1px solid rgba(49, 51, 31, 0.15);
+  transition: max-height 0.35s ease;
+}
+
+.menu-service-sub li {
+  border-top: none !important; /* n'hérite pas des séparateurs du menu mobile */
+}
+
+.menu-service-sub a {
+  display: block;
+  padding: 0.4rem 0 0.4rem 0.85rem;
+  font-size: 0.92em;
+  opacity: 0.82;
+  min-height: auto;
+}
+
+.menu-service-sub a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+li.has-sub-services.is-open .menu-service-sub {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+/* Petit espace supplémentaire sous chaque service à accordéon
+   pour ne pas coller la sous-liste au séparateur suivant. */
+li.has-sub-services {
+  padding-bottom: 0.15rem;
+}
