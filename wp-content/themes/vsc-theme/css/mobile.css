@@ -396,5 +396,9 @@ h2 {
     min-height: inherit !important;
     font-size: 16px !important;
   }
+  .footer-contact {
+    width: 45%;
+    float: left;
+  }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
