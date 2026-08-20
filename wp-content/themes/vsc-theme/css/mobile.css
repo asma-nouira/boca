@@ -339,12 +339,12 @@ h2 {
     left: 83% !important;
     top: -5vw !important;
   }
-  .service-bloc {
-    padding: 40px 25px 60px !important;
-  }
-  .service-bloc svg {
+  #smile-svg {
     width: 200px !important;
     height: auto !important;
+  }
+  .service-bloc {
+    padding: 40px 25px 60px !important;
   }
   .service-bloc .services-slider .slick-arrow {
     bottom: -11vw !important;
