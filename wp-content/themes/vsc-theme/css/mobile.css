@@ -148,6 +148,7 @@ h2 {
   .btn-cta {
     font-size: 16px;
     padding: 18px 20px;
+    border-radius: 21px;
   }
 }
 
@@ -167,7 +168,8 @@ h2 {
 @media (max-width: 767px) {
   .btn-appointment {
     font-size: 16px;
-    padding: 18px 20px;
+    padding: 17px 30px;
+    border-radius: 21px;
   }
 }
 
@@ -191,6 +193,7 @@ h2 {
   .white-btn {
     font-size: 16px;
     padding: 18px 20px;
+    border-radius: 21px;
   }
 }
 
