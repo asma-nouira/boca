@@ -129,6 +129,11 @@ h2 {
 .nowrap {
   white-space: nowrap;
 }
+@media (max-width: 767px) {
+  .nowrap {
+    white-space: inherit;
+  }
+}
 
 .btn-cta {
   background-color: #B98B68;
