@@ -138,6 +138,12 @@ h2 {
 .btn-cta:hover {
   background-color: #5B6556;
 }
+@media (max-width: 767px) {
+  .btn-cta {
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+}
 
 .btn-appointment {
   background-color: #B98B68;
@@ -151,6 +157,12 @@ h2 {
 }
 .btn-appointment:hover {
   background-color: #5B6556;
+}
+@media (max-width: 767px) {
+  .btn-appointment {
+    font-size: 16px;
+    padding: 18px 20px;
+  }
 }
 
 .white-btn {
@@ -168,6 +180,12 @@ h2 {
 }
 .white-btn:hover {
   background-color: #B98B68;
+}
+@media (max-width: 767px) {
+  .white-btn {
+    font-size: 16px;
+    padding: 18px 20px;
+  }
 }
 
 .full-width .vce.vce-single-image-wrapper {
