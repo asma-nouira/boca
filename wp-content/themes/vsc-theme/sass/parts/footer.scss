@@ -37,10 +37,18 @@
   .col-3{
     padding-right: calc(107vw / 19.2);
     width:45%;
+     @media(max-width:767px){
+      width:50%;
+      padding-right: 50px;
+      float:left;
+    }
   }
    .footer-social {
     display: flex;
     gap: 10px;
+      @media(max-width:767px){
+      padding-top: 20px;
+    }
     a {
     width: calc(56vw / 19.2);
     height: calc(56vw / 19.2);
@@ -51,6 +59,11 @@
     justify-content: center;
     color: white;
     text-decoration: none;
+    @media(max-width:767px){
+      width:30px;
+      height: 30px;
+      
+    }
     &:hover {
         border-color: $orange;
 svg path{
@@ -71,24 +84,36 @@ svg path{
   }
   .phone {
     display: block;
-    
     font-weight: 700;
     font-size: calc(22vw / 19.2);
     font-family: 'Manrope Bold';
     text-decoration: underline;
     text-underline-offset: 3px;
     margin-bottom: calc(30vw / 19.2);
+     @media(max-width:767px){
+      font-size: 18px;
+      margin-bottom: 20px;
+     }
   }
   address {
     font-style: normal;
     font-size: calc(22vw / 19.2);
     line-height: 1.6;
   margin-bottom: calc(25vw / 19.2);
+   @media(max-width:767px){
+      font-size: 18px;
+      margin-bottom: 20px;
+     }
   }
   .footer-hours {
     font-size: calc(22vw / 19.2);
    margin-bottom: calc(30vw / 19.2);
    padding-right: calc(70vw / 19.2);
+    @media(max-width:767px){
+      font-size: 18px;
+      margin-bottom: 20px;
+      padding-right: 0;
+     }
   }
 
   .footer-hours div {
@@ -119,5 +144,8 @@ svg path{
         text-decoration: underline;
         color:$green;
       }
+       @media(max-width:767px){
+     padding: 30px 25px;
+     }
    
 }

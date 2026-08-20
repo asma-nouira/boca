@@ -455,9 +455,21 @@ h2 {
   padding-right: 5.5729166667vw;
   width: 45%;
 }
+@media (max-width: 767px) {
+  .site-footer .col-3 {
+    width: 50%;
+    padding-right: 50px;
+    float: left;
+  }
+}
 .site-footer .footer-social {
   display: flex;
   gap: 10px;
+}
+@media (max-width: 767px) {
+  .site-footer .footer-social {
+    padding-top: 20px;
+  }
 }
 .site-footer .footer-social a {
   width: 2.9166666667vw;
@@ -469,6 +481,12 @@ h2 {
   justify-content: center;
   color: white;
   text-decoration: none;
+}
+@media (max-width: 767px) {
+  .site-footer .footer-social a {
+    width: 30px;
+    height: 30px;
+  }
 }
 .site-footer .footer-social a:hover {
   border-color: #B98B68;
@@ -494,16 +512,35 @@ h2 {
   text-underline-offset: 3px;
   margin-bottom: 1.5625vw;
 }
+@media (max-width: 767px) {
+  .site-footer .phone {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
 .site-footer address {
   font-style: normal;
   font-size: 1.1458333333vw;
   line-height: 1.6;
   margin-bottom: 1.3020833333vw;
 }
+@media (max-width: 767px) {
+  .site-footer address {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
 .site-footer .footer-hours {
   font-size: 1.1458333333vw;
   margin-bottom: 1.5625vw;
   padding-right: 3.6458333333vw;
+}
+@media (max-width: 767px) {
+  .site-footer .footer-hours {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
 }
 .site-footer .footer-hours div {
   display: flex;
@@ -533,6 +570,11 @@ h2 {
 .site-footer__bottom a:hover {
   text-decoration: underline;
   color: #5B6556;
+}
+@media (max-width: 767px) {
+  .site-footer__bottom {
+    padding: 30px 25px;
+  }
 }
 
 /**************/
