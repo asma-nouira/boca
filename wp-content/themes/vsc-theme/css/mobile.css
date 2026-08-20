@@ -389,6 +389,9 @@ h2 {
   .circle-icon .title {
     font-size: 14px !important;
   }
+  footer .menu-service-toggle {
+    display: none !important;
+  }
   footer .menu-col__title {
     font-size: 18px !important;
   }
