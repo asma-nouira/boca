@@ -389,5 +389,12 @@ h2 {
   .circle-icon .title {
     font-size: 14px !important;
   }
+  footer .menu-col__title {
+    font-size: 14px !important;
+  }
+  footer .menu-col__list a {
+    min-height: inherit !important;
+    font-size: 14px !important;
+  }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
