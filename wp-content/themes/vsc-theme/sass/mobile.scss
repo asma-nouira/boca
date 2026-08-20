@@ -150,9 +150,11 @@
     }
   .service-bloc {
     padding: 40px 25px 60px!important;
-   
+}
     .services-slider .slick-arrow{
       bottom: -11vw!important;
+      width:20px!important;
+      height: auto;
     }
     .services-slider .slide-arrow {
       top:-9vw!important;
@@ -166,5 +168,4 @@
     .services-slider .slide-caption{
       font-size: 15px!important;
     }
-}
 }
