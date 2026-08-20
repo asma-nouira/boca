@@ -230,7 +230,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 4rem 1.5rem 3rem;
+    padding: 2rem 1.5rem 3rem;
     box-sizing: border-box;
   }
   .menu-overlay {
@@ -250,7 +250,7 @@ h2 {
   .menu-overlay__columns .col-4 {
     width: 100%;
     padding-right: 0;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.25rem;
     border-bottom: 1px solid rgba(49, 51, 31, 0.12);
   }
   .menu-overlay__columns .col-3 {
