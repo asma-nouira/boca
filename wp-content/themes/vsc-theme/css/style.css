@@ -371,6 +371,11 @@ h2 {
 .pb-195 {
   padding-bottom: 10.15625vw;
 }
+@media (max-width: 767px) {
+  .pb-195 {
+    padding-bottom: 100px;
+  }
+}
 
 .pr-96 {
   padding-right: 5vw;
@@ -382,6 +387,11 @@ h2 {
 
 .pr-180 {
   padding-right: 9.375vw;
+}
+@media (max-width: 767px) {
+  .pr-180 {
+    padding-right: 25px;
+  }
 }
 
 .pr-100 {

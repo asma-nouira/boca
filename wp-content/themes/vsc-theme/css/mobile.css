@@ -350,7 +350,7 @@ h2 {
     padding: 40px 10px 100px !important;
   }
   .services-slider .slick-arrow {
-    bottom: -12vw !important;
+    bottom: -15vw !important;
     width: 20px !important;
     height: auto;
   }
@@ -365,6 +365,10 @@ h2 {
   }
   .services-slider .slide-caption {
     font-size: 15px !important;
+    margin-top: 10px !important;
+  }
+  .no-pr.pr-100, .no-pr.pr-96, .no-pr.pr-22, .no-pr.pr-26 {
+    padding-right: 0 !important;
   }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
