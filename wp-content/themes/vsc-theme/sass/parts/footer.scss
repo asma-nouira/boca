@@ -2,7 +2,9 @@
     background-color: $green;
     color: white;
     padding: calc(70vw / 19.2) calc(190vw / 19.2) calc(90vw / 19.2) calc(278vw / 19.2);
-    border-radius: 6px;
+    @media(max-width:767px){
+      padding: 30px 25px 50px;
+    }
     .footer-inner {
     display: flex;
     justify-content: space-between;
@@ -14,10 +16,18 @@
         width:100%;
         height: auto;
     }
+    @media(max-width:767px){
+      width:48%;
+      padding-right: 50px;
+    }
   }
   .col-2{
     width:26%;
     padding-right: calc(75vw / 19.2);
+    @media(max-width:767px){
+      width:48%;
+      padding-right:0;
+    }
   }
   .col-3{
     padding-right: calc(107vw / 19.2);
