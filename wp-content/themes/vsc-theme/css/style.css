@@ -449,6 +449,7 @@ h2 {
     width: 45%;
     padding-right: 0;
     float: left;
+    padding-bottom: 25px;
   }
 }
 .site-footer .col-3 {
@@ -459,6 +460,7 @@ h2 {
   .site-footer .col-3 {
     width: 50%;
     padding-right: 50px;
+    float: left;
   }
 }
 .site-footer .footer-social {
@@ -513,7 +515,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .site-footer .phone {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 }
@@ -525,7 +527,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .site-footer address {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 }
@@ -536,7 +538,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .site-footer .footer-hours {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
     padding-right: 0;
   }

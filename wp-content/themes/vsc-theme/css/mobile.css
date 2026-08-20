@@ -400,7 +400,7 @@ h2 {
     width: 45%;
     float: left;
   }
-  .footer-contact .footer-social svg {
+  .footer-social a svg {
     width: 15px !important;
     height: auto !important;
   }

@@ -32,6 +32,7 @@
       width:45%;
       padding-right:0;
       float:left;
+      padding-bottom: 25px;
     }
   }
   .col-3{
@@ -40,6 +41,7 @@
      @media(max-width:767px){
       width:50%;
       padding-right: 50px;
+      float:left;
     }
   }
    .footer-social {
@@ -90,7 +92,7 @@ svg path{
     text-underline-offset: 3px;
     margin-bottom: calc(30vw / 19.2);
      @media(max-width:767px){
-      font-size: 18px;
+      font-size: 16px;
       margin-bottom: 20px;
      }
   }
@@ -100,7 +102,7 @@ svg path{
     line-height: 1.6;
   margin-bottom: calc(25vw / 19.2);
    @media(max-width:767px){
-      font-size: 18px;
+      font-size: 16px;
       margin-bottom: 20px;
      }
   }
@@ -109,7 +111,7 @@ svg path{
    margin-bottom: calc(30vw / 19.2);
    padding-right: calc(70vw / 19.2);
     @media(max-width:767px){
-      font-size: 18px;
+      font-size: 16px;
       margin-bottom: 20px;
       padding-right: 0;
      }
