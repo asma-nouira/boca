@@ -370,6 +370,12 @@ h2 {
   .no-pr.pr-100, .no-pr.pr-96, .no-pr.pr-22, .no-pr.pr-26 {
     padding-right: 0 !important;
   }
+  .no-pt.pt-185 {
+    padding-top: 0 !important;
+  }
+  .pr-25-mob {
+    padding-right: 25px;
+  }
   .pb-30-mob {
     padding-bottom: 30px;
   }
