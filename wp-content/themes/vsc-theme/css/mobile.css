@@ -115,6 +115,11 @@ h2 {
 .site-content p:last-child {
   padding-bottom: 0;
 }
+@media (max-width: 767px) {
+  .site-content p {
+    padding-bottom: 20px;
+  }
+}
 
 .test-bloc {
   display: flex;
@@ -203,7 +208,7 @@ h2 {
 }
 
 @media (max-width: 992px) {
-  .no-mobile {
+  .btn-cta.btn--pill {
     display: none !important;
   }
   .btn.btn--round svg {
@@ -305,6 +310,9 @@ h2 {
   }
 }
 @media (max-width: 767px) {
+  .no-mobile {
+    display: none !important;
+  }
   .site-header__inner {
     padding: 15px !important;
   }

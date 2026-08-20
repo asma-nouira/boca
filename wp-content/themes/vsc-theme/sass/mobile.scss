@@ -1,8 +1,8 @@
 @import './statics.scss';
 @media(max-width:992px){
-    .no-mobile{
-        display: none!important;
-    }
+   .btn-cta.btn--pill{
+    display: none!important;
+   }
     .btn.btn--round svg{
         width:25px!important;
         height: auto;
@@ -118,6 +118,9 @@
 }  
 
 @media(max-width:767px){
+   .no-mobile{
+        display: none!important;
+    }
   .site-header__inner{
     padding: 15px!important;
   }

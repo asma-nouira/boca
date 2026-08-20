@@ -114,6 +114,11 @@ h2 {
 .site-content p:last-child {
   padding-bottom: 0;
 }
+@media (max-width: 767px) {
+  .site-content p {
+    padding-bottom: 20px;
+  }
+}
 
 .test-bloc {
   display: flex;

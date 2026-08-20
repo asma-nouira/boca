@@ -93,6 +93,9 @@ h2{
   &:last-child{
     padding-bottom: 0;
   }
+  @media(max-width:767px){
+    padding-bottom: 20px;
+  }
 }
 @mixin flex-center {
   display: flex;
