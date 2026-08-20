@@ -72,7 +72,10 @@ h1{
    font-family: 'Manrope Light';
    font-weight: 300;
    line-height: 1.12;
-   letter-spacing:-0.23px ;
+   letter-spacing:-0.23px;
+   @media(max-width:767px){
+    font-size: 25px;
+   }
 }
 h2{
   font-family: 'Manrope Regular';
@@ -81,6 +84,9 @@ h2{
   line-height: 1.3;
   letter-spacing: -0.3px;
   color:$green;
+   @media(max-width:767px){
+    font-size: 20px;
+   }
 }
 .site-content p{
   padding-bottom: calc(25vw / 19.2);

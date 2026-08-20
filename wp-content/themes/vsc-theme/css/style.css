@@ -89,6 +89,11 @@ h1 {
   line-height: 1.12;
   letter-spacing: -0.23px;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+  }
+}
 
 h2 {
   font-family: "Manrope Regular";
@@ -97,6 +102,11 @@ h2 {
   line-height: 1.3;
   letter-spacing: -0.3px;
   color: #5B6556;
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 20px;
+  }
 }
 
 .site-content p {
@@ -184,7 +194,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .fs45 h1, .fs45 h2, .fs45 p, .fs45 h3, .fs45 {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 }
 
