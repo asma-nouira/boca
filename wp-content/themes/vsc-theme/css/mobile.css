@@ -290,5 +290,8 @@ h2 {
   .site-header__inner {
     padding: 15px !important;
   }
+  .hero-section {
+    padding: 100px 150px 100px 25px !important;
+  }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
