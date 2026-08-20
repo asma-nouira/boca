@@ -724,6 +724,11 @@ body {
 .infos-appointment .contacts-infos {
   padding-bottom: 1.8229166667vw;
 }
+@media (max-width: 767px) {
+  .infos-appointment .contacts-infos {
+    padding-bottom: 30px;
+  }
+}
 .infos-appointment .contacts-infos .circle-item {
   position: relative;
   width: 10.7291666667vw;
@@ -731,6 +736,12 @@ body {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s ease, transform 0.6s ease;
+}
+@media (max-width: 767px) {
+  .infos-appointment .contacts-infos .circle-item {
+    width: 120px;
+    height: 120px;
+  }
 }
 .infos-appointment .contacts-infos .circle-item.in-view {
   opacity: 1;

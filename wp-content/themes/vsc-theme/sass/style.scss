@@ -189,6 +189,9 @@ body{
 	color:white;
 	.contacts-infos{
 		padding-bottom: calc(35vw / 19.2);
+        @media(max-width:767px){
+            padding-bottom: 30px;
+        }
 		.circle-item {
     position: relative;
     width: calc(206vw / 19.2);
@@ -196,6 +199,10 @@ body{
     opacity: 0;
     transform: translateY(24px);
     transition: opacity .6s ease, transform .6s ease;
+    @media(max-width:767px){
+        width:120px;
+        height: 120px;
+    }
 }
 .circle-item.in-view {
     opacity: 1;
