@@ -145,10 +145,25 @@
     top: -5vw!important;
   }
   .service-bloc {
-    padding: 40px 25px!important;
+    padding: 40px 25px 60px!important;
     svg{
       width:200px!important;
       height: auto!important;
+    }
+    .services-slider .slick-arrow{
+      bottom: -11vw!important;
+    }
+    .services-slider .slide-arrow {
+      top:-9vw!important;
+      width: 25px!important;
+    height: 25px!important;
+    svg{
+      width:20px!important;
+      height: auto!important;
+    }
+    }
+    .services-slider .slide-caption{
+      font-size: 15px!important;
     }
 }
 }

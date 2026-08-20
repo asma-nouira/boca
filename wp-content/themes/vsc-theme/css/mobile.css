@@ -340,11 +340,26 @@ h2 {
     top: -5vw !important;
   }
   .service-bloc {
-    padding: 40px 25px !important;
+    padding: 40px 25px 60px !important;
   }
   .service-bloc svg {
     width: 200px !important;
     height: auto !important;
+  }
+  .service-bloc .services-slider .slick-arrow {
+    bottom: -11vw !important;
+  }
+  .service-bloc .services-slider .slide-arrow {
+    top: -9vw !important;
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .service-bloc .services-slider .slide-arrow svg {
+    width: 20px !important;
+    height: auto !important;
+  }
+  .service-bloc .services-slider .slide-caption {
+    font-size: 15px !important;
   }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
