@@ -39,8 +39,8 @@
     padding-right: calc(107vw / 19.2);
     width:45%;
      @media(max-width:767px){
-      width:50%;
-      padding-right: 50px;
+      width:100%;
+      padding-right: 0;
       float:left;
     }
   }
