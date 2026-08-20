@@ -600,6 +600,10 @@ body {
   transition: background 0.2s ease;
   animation: scrollBounce 1.8s ease-in-out infinite;
 }
+.scroll-arrow img {
+  width: 100%;
+  height: auto;
+}
 
 @keyframes scrollBounce {
   0%, 100% {

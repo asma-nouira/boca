@@ -92,6 +92,10 @@ body{
   transform: translateX(-50%);
   transition: background 0.2s ease;
   animation: scrollBounce 1.8s ease-in-out infinite;
+  img{
+    width:100%;
+    height: auto;
+  }
 }
 
 

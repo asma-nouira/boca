@@ -325,5 +325,17 @@ h2 {
   body {
     font-size: 14px !important;
   }
+  .center-bloc {
+    padding: 50px 25px !important;
+  }
+  .center-bloc .cta-action {
+    display: grid !important;
+    text-align: center;
+    gap: 20px;
+  }
+  .scroll-arrow {
+    width: 50px !important;
+    height: 50px !important;
+  }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
