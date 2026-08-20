@@ -217,6 +217,9 @@ margin-right: calc(13vw / 19.2);
 	visibility: hidden;
 	transform: translateY(-12px);
 	transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+	@media(max-width:992px){
+		height: 100%;
+	}
 }
 
 body.menu-is-open .menu-overlay {
