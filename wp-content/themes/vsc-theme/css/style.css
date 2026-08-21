@@ -805,6 +805,14 @@ body {
   padding-bottom: 15px;
 }
 
+.hero-section-page.second-page {
+  position: relative;
+  padding: 10.0520833333vw 57.6041666667vw 8.6458333333vw 7.2916666667vw;
+}
+.hero-section-page.second-page h1 {
+  padding-bottom: 20px;
+}
+
 .center-bloc {
   padding: 12.2916666667vw 28.8541666667vw 13.8020833333vw;
 }
