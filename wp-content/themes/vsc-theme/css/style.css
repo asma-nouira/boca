@@ -706,6 +706,14 @@ body {
   padding-bottom: 15px;
 }
 
+.hero-section-page {
+  position: relative;
+  padding: 12.3958333333vw 66.3020833333vw 11.09375vw 7.2916666667vw;
+}
+.hero-section-page h1 {
+  padding-bottom: 15px;
+}
+
 .center-bloc {
   padding: 12.2916666667vw 28.8541666667vw 13.8020833333vw;
 }
