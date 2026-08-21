@@ -1326,7 +1326,7 @@ body {
 }
 .contact-form .custom-cf7-form .cf7-row p {
   display: flex;
-  gap: 1.3020833333vw;
+  gap: 0.625vw;
   align-items: flex-start;
 }
 .contact-form .custom-cf7-form .cf7-row span {
