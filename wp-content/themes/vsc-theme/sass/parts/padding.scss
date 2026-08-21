@@ -52,6 +52,12 @@
     padding-bottom: 50px;
   }
 }
+.pb-126{
+  padding-bottom: calc(126vw / 19.2);
+   @media(max-width:767px){
+    padding-bottom: 50px;
+  }
+}
 .pl-140{
   padding-left: calc(140vw / 19.2);
    @media(max-width:767px){
