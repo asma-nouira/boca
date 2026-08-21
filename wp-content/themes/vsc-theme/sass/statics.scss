@@ -68,24 +68,24 @@ ul{
 }
 h1{
   color:$creme;
-   font-size: calc(65vw / 19.2);
+   font-size: calc(55vw / 19.2);
    font-family: 'Manrope Light';
    font-weight: 300;
    line-height: 1.12;
    letter-spacing:-0.23px;
    @media(max-width:767px){
-    font-size: 25px;
+    font-size: 30px;
    }
 }
 h2{
   font-family: 'Manrope Regular';
   font-weight: 400;
-  font-size: calc(50vw / 19.2);
+  font-size: calc(45vw / 19.2);
   line-height: 1.3;
   letter-spacing: -0.3px;
   color:$green;
    @media(max-width:767px){
-    font-size: 20px;
+    font-size: 25px;
    }
 }
 .site-content p{

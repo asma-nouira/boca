@@ -18,12 +18,23 @@ $mobile-width: 425px;
     @if ($int==45) {
       font-size: 25px !important;
     }
+      @if ($int==65) {
+      font-size: 30px !important;
+    }
+     @if ($int==50) {
+      font-size: 25px !important;
+    }
   }
 }
 %fs45{
   @include fontSize(45);
 }
-
+%fs65{
+  @include fontSize(65);
+}
+%fs50{
+  @include fontSize(50);
+}
 /************ fonts *************/
 .fs45{
   @extend %fs45;
@@ -31,5 +42,21 @@ $mobile-width: 425px;
     @extend %fs45;
     line-height: 1.22;
     letter-spacing: -0.33px;
+  }
+}
+.fs65{
+  @extend %fs65;
+  h1,h2,p,h3{
+    @extend %fs45;
+    line-height: 1.12;
+    letter-spacing: -0.23px;
+  }
+}
+.fs50{
+  @extend %fs50;
+  h1,h2,p,h3{
+    @extend %fs45;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
   }
 }
