@@ -1131,4 +1131,9 @@ body {
 .fil-ariane .breadcrumb_last {
   text-decoration: underline;
 }
+
+.max-290 img {
+  max-width: 15.1041666667vw;
+  height: auto;
+}
 /*# sourceMappingURL=../css/style.css.map */
