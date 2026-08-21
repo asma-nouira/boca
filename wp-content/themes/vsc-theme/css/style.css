@@ -507,6 +507,9 @@ h2 {
   color: white;
   padding: 3.6458333333vw 9.8958333333vw 4.6875vw 14.4791666667vw;
 }
+.site-footer .menu-service-toggle {
+  display: none;
+}
 @media (max-width: 767px) {
   .site-footer {
     padding: 30px 25px 50px;
