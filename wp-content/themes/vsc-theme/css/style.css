@@ -1324,6 +1324,9 @@ body {
   /* Responsive : empiler téléphone/email sur mobile */
   /* Cacher les messages d'erreur par défaut de CF7 si besoin de style custom */
 }
+.contact-form .custom-cf7-form .cf7-row input {
+  margin-bottom: 15px;
+}
 .contact-form .custom-cf7-form .cf7-row p {
   display: flex;
   gap: 0.625vw;

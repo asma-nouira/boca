@@ -410,12 +410,18 @@ line-height: 1.35;
 
 
 /* Ligne pour téléphone + email côte à côte */
-.custom-cf7-form .cf7-row p{
+.custom-cf7-form .cf7-row 
+{
+      input{
+        margin-bottom:15px;
+      }
+    p{
   display: flex;
   gap: calc(12vw / 19.2);
   align-items: flex-start;
 }
 
+}
 .custom-cf7-form .cf7-row span {
   flex: 1;
 }
