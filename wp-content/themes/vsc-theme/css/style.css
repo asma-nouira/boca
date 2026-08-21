@@ -363,6 +363,15 @@ h2 {
   }
 }
 
+.pt-170 {
+  padding-top: 8.8541666667vw;
+}
+@media (max-width: 767px) {
+  .pt-170 {
+    padding-top: 60px;
+  }
+}
+
 .pt-110 {
   padding-top: 5.7291666667vw;
 }
@@ -455,6 +464,24 @@ h2 {
 @media (max-width: 767px) {
   .mb-15 {
     margin-bottom: 15px;
+  }
+}
+
+.pl-278 {
+  padding-left: 14.4791666667vw;
+}
+@media (max-width: 767px) {
+  .pl-278 {
+    padding-left: 25px;
+  }
+}
+
+.pr-278 {
+  padding-right: 14.4791666667vw;
+}
+@media (max-width: 767px) {
+  .pr-278 {
+    padding-right: 25px;
   }
 }
 
