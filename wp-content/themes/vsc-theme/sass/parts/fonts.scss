@@ -29,6 +29,9 @@ $mobile-width: 425px;
 %fs45{
   @include fontSize(45);
 }
+%fs30{
+  @include fontSize(30);
+}
 %fs65{
   @include fontSize(65);
 }
@@ -42,6 +45,14 @@ $mobile-width: 425px;
     @extend %fs45;
     line-height: 1.22;
     letter-spacing: -0.33px;
+  }
+}
+.fs30{
+  @extend %fs30;
+  h1,h2,p,h3{
+    @extend %fs30;
+    line-height: 1.16;
+    letter-spacing: -0.5px;
   }
 }
 .fs65{

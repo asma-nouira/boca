@@ -65,6 +65,11 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+.medium {
+  font-family: "Manrope Medium";
+  font-weight: 500;
+}
+
 .semiBold {
   font-family: "Manrope SemiBold";
   font-weight: 600;

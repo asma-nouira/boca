@@ -65,6 +65,11 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+.medium {
+  font-family: "Manrope Medium";
+  font-weight: 500;
+}
+
 .semiBold {
   font-family: "Manrope SemiBold";
   font-weight: 600;
@@ -229,6 +234,14 @@ h2 {
   }
 }
 
+.fs30 h1, .fs30 h2, .fs30 p, .fs30 h3, .fs30 {
+  font-size: calc(30vw / 13.66);
+}
+@media (min-width: 1366px) {
+  .fs30 h1, .fs30 h2, .fs30 p, .fs30 h3, .fs30 {
+    font-size: calc(30vw / 19.2);
+  }
+}
 .fs65 {
   font-size: calc(65vw / 13.66);
 }
@@ -261,6 +274,11 @@ h2 {
 .fs45 h1, .fs45 h2, .fs45 p, .fs45 h3 {
   line-height: 1.22;
   letter-spacing: -0.33px;
+}
+
+.fs30 h1, .fs30 h2, .fs30 p, .fs30 h3 {
+  line-height: 1.16;
+  letter-spacing: -0.5px;
 }
 
 .fs65 h1, .fs65 h2, .fs65 p, .fs65 h3 {
