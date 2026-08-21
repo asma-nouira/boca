@@ -1342,14 +1342,14 @@ body {
   background-color: #ffffff;
   box-sizing: border-box;
   font-size: 0.9375vw;
-  font-family: "Manrope Regular ";
+  font-family: "Manrope Regular";
   color: #31331F;
 }
 .contact-form .custom-cf7-form input[type=text]::placeholder,
 .contact-form .custom-cf7-form input[type=tel]::placeholder,
 .contact-form .custom-cf7-form input[type=email]::placeholder, .contact-form .custom-cf7-form textarea::placeholder {
   font-size: 0.9375vw;
-  font-family: "Manrope Regular ";
+  font-family: "Manrope Regular";
   color: #31331F;
 }
 .contact-form .custom-cf7-form textarea {
