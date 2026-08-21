@@ -989,6 +989,10 @@ body {
   line-height: 1.1;
 }
 
+.infos-appointment.about {
+  padding: 15.1041666667vw 22.34375vw 11.7708333333vw 4.1666666667vw;
+}
+
 .list-faq {
   /* Conteneur : on enlève le fond et la bordure de la "carte" */
   /* Titre de la question */
