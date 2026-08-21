@@ -473,6 +473,15 @@ h2 {
   }
 }
 
+.pb-115 {
+  padding-bottom: 5.9895833333vw;
+}
+@media (max-width: 767px) {
+  .pb-115 {
+    padding-bottom: 100px;
+  }
+}
+
 .pr-96 {
   padding-right: 5vw;
 }
