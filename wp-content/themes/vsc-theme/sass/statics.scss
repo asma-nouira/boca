@@ -89,12 +89,12 @@ h2{
    }
 }
 .site-content p{
-  padding-bottom: calc(25vw / 19.2);
+  padding-bottom: calc(15vw / 19.2);
   &:last-child{
     padding-bottom: 0;
   }
   @media(max-width:767px){
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 }
 @mixin flex-center {
