@@ -1053,9 +1053,18 @@ body {
 }
 
 .section-title {
-  font-size: 14px;
+  font-size: 0.7291666667vw;
   text-transform: uppercase;
   line-height: 1.35;
   color: #B98B68;
+}
+
+.fil-ariane {
+  padding: 1.0416666667vw 7.2916666667vw 1.3541666667vw;
+  font-size: 0.7291666667vw;
+  line-height: 1.35;
+}
+.fil-ariane .breadcrumb_last {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=../css/style.css.map */

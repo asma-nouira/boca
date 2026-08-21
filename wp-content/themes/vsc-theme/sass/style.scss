@@ -377,8 +377,16 @@ body{
     }
 }
 .section-title{
-    font-size: 14px;
+    font-size: calc(14vw / 19.2);
     text-transform: uppercase;
     line-height: 1.35;
     color:$orange;
+}
+.fil-ariane{
+padding:calc(20vw / 19.2) calc(140vw / 19.2) calc(26vw / 19.2) ;
+font-size: calc(14vw / 19.2);
+line-height: 1.35;
+.breadcrumb_last{
+    text-decoration: underline;
+}
 }
