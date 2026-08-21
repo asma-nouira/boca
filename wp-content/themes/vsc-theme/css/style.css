@@ -1337,7 +1337,6 @@ body {
 .contact-form .custom-cf7-form input[type=email] {
   width: 100%;
   padding: 1.0416666667vw 1.9791666667vw;
-  margin-bottom: 13px;
   border: none;
   border-radius: 30px;
   background-color: #ffffff;
@@ -1363,7 +1362,7 @@ body {
   color: #31331F;
   height: 122px;
   resize: vertical;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   box-sizing: border-box;
   font-family: inherit;
 }
