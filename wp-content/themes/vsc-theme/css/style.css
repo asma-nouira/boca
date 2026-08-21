@@ -463,6 +463,15 @@ h2 {
   }
 }
 
+.pt-116 {
+  padding-top: 6.0416666667vw;
+}
+@media (max-width: 767px) {
+  .pt-116 {
+    padding-top: 50px;
+  }
+}
+
 .pt-100 {
   padding-top: 5.2083333333vw;
 }
