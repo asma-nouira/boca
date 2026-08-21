@@ -118,3 +118,9 @@
 .pr-22{
     padding-right: calc(22vw / 19.2);
 }
+.mb-15{
+  margin-bottom:calc(15vw / 19.2);
+  @media(max-width:767px){
+    margin-bottom:15px;
+  }
+}
