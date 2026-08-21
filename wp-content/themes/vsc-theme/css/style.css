@@ -1361,7 +1361,7 @@ body {
   background-color: #ffffff;
   font-size: 0.9375vw;
   color: #31331F;
-  min-height: 122px;
+  height: 122px;
   resize: vertical;
   margin-bottom: 20px;
   box-sizing: border-box;
