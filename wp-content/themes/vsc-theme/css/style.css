@@ -327,6 +327,15 @@ h2 {
   }
 }
 
+.pb-40 {
+  padding-bottom: 2.0833333333vw;
+}
+@media (max-width: 767px) {
+  .pb-40 {
+    padding-bottom: 25px;
+  }
+}
+
 .pb-50 {
   padding-bottom: 2.6041666667vw;
 }
