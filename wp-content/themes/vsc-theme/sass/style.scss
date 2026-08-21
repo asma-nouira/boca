@@ -406,3 +406,87 @@ line-height: 1.35;
         height: auto;
     }
 }
+.contact-form{
+
+
+/* Ligne pour téléphone + email côte à côte */
+.custom-cf7-form .cf7-row {
+  display: flex;
+  gap: 25px;
+}
+
+.custom-cf7-form .cf7-row span {
+  flex: 1;
+}
+
+/* Champs texte, tel, email */
+.custom-cf7-form input[type="text"],
+.custom-cf7-form input[type="tel"],
+.custom-cf7-form input[type="email"] {
+  width: 100%;
+  padding: calc(20vw / 19.2) calc(38vw / 19.2);
+  margin-bottom: 13px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-size: calc(18vw / 19.2);
+    font-family: 'Manrope Regular ';
+    color:$dark;
+}
+.custom-cf7-form input[type="text"]::placeholder,
+.custom-cf7-form input[type="tel"]::placeholder,
+.custom-cf7-form input[type="email"]::placeholder, .custom-cf7-form textarea::placeholder{
+    font-size: calc(18vw / 19.2);
+    font-family: 'Manrope Regular ';
+    color:$dark;
+}
+
+/* Zone de message */
+.custom-cf7-form textarea {
+  width: 100%;
+  padding: calc(20vw / 19.2) calc(38vw / 19.2);
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: calc(18vw / 19.2);
+  color: $dark;
+  min-height: 122px;
+  resize: vertical;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+/* Bouton Envoyer */
+.custom-cf7-form input[type="submit"] {
+  background-color: #B98B68;
+  color: #fff;
+  border: none;
+  padding: calc(18vw / 19.2) calc(112vw / 19.2);
+  border-radius: 31px;
+  font-size: calc(20vw / 19.2);
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-cf7-form input[type="submit"]:hover {
+  background-color: #a97b52;
+}
+
+/* Responsive : empiler téléphone/email sur mobile */
+@media (max-width: 600px) {
+  .custom-cf7-form .cf7-row {
+    flex-direction: column;
+  }
+}
+
+/* Cacher les messages d'erreur par défaut de CF7 si besoin de style custom */
+.custom-cf7-form .wpcf7-not-valid-tip {
+  color: #b03a2e;
+  font-size: 13px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+}

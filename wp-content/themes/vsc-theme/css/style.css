@@ -1311,4 +1311,80 @@ body {
   max-width: 15.1041666667vw;
   height: auto;
 }
+
+.contact-form {
+  /* Ligne pour téléphone + email côte à côte */
+  /* Champs texte, tel, email */
+  /* Zone de message */
+  /* Bouton Envoyer */
+  /* Responsive : empiler téléphone/email sur mobile */
+  /* Cacher les messages d'erreur par défaut de CF7 si besoin de style custom */
+}
+.contact-form .custom-cf7-form .cf7-row {
+  display: flex;
+  gap: 25px;
+}
+.contact-form .custom-cf7-form .cf7-row span {
+  flex: 1;
+}
+.contact-form .custom-cf7-form input[type=text],
+.contact-form .custom-cf7-form input[type=tel],
+.contact-form .custom-cf7-form input[type=email] {
+  width: 100%;
+  padding: 1.0416666667vw 1.9791666667vw;
+  margin-bottom: 13px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-size: 0.9375vw;
+  font-family: "Manrope Regular ";
+  color: #31331F;
+}
+.contact-form .custom-cf7-form input[type=text]::placeholder,
+.contact-form .custom-cf7-form input[type=tel]::placeholder,
+.contact-form .custom-cf7-form input[type=email]::placeholder, .contact-form .custom-cf7-form textarea::placeholder {
+  font-size: 0.9375vw;
+  font-family: "Manrope Regular ";
+  color: #31331F;
+}
+.contact-form .custom-cf7-form textarea {
+  width: 100%;
+  padding: 1.0416666667vw 1.9791666667vw;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: 0.9375vw;
+  color: #31331F;
+  min-height: 122px;
+  resize: vertical;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+.contact-form .custom-cf7-form input[type=submit] {
+  background-color: #B98B68;
+  color: #fff;
+  border: none;
+  padding: 0.9375vw 5.8333333333vw;
+  border-radius: 31px;
+  font-size: 1.0416666667vw;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-form .custom-cf7-form input[type=submit]:hover {
+  background-color: #a97b52;
+}
+@media (max-width: 600px) {
+  .contact-form .custom-cf7-form .cf7-row {
+    flex-direction: column;
+  }
+}
+.contact-form .custom-cf7-form .wpcf7-not-valid-tip {
+  color: #b03a2e;
+  font-size: 13px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=../css/style.css.map */
