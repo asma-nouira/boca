@@ -75,7 +75,20 @@
     font-size: 14px;
     line-height: 1.4;
   }
- 
+
+  /* Menu mobile trop long : la liste des services principaux
+     (Orthodontie, Esthétique du sourire...) est repliée par
+     défaut et ne s'affiche qu'au clic sur "Voir plus de nos
+     services dentaires", pour que le bouton "Prendre rendez-vous"
+     en bas du menu reste visible sans scroller autant. */
+  .menu-col__list--services.is-collapsed {
+    display: none;
+  }
+
+  .menu-services-toggle-all {
+    display: block;
+  }
+
   .menu-col__address,
   .menu-col__hours {
     font-size: 14px;

@@ -996,4 +996,12 @@ body {
   width: 100%;
   height: auto;
 }
+
+.section-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.35;
+  color: #B98B68;
+  padding-bottom: 5px;
+}
 /*# sourceMappingURL=../css/style.css.map */

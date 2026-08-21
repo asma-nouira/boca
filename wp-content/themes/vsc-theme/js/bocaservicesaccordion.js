@@ -77,6 +77,30 @@
         if (subList.classList.contains("menu-service-sub")) return;
         enhance(subList);
       });
+
+    initServicesToggle();
+  }
+
+  /* Bouton "Voir plus de nos services dentaires" (mobile) : la liste
+     des services principaux est repliée par défaut (via la classe
+     is-collapsed posée côté PHP) pour raccourcir le menu mobile ;
+     ce bouton la déplie/replie. Le CSS ne montre ce bouton et
+     n'applique le repli qu'en dessous de 992px — en desktop la
+     liste reste affichée normalement. */
+  function initServicesToggle() {
+    document.querySelectorAll(".menu-services-toggle-all").forEach(function (btn) {
+      if (btn.dataset.enhanced) return;
+      btn.dataset.enhanced = "true";
+
+      var list = btn.nextElementSibling;
+      if (!list || !list.classList.contains("menu-col__list--services")) return;
+
+      btn.addEventListener("click", function () {
+        var collapsed = list.classList.toggle("is-collapsed");
+        btn.setAttribute("aria-expanded", String(!collapsed));
+        btn.textContent = collapsed ? btn.dataset.labelMore : btn.dataset.labelLess;
+      });
+    });
   }
 
   if (document.readyState === "loading") {

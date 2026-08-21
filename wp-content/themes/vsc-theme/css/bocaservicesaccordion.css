@@ -91,3 +91,29 @@ li.has-sub-services.is-open .menu-service-sub {
 li.has-sub-services {
   padding-bottom: 0.15rem;
 }
+
+/* =========================================================
+   Bouton "Voir plus de nos services dentaires" (mobile only)
+   Cache par défaut ici ; réaffiché et rendu actif uniquement
+   sous 992px dans mobile.scss, où la liste des services
+   principaux est aussi repliée par défaut.
+   ========================================================= */
+.menu-services-toggle-all {
+  display: none;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+  padding: 0.65rem 1.1rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-services-toggle-all:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
