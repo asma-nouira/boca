@@ -70,6 +70,13 @@
     padding-bottom: 100px;
   }
 }
+
+.pb-226{
+  padding-bottom: calc(226vw / 19.2);
+   @media(max-width:767px){
+    padding-bottom: 100px;
+  }
+}
 .pl-140{
   padding-left: calc(140vw / 19.2);
    @media(max-width:767px){
