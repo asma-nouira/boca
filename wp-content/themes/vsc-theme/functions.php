@@ -152,6 +152,7 @@ add_action('wp_footer',function(){
     wp_enqueue_script( 'vsc-slick-run', get_template_directory_uri() . '/slick-slider/run.js', array('jquery'), null, true );
 	 wp_enqueue_script( 'vsc-animation-js', get_template_directory_uri() . '/js/bocaanimations.js', array('jquery'), null, true );
 	  wp_enqueue_script( 'vsc-menu-js', get_template_directory_uri() . '/js/bocaservicesaccordion.js', array('jquery'), null, true );
+	  wp_enqueue_script( 'api-google-maps',  'https://maps.googleapis.com/maps/api/js?key=AIzaSyACIUIwG5_zR5cp8S4P1aCKVB1ZMahdoik', array(), null, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
