@@ -8,7 +8,7 @@
  */
 function vsc_map()
 {
-    $map = '<div id="map1" style="width: 100%;height:430px;min-height: 100%;"></div>';
+    $map = '<div id="map1" style="width: 100%;height:750px;min-height: 100%;"></div>';
     ?>
     <script>
 
@@ -17,7 +17,7 @@ function vsc_map()
             if (!addedMap && jQuery(document).scrollTop() > 100) {
                 addedMap = true;
                 jQuery(function () {
-                    var points = new google.maps.LatLng(45.50769580633233, -73.56435486050708);
+                    var points = new google.maps.LatLng(45.54249291368219, -73.79054235850244);
                     var styles = [
                         {
                             "stylers": [
@@ -43,8 +43,8 @@ function vsc_map()
                     var marker = new google.maps.Marker({
                         position: points,
                         map: map1,
-                        icon: '/wp-content/themes/vsc-theme/css/img/icon-map.svg',
-                        url: 'https://www.google.com/maps/place/Complexe+Desjardins/@45.5075266,-73.5669083,17z/data=!3m1!5s0x4cc91a45a1cf65b7:0x3310f1891dd11e56!4m14!1m7!3m6!1s0x4cc91a4fca1ae933:0x9e1c26554e8a2355!2sComplexe+Desjardins!8m2!3d45.5075229!4d-73.5643334!16zL20vMDR2NTJo!3m5!1s0x4cc91a4fca1ae933:0x9e1c26554e8a2355!8m2!3d45.5075229!4d-73.5643334!16zL20vMDR2NTJo?entry=ttu'
+                        icon: '/wp-content/themes/vsc-theme/images/Map-icon.svg',
+                        url: 'https://www.google.com/maps/place/Clinique+dentaire+Boca/@45.5423163,-73.7931709,17z/data=!4m14!1m7!3m6!1s0x4cc9233a9d86edc1:0x83404ca3227be21!2sClinique+dentaire+Boca!8m2!3d45.5423126!4d-73.790596!16s%2Fg%2F11mk7nnk6x!3m5!1s0x4cc9233a9d86edc1:0x83404ca3227be21!8m2!3d45.5423126!4d-73.790596!16s%2Fg%2F11mk7nnk6x?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D'
                     });
                     marker.setAnimation(google.maps.Animation.BOUNCE);
 
@@ -59,7 +59,7 @@ function vsc_map()
                     });
                 });
             }
-            document.getElementById("year").innerHTML = new Date().getFullYear();
+            
         });
     </script>
     <?php return $map;
