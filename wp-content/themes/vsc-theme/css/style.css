@@ -996,6 +996,10 @@ body {
   height: auto;
 }
 
+.page-id-33 .scroll-arrow {
+  top: 2.6041666667vw;
+}
+
 @keyframes scrollBounce {
   0%, 100% {
     transform: translateX(-50%) translateY(0);
