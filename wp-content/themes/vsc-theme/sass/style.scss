@@ -501,3 +501,11 @@ line-height: 1.35;
   margin-bottom: 10px;
 }
 }
+.details-hours{
+  div{
+        display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 2px 0;
+  }
+}

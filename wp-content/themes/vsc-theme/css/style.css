@@ -839,7 +839,7 @@ h2 {
 .site-footer .footer-hours {
   font-size: 1.1458333333vw;
   margin-bottom: 1.5625vw;
-  padding-right: 3.6458333333vw;
+  padding-right: 1.5625vw;
 }
 @media (max-width: 767px) {
   .site-footer .footer-hours {
@@ -1419,5 +1419,12 @@ body {
   font-size: 13px;
   margin-top: -15px;
   margin-bottom: 10px;
+}
+
+.details-hours div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 2px 0;
 }
 /*# sourceMappingURL=../css/style.css.map */
