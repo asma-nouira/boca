@@ -155,7 +155,7 @@
 					</div>
 
 					<div class="menu-col col-3">
-						<p class="menu-col__title">+ <?php esc_html_e( 'Contact', 'vsc-theme' ); ?></p>
+						<p class="menu-col__title">+ <a href="/contactez-nous/"><?php esc_html_e( 'Contact', 'vsc-theme' ); ?></a></p>
 						<address class="menu-col__address">
 							<a href="tel:+14502325202" class="bold">T (450) 232-5202</a>
 							<p>1500 Rue Montgolfier, suite 201 <span class="nowrap">Chomedey (Laval), Québec&nbsp; H7T 0A2</span></p>
