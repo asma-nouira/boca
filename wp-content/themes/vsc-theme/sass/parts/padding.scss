@@ -236,6 +236,12 @@
     padding-bottom: 70px;
   }
 }
+.pb-112{
+  padding-bottom: calc(112vw / 19.2);
+    @media(max-width:767px){
+    padding-bottom: 70px;
+  }
+}
 .pr-96{
     padding-right: calc(96vw / 19.2);
 }
