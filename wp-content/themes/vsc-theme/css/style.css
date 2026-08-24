@@ -537,6 +537,10 @@ h2 {
   padding-bottom: 4.6875vw;
 }
 
+.pb-95 {
+  padding-bottom: 4.9479166667vw;
+}
+
 .pb-130 {
   padding-bottom: 6.7708333333vw;
 }
@@ -583,6 +587,15 @@ h2 {
 @media (max-width: 767px) {
   .pb-115 {
     padding-bottom: 100px;
+  }
+}
+
+.pb-110 {
+  padding-bottom: 5.7291666667vw;
+}
+@media (max-width: 767px) {
+  .pb-110 {
+    padding-bottom: 70px;
   }
 }
 
@@ -724,7 +737,7 @@ h2 {
   }
 }
 .site-footer .col-2 {
-  width: 26%;
+  width: 30%;
   padding-right: 3.90625vw;
 }
 @media (max-width: 767px) {
@@ -737,7 +750,7 @@ h2 {
 }
 .site-footer .col-3 {
   padding-right: 5.5729166667vw;
-  width: 45%;
+  width: 48%;
 }
 @media (max-width: 767px) {
   .site-footer .col-3 {
