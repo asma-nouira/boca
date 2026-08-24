@@ -1425,6 +1425,9 @@ body {
   margin-bottom: 10px;
 }
 
+.details-hours {
+  max-width: 15.625vw;
+}
 .details-hours div {
   display: flex;
   justify-content: space-between;

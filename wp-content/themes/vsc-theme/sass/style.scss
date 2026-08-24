@@ -502,6 +502,7 @@ line-height: 1.35;
 }
 }
 .details-hours{
+  max-width:calc(300vw / 19.2);
   div{
         display: flex;
     justify-content: space-between;
