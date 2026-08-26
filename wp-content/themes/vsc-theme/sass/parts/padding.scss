@@ -58,6 +58,12 @@
     padding-bottom: 50px;
   }
 }
+.pb-150{
+  padding-bottom: calc(150vw / 19.2);
+   @media(max-width:767px){
+    padding-bottom: 50px;
+  }
+}
 .pb-120{
   padding-bottom: calc(120vw / 19.2);
    @media(max-width:767px){
@@ -294,6 +300,9 @@
 }
 .pr-110{
     padding-right: calc(110vw / 19.2);
+}
+.pr-120{
+    padding-right: calc(120vw / 19.2);
 }
 .pr-50{
     padding-right: calc(50vw / 19.2);

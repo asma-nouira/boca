@@ -394,6 +394,15 @@ h2 {
   }
 }
 
+.pb-150 {
+  padding-bottom: 7.8125vw;
+}
+@media (max-width: 767px) {
+  .pb-150 {
+    padding-bottom: 50px;
+  }
+}
+
 .pb-120 {
   padding-bottom: 6.25vw;
 }
@@ -739,6 +748,10 @@ h2 {
 
 .pr-110 {
   padding-right: 5.7291666667vw;
+}
+
+.pr-120 {
+  padding-right: 6.25vw;
 }
 
 .pr-50 {
