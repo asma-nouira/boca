@@ -1596,8 +1596,8 @@ body {
   left: 0;
   bottom: -3px;
   width: 0%;
-  height: 1px;
-  background: #B98B68;
+  height: 1.5px;
+  background: #5B6556;
   transition: width 0.3s ease;
 }
 .service-title .arrow-btn {
@@ -1618,7 +1618,6 @@ body {
 }
 
 .service:hover .arrow-btn {
-  background: #5B6556;
   transform: scale(1.12);
 }
 
