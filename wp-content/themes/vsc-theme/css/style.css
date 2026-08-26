@@ -741,6 +741,15 @@ h2 {
   }
 }
 
+.pl-282 {
+  padding-left: 14.6875vw;
+}
+@media (max-width: 767px) {
+  .pl-282 {
+    padding-left: 25px;
+  }
+}
+
 .pr-278 {
   padding-right: 14.4791666667vw;
 }
