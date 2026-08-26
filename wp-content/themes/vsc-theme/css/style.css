@@ -1619,9 +1619,6 @@ body {
 .service p {
   padding-bottom: 1.3020833333vw;
 }
-.service p:last-child {
-  padding-bottom: 0;
-}
 
 .service:hover .service-title span.label::after {
   width: 100%;
