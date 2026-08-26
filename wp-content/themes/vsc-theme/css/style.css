@@ -1640,6 +1640,9 @@ body {
   background: #5B6556;
   transition: width 0.3s ease;
 }
+.service-title.white span.label::after {
+  background-color: white;
+}
 .service-title .arrow-btn {
   flex-shrink: 0;
   width: 2.2395833333vw;

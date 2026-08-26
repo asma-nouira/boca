@@ -545,6 +545,9 @@ span.label::after{
     background: $green;
     transition: width 0.3s ease;
   }
+  &.white span.label::after{
+    background-color: white;
+  }
    .arrow-btn{
     flex-shrink:0;
     width: calc(43vw / 19.2);
