@@ -1613,6 +1613,16 @@ body {
   overflow: hidden;
 }
 
+.service {
+  padding-bottom: 1.8229166667vw;
+}
+.service p {
+  padding-bottom: 1.3020833333vw;
+}
+.service p:last-child {
+  padding-bottom: 0;
+}
+
 .service:hover .service-title span.label::after {
   width: 100%;
 }
@@ -1623,5 +1633,9 @@ body {
 
 .service:hover .arrow-btn img {
   transform: rotate(45deg);
+}
+
+.service:hover .service-text {
+  transform: translateX(3px);
 }
 /*# sourceMappingURL=../css/style.css.map */
