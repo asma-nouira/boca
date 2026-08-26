@@ -457,6 +457,15 @@ h2 {
   }
 }
 
+.pl-307 {
+  padding-left: 15.9895833333vw;
+}
+@media (max-width: 767px) {
+  .pl-307 {
+    padding-left: 25px;
+  }
+}
+
 .pt-160 {
   padding-top: 8.3333333333vw;
 }
@@ -471,6 +480,15 @@ h2 {
 }
 @media (max-width: 767px) {
   .pt-145 {
+    padding-top: 60px;
+  }
+}
+
+.pt-135 {
+  padding-top: 7.03125vw;
+}
+@media (max-width: 767px) {
+  .pt-135 {
     padding-top: 60px;
   }
 }
