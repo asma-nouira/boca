@@ -572,21 +572,46 @@ h2 {
 .pb-80 {
   padding-bottom: 4.1666666667vw;
 }
+@media (max-width: 767px) {
+  .pb-80 {
+    padding-bottom: 50px;
+  }
+}
 
 .pb-60 {
   padding-bottom: 3.125vw;
+}
+@media (max-width: 767px) {
+  .pb-60 {
+    padding-bottom: 50px;
+  }
 }
 
 .pb-70 {
   padding-bottom: 3.6458333333vw;
 }
+@media (max-width: 767px) {
+  .pb-70 {
+    padding-bottom: 50px;
+  }
+}
 
 .pb-90 {
   padding-bottom: 4.6875vw;
 }
+@media (max-width: 767px) {
+  .pb-90 {
+    padding-bottom: 50px;
+  }
+}
 
 .pb-95 {
   padding-bottom: 4.9479166667vw;
+}
+@media (max-width: 767px) {
+  .pb-95 {
+    padding-bottom: 50px;
+  }
 }
 
 .pb-130 {
