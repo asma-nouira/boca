@@ -1616,6 +1616,9 @@ body {
 .service {
   padding-bottom: 1.8229166667vw;
 }
+.service:last-child {
+  padding-bottom: 0;
+}
 .service p {
   padding-bottom: 1.3020833333vw !important;
 }
