@@ -1572,4 +1572,57 @@ body {
   gap: 24px;
   padding: 2px 0;
 }
+
+.service-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6770833333vw;
+  margin: 0 0 1.1458333333vw 0;
+  font-size: 1.5625vw;
+  font-weight: 600;
+  color: #5B6556;
+  font-family: "Manrope Medium";
+  line-height: 1.33;
+  cursor: pointer;
+  width: fit-content;
+}
+.service-title span.label {
+  position: relative;
+  transition: color 0.25s ease;
+}
+.service-title span.label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 1px;
+  background: #B98B68;
+  transition: width 0.3s ease;
+}
+.service-title .arrow-btn {
+  flex-shrink: 0;
+  width: 2.2395833333vw;
+  height: 2.2395833333vw;
+  border-radius: 50%;
+  background: #B98B68;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: hidden;
+}
+
+.service:hover .service-title span.label::after {
+  width: 100%;
+}
+
+.service:hover .arrow-btn {
+  background: #5B6556;
+  transform: scale(1.12);
+}
+
+.service:hover .arrow-btn img {
+  transform: rotate(45deg);
+}
 /*# sourceMappingURL=../css/style.css.map */

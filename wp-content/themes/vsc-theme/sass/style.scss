@@ -520,3 +520,51 @@ line-height: 1.35;
     padding: 2px 0;
   }
 }
+  .service-title{
+    display:flex;
+    align-items:center;
+    gap: calc(13vw / 19.2);
+    margin:0 0 calc(22vw / 19.2) 0;
+    font-size: calc(30vw / 19.2);
+    font-weight: 600;
+    color: $green;
+    font-family: 'Manrope Medium';
+    line-height:1.33 ;
+    cursor:pointer;
+    width: fit-content;
+    span.label{
+    position: relative;
+    transition: color 0.25s ease;
+  }
+span.label::after{
+    content:"";
+    position:absolute;
+    left:0; bottom:-3px;
+    width:0%;
+    height:1px;
+    background: $orange;
+    transition: width 0.3s ease;
+  }
+   .arrow-btn{
+    flex-shrink:0;
+    width: calc(43vw / 19.2);
+    height: calc(43vw / 19.2);
+    border-radius: 50%;
+    background: $orange;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: background 0.3s ease, transform 0.35s cubic-bezier(.2,.8,.2,1);
+    overflow:hidden;
+  }
+  }
+   .service:hover .service-title span.label::after{
+    width:100%;
+  }
+   .service:hover .arrow-btn{
+    background: $green;
+    transform: scale(1.12);
+  }
+  .service:hover .arrow-btn img{
+    transform: rotate(45deg);
+  }
