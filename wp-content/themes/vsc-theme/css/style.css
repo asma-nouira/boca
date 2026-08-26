@@ -1405,6 +1405,10 @@ body {
   padding: 10.0520833333vw 15.625vw 11.71875vw 2.96875vw;
 }
 
+.infos-appointment.equal {
+  padding: 6.7708333333vw 15.625vw 6.7708333333vw 2.96875vw;
+}
+
 .list-faq {
   /* Conteneur : on enlève le fond et la bordure de la "carte" */
   /* Titre de la question */
