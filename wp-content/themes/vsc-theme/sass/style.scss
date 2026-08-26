@@ -561,7 +561,7 @@ span.label::after{
   .service {
     padding-bottom: calc(35vw / 19.2);
     p{
-    padding-bottom:calc(25vw / 19.2);
+    padding-bottom:calc(25vw / 19.2)!important;
   }
 
   } 
