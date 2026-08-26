@@ -328,6 +328,15 @@
 }
 .pt-95{
 padding-top: calc(95vw / 19.2);
+@media(max-width:767px){
+  padding-top: 50px;
+}
+}
+.pt-90{
+padding-top: calc(90vw / 19.2);
+@media(max-width:767px){
+  padding-top: 50px;
+}
 }
 .pb-137{
   padding-bottom: calc(137vw / 19.2);

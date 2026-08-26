@@ -786,6 +786,20 @@ h2 {
 .pt-95 {
   padding-top: 4.9479166667vw;
 }
+@media (max-width: 767px) {
+  .pt-95 {
+    padding-top: 50px;
+  }
+}
+
+.pt-90 {
+  padding-top: 4.6875vw;
+}
+@media (max-width: 767px) {
+  .pt-90 {
+    padding-top: 50px;
+  }
+}
 
 .pb-137 {
   padding-bottom: 7.1354166667vw;
