@@ -457,6 +457,15 @@ h2 {
   }
 }
 
+.pl-292 {
+  padding-left: 15.2083333333vw;
+}
+@media (max-width: 767px) {
+  .pl-292 {
+    padding-left: 25px;
+  }
+}
+
 .pl-300 {
   padding-left: 15.625vw;
 }
@@ -785,6 +794,15 @@ h2 {
 }
 @media (max-width: 767px) {
   .pr-320 {
+    padding-right: 25px;
+  }
+}
+
+.pr-280 {
+  padding-right: 14.5833333333vw;
+}
+@media (max-width: 767px) {
+  .pr-280 {
     padding-right: 25px;
   }
 }
