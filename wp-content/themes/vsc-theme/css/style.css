@@ -986,15 +986,44 @@ h2 {
   padding-left: 21.6666666667vw;
   padding-right: 21.6666666667vw;
 }
+@media (max-width: 767px) {
+  .plr-416 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+.plr-500 {
+  padding-left: 26.0416666667vw;
+  padding-right: 26.0416666667vw;
+}
+@media (max-width: 767px) {
+  .plr-500 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
 
 .plr-554 {
   padding-left: 28.8541666667vw;
   padding-right: 28.8541666667vw;
 }
+@media (max-width: 767px) {
+  .plr-554 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
 
 .plr-285 {
   padding-left: 14.84375vw;
   padding-right: 14.84375vw;
+}
+@media (max-width: 767px) {
+  .plr-285 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 }
 
 .plr-57 {
