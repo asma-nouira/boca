@@ -586,3 +586,26 @@ span.label::after{
    .service-list:hover .service-text{
     transform: translateX(3px);
   }
+  .badge{
+       width: calc(206vw / 19.2);
+    height: calc(206vw / 19.2);
+    border-radius: 50%;
+    border: 2px solid $green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $green;
+    background: transparent;
+    .small{
+      font-size: calc(20vw / 19.2);
+      font-family: 'Manrope SemiBold';
+      line-height: 1.05;
+    }
+    .big{
+      font-size: calc(45vw / 19.2);
+      font-family: 'Manrope ExtraBold';
+      font-weight: 800;
+    }
+  }

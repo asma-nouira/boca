@@ -35,3 +35,10 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Manrope ExtraBold';
+    src: url('/wp-content/themes/vsc-theme/css/fonts/Manrope/Manrope-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
