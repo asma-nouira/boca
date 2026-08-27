@@ -95,6 +95,12 @@
     padding-left: 25px;
   }
 }
+.pl-460{
+  padding-left: calc(460vw / 19.2);
+   @media(max-width:767px){
+    padding-left: 25px;
+  }
+}
 .pl-80{
   padding-left: calc(80vw / 19.2);
    @media(max-width:767px){
@@ -330,6 +336,12 @@
 }
 .pr-180{
     padding-right: calc(180vw / 19.2);
+      @media(max-width:767px){
+    padding-right: 25px;
+  }
+}
+.pr-400{
+    padding-right: calc(400vw / 19.2);
       @media(max-width:767px){
     padding-right: 25px;
   }

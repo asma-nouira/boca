@@ -448,6 +448,15 @@ h2 {
   }
 }
 
+.pl-460 {
+  padding-left: 23.9583333333vw;
+}
+@media (max-width: 767px) {
+  .pl-460 {
+    padding-left: 25px;
+  }
+}
+
 .pl-80 {
   padding-left: 4.1666666667vw;
 }
@@ -794,6 +803,15 @@ h2 {
 }
 @media (max-width: 767px) {
   .pr-180 {
+    padding-right: 25px;
+  }
+}
+
+.pr-400 {
+  padding-right: 20.8333333333vw;
+}
+@media (max-width: 767px) {
+  .pr-400 {
     padding-right: 25px;
   }
 }
