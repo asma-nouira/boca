@@ -107,6 +107,12 @@
     padding-left: 25px;
   }
 }
+.pl-65{
+  padding-left: calc(65vw / 19.2);
+   @media(max-width:767px){
+    padding-left: 25px;
+  }
+}
 .pl-237{
   padding-left: calc(237vw / 19.2);
   @media(max-width:767px){
@@ -425,6 +431,12 @@
     padding-right: 25px;
   }
 }
+.pr-290{
+  padding-right: calc(290vw / 19.2);
+   @media(max-width:767px){
+    padding-right: 25px;
+  }
+}
 .pr-270{
   padding-right: calc(270vw / 19.2);
    @media(max-width:767px){
@@ -460,4 +472,8 @@ padding-top: calc(90vw / 19.2);
 }
 .mr-40{
   margin-right:calc(40vw / 19.2);
+}
+.ptb-150{
+  padding-top: calc(150vw / 19.2);
+  padding-bottom: calc(150vw / 19.2);
 }

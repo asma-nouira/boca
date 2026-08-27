@@ -466,6 +466,15 @@ h2 {
   }
 }
 
+.pl-65 {
+  padding-left: 3.3854166667vw;
+}
+@media (max-width: 767px) {
+  .pl-65 {
+    padding-left: 25px;
+  }
+}
+
 .pl-237 {
   padding-left: 12.34375vw;
 }
@@ -929,6 +938,15 @@ h2 {
   }
 }
 
+.pr-290 {
+  padding-right: 15.1041666667vw;
+}
+@media (max-width: 767px) {
+  .pr-290 {
+    padding-right: 25px;
+  }
+}
+
 .pr-270 {
   padding-right: 14.0625vw;
 }
@@ -977,6 +995,11 @@ h2 {
 
 .mr-40 {
   margin-right: 2.0833333333vw;
+}
+
+.ptb-150 {
+  padding-top: 7.8125vw;
+  padding-bottom: 7.8125vw;
 }
 
 .site-footer {
