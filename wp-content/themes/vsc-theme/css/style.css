@@ -649,6 +649,15 @@ h2 {
   }
 }
 
+.pt-70 {
+  padding-top: 3.6458333333vw;
+}
+@media (max-width: 767px) {
+  .pt-70 {
+    padding-top: 30px;
+  }
+}
+
 .pt-480 {
   padding-top: 25vw;
 }
