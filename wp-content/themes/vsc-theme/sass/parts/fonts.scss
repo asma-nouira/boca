@@ -28,57 +28,60 @@ $mobile-width: 425px;
 }
 %fs45{
   @include fontSize(45);
+    line-height: 1.22;
+    letter-spacing: -0.33px;
 }
 %fs24{
   @include fontSize(24);
+    line-height: 1.37;
 }
 %fs30{
   @include fontSize(30);
+     line-height: 1.16;
+    letter-spacing: -0.5px;
 }
 %fs65{
   @include fontSize(65);
+    line-height: 1.12;
+    letter-spacing: -0.23px;
 }
 %fs50{
   @include fontSize(50);
+   line-height: 1.3;
+    letter-spacing: -0.3px;
 }
 /************ fonts *************/
 .fs45{
   @extend %fs45;
   h1,h2,p,h3{
     @extend %fs45;
-    line-height: 1.22;
-    letter-spacing: -0.33px;
   }
 }
 .fs30{
   @extend %fs30;
   h1,h2,p,h3{
     @extend %fs30;
-    line-height: 1.16;
-    letter-spacing: -0.5px;
   }
 }
 .fs65{
   @extend %fs65;
   h1,h2,p,h3{
     @extend %fs45;
-    line-height: 1.12;
-    letter-spacing: -0.23px;
+  
   }
 }
 .fs50{
   @extend %fs50;
   h1,h2,p,h3{
     @extend %fs45;
-    line-height: 1.3;
-    letter-spacing: -0.3px;
+   
   }
 }
 .fs24{
   @extend %fs24;
   h1,h2,p,h3{
     @extend %fs24;
-    line-height: 1.37;
+  
   
   }
 }
