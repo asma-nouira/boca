@@ -150,6 +150,12 @@
     padding-top: 60px;
   }
 }
+.pt-300{
+  padding-top: calc(300vw / 19.2);
+  @media(max-width:767px){
+    padding-top: 60px;
+  }
+}
 .pt-145{
   padding-top: calc(145vw / 19.2);
   @media(max-width:767px){
