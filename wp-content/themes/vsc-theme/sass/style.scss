@@ -609,3 +609,9 @@ span.label::after{
       font-weight: 800;
     }
   }
+
+  .center-list{
+    list-style-position: inside;
+    text-align: center;
+    margin: 0 auto;
+  }
