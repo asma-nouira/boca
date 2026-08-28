@@ -310,6 +310,13 @@
     padding-bottom: 60px;
   }
 }
+
+.pb-180{
+  padding-bottom: calc(180vw / 19.2);
+      @media(max-width:767px){
+    padding-bottom: 60px;
+  }
+}
 .pb-195{
   padding-bottom: calc(195vw / 19.2);
     @media(max-width:767px){
