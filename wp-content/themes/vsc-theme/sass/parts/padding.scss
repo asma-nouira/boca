@@ -511,6 +511,14 @@
     padding-left: 25px;
   }
 }
+.plr-407{
+  padding-left: calc(407vw / 19.2);
+  padding-right: calc(407vw / 19.2);
+   @media(max-width:767px){
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
 .plr-500{
   padding-left: calc(500vw / 19.2);
   padding-right: calc(500vw / 19.2);

@@ -1036,6 +1036,17 @@ h2 {
   }
 }
 
+.plr-407 {
+  padding-left: 21.1979166667vw;
+  padding-right: 21.1979166667vw;
+}
+@media (max-width: 767px) {
+  .plr-407 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
 .plr-500 {
   padding-left: 26.0416666667vw;
   padding-right: 26.0416666667vw;
