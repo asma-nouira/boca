@@ -941,6 +941,15 @@ h2 {
   }
 }
 
+.pr-355 {
+  padding-right: 18.4895833333vw;
+}
+@media (max-width: 767px) {
+  .pr-355 {
+    padding-right: 25px;
+  }
+}
+
 .pr-280 {
   padding-right: 14.5833333333vw;
 }

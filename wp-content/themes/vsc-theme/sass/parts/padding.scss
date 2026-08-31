@@ -446,6 +446,13 @@
     padding-right: 25px;
   }
 }
+
+.pr-355{
+    padding-right: calc(355vw / 19.2);
+      @media(max-width:767px){
+    padding-right: 25px;
+  }
+}
 .pr-280{
     padding-right: calc(280vw / 19.2);
       @media(max-width:767px){
