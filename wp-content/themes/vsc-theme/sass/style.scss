@@ -628,6 +628,9 @@ span.label::after{
       .list-faq .vce-faq-toggle-icon{
         transform:translateY(-50%) rotate(90deg) ;
       }
+      .list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon{
+        transform:translateY(-50%) rotate(0deg) ;
+      }
     }
   .list-faq.urgence{
     .vce-faq-toggle-text-block{
