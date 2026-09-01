@@ -968,6 +968,15 @@ h2 {
   }
 }
 
+.pr-220 {
+  padding-right: 11.4583333333vw;
+}
+@media (max-width: 767px) {
+  .pr-220 {
+    padding-right: 25px;
+  }
+}
+
 .pr-100 {
   padding-right: 5.2083333333vw;
 }
