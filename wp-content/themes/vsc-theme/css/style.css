@@ -2000,6 +2000,6 @@ body {
   color: white;
 }
 .page-id-87 .list-faq .vce-faq-toggle-wrapper {
-  border-color: white;
+  border-color: white !important;
 }
 /*# sourceMappingURL=../css/style.css.map */
