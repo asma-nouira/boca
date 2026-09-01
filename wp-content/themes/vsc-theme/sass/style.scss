@@ -393,6 +393,8 @@ body{
   transform: translateY(-50%) rotate(90deg);
 }
 }
+
+
 .absolute-img{
     position: absolute;
     top: 15px;
@@ -615,11 +617,14 @@ span.label::after{
     text-align: center;
     margin: 0 auto;
   }
-  .page-id-87{
-    .list-faq .vce-faq-toggle-title-text{
+  
+    .list-faq.other .vce-faq-toggle-title-text{
       color:white;
     }
-    .list-faq .vce-faq-toggle-wrapper{
+    .list-faq.other .vce-faq-toggle-wrapper{
       border-color:white!important;
     }
-  }
+    .page-id-87{
+      
+    }
+  

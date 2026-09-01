@@ -1996,10 +1996,11 @@ body {
   margin: 0 auto;
 }
 
-.page-id-87 .list-faq .vce-faq-toggle-title-text {
+.list-faq.other .vce-faq-toggle-title-text {
   color: white;
 }
-.page-id-87 .list-faq .vce-faq-toggle-wrapper {
+
+.list-faq.other .vce-faq-toggle-wrapper {
   border-color: white !important;
 }
 /*# sourceMappingURL=../css/style.css.map */
