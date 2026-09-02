@@ -2031,4 +2031,8 @@ body {
 .list-faq.urgence .vce-faq-toggle-text-block {
   color: #31331F;
 }
+.list-faq.urgence .scroll-arrow {
+  left: 104%;
+  top: -3px;
+}
 /*# sourceMappingURL=../css/style.css.map */
