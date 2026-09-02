@@ -2013,10 +2013,10 @@ body {
   border-color: white !important;
 }
 
-.page-id-87 .list-faq .vce-faq-toggle-icon {
+.page-id-87 .list-faq .vce-faq-toggle-icon, .page-id-95 .list-faq .vce-faq-toggle-icon {
   transform: translateY(-50%) rotate(90deg);
 }
-.page-id-87 .list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon {
+.page-id-87 .list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon, .page-id-95 .list-faq .vce-faq-toggle-title-text[aria-expanded=true] .vce-faq-toggle-icon {
   transform: translateY(-50%) rotate(0deg);
 }
 
