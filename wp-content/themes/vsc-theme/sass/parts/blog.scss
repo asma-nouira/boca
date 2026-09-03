@@ -1,8 +1,7 @@
     .vsc-blog-grid {
         display: grid;
         grid-template-columns: repeat(var(--vsc-colonnes, 3), 1fr);
-        gap: 32px 24px;
-        margin: 24px 0;
+        gap: calc(54vw / 19.2) calc(100vw / 19.2);
     }
 
     @media (max-width: 900px) {

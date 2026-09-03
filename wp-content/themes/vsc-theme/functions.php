@@ -246,7 +246,7 @@ function vsc_blog_grid_shortcode( $atts ) {
                     </a>
 
                     <div class="vsc-blog-card__body">
-                        <h3 class="vsc-blog-card__title">
+                        <h3 class="vsc-blog-card__title green">
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                         </h3>
                         <p class="vsc-blog-card__excerpt">
