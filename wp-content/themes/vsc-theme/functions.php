@@ -200,5 +200,192 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function vsc_blog_grid_shortcode( $atts ) {
+
+    $atts = shortcode_atts(
+        array(
+            'posts_par_page' => 6,
+            'colonnes'       => 3,
+            'categorie'      => '',
+        ),
+        $atts,
+        'vsc_blog_grid'
+    );
+
+    // Gestion de la pagination : sur une page statique où le shortcode est
+    // inséré, WordPress utilise la query var "page" plutôt que "paged".
+    $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : ( get_query_var( 'page' ) ? get_query_var( 'page' ) : 1 );
+
+    $args = array(
+        'post_type'      => 'post',
+        'post_status'    => 'publish',
+        'posts_per_page' => (int) $atts['posts_par_page'],
+        'paged'          => $paged,
+    );
+
+    if ( ! empty( $atts['categorie'] ) ) {
+        $args['category_name'] = sanitize_title( $atts['categorie'] );
+    }
+
+    $query = new WP_Query( $args );
+
+    ob_start();
+
+    if ( $query->have_posts() ) : ?>
+
+        <div class="vsc-blog-grid" style="--vsc-colonnes: <?php echo (int) $atts['colonnes']; ?>;">
+            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+
+                <article class="vsc-blog-card">
+                    <a href="<?php the_permalink(); ?>" class="vsc-blog-card__image-link">
+                        <?php if ( has_post_thumbnail() ) : ?>
+                            <?php the_post_thumbnail( 'medium_large', array( 'class' => 'vsc-blog-card__image' ) ); ?>
+                        <?php else : ?>
+                            <div class="vsc-blog-card__image vsc-blog-card__image--placeholder"></div>
+                        <?php endif; ?>
+                    </a>
+
+                    <div class="vsc-blog-card__body">
+                        <h3 class="vsc-blog-card__title">
+                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        </h3>
+                        <p class="vsc-blog-card__excerpt">
+                            <?php echo esc_html( wp_trim_words( get_the_excerpt(), 24, '…' ) ); ?>
+                        </p>
+                    </div>
+                </article>
+
+            <?php endwhile; ?>
+        </div>
+
+        <nav class="vsc-blog-pagination">
+            <?php
+            echo paginate_links( array(
+                'total'     => $query->max_num_pages,
+                'current'   => $paged,
+                'prev_text' => '←',
+                'next_text' => '→',
+                'type'      => 'list',
+            ) );
+            ?>
+        </nav>
+
+    <?php else : ?>
+        <p><?php esc_html_e( 'Aucun article pour le moment.', 'vsc' ); ?></p>
+    <?php endif;
+
+    wp_reset_postdata();
+
+    return ob_get_clean();
+}
+add_shortcode( 'vsc_blog_grid', 'vsc_blog_grid_shortcode' );
+
+/**
+ * CSS de la grille. À coller à la suite dans functions.php,
+ * ou déplacer dans le CSS additionnel du thème (Personnaliser > CSS additionnel).
+ */
+function vsc_blog_grid_css() {
+    ?>
+    <style>
+    .vsc-blog-grid {
+        display: grid;
+        grid-template-columns: repeat(var(--vsc-colonnes, 3), 1fr);
+        gap: 32px 24px;
+        margin: 24px 0;
+    }
+
+    @media (max-width: 900px) {
+        .vsc-blog-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+        .vsc-blog-grid { grid-template-columns: 1fr; }
+    }
+
+    .vsc-blog-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vsc-blog-card__image-link {
+        display: block;
+        aspect-ratio: 4 / 3;
+        overflow: hidden;
+        background: #fff;
+        border: 1px solid #e6e2da;
+    }
+
+    .vsc-blog-card__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .vsc-blog-card__image--placeholder {
+        width: 100%;
+        height: 100%;
+        background: #f4f2ee;
+    }
+
+    .vsc-blog-card__body {
+        padding-top: 14px;
+    }
+
+    .vsc-blog-card__title {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 0 8px;
+        line-height: 1.3;
+    }
+
+    .vsc-blog-card__title a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .vsc-blog-card__title a:hover {
+        text-decoration: underline;
+    }
+
+    .vsc-blog-card__excerpt {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #6b6b6b;
+        margin: 0;
+    }
+
+    .vsc-blog-pagination {
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .vsc-blog-pagination ul {
+        display: inline-flex;
+        list-style: none;
+        gap: 6px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .vsc-blog-pagination a,
+    .vsc-blog-pagination span {
+        display: inline-block;
+        padding: 6px 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 13px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .vsc-blog-pagination .current {
+        background: #333;
+        color: #fff;
+        border-color: #333;
+    }
+    </style>
+    <?php
+}
+add_action( 'wp_head', 'vsc_blog_grid_css' );
 
 include_once "integrated_vc.php";
