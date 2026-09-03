@@ -571,14 +571,15 @@ line-height: 1.35;
     line-height:1.33 ;
     cursor:pointer;
     width: fit-content;
-    span.label{
-    position: relative;
-    transition: color 0.25s ease;
-    @media(max-width:767px){
+        @media(max-width:767px){
       gap:13px;
       margin: 0 0 15px 0;
       font-size: 20px;
     }
+    span.label{
+    position: relative;
+    transition: color 0.25s ease;
+
   }
 span.label::after{
     content:"";

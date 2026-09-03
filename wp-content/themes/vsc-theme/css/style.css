@@ -2150,16 +2150,16 @@ body {
   cursor: pointer;
   width: fit-content;
 }
-.service-title span.label {
-  position: relative;
-  transition: color 0.25s ease;
-}
 @media (max-width: 767px) {
-  .service-title span.label {
+  .service-title {
     gap: 13px;
     margin: 0 0 15px 0;
     font-size: 20px;
   }
+}
+.service-title span.label {
+  position: relative;
+  transition: color 0.25s ease;
 }
 .service-title span.label::after {
   content: "";
