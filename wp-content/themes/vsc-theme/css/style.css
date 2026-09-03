@@ -1974,6 +1974,11 @@ body {
   line-height: 1.35;
   color: #B98B68;
 }
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 13px;
+  }
+}
 
 .fil-ariane {
   padding: 1.0416666667vw 7.2916666667vw 1.3541666667vw;
