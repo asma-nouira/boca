@@ -108,13 +108,18 @@
 		padding: 60px 20px 80px;
 		text-align: center;
 	}
+    .vsc-single-article__content{
+        p{
+            text-align: left;
+        }
+    }
  
 	.vsc-single-article__meta {
 		margin: 0 0 calc(60vw / 19.2);
 	}
  
 	.vsc-single-article__image {
-		margin-bottom: 80px;
+		margin-bottom: calc(80vw / 19.2);
 	}
  
 	.vsc-single-article__image img {

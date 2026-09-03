@@ -1478,12 +1478,16 @@ h2 {
   text-align: center;
 }
 
+.vsc-single-article__content p {
+  text-align: left;
+}
+
 .vsc-single-article__meta {
   margin: 0 0 3.125vw;
 }
 
 .vsc-single-article__image {
-  margin-bottom: 80px;
+  margin-bottom: 4.1666666667vw;
 }
 
 .vsc-single-article__image img {
