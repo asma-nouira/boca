@@ -427,6 +427,10 @@ line-height: 1.35;
 .breadcrumb_last{
     text-decoration: underline;
 }
+@media(max-width:767px){
+  padding: 15px 25px;
+  font-size: 13px;
+}
 }
 .max-290{
     img{

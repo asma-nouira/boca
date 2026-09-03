@@ -1983,6 +1983,12 @@ body {
 .fil-ariane .breadcrumb_last {
   text-decoration: underline;
 }
+@media (max-width: 767px) {
+  .fil-ariane {
+    padding: 15px 25px;
+    font-size: 13px;
+  }
+}
 
 .max-290 img {
   max-width: 15.1041666667vw;
