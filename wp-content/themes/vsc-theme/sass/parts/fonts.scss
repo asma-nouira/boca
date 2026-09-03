@@ -24,6 +24,9 @@ $mobile-width: 425px;
      @if ($int==50) {
       font-size: 25px !important;
     }
+     @if ($int==24) {
+      font-size: 20px !important;
+    }
   }
 }
 %fs45{
