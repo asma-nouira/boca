@@ -45,7 +45,7 @@ get_header();
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'vsc-single-article' ); ?>>
 
 			<header class="vsc-single-article__header">
-				<h1 class="vsc-single-article__title"><?php the_title(); ?></h1>
+				<h1 class="vsc-single-article__title fs45 regular pb-25"><?php the_title(); ?></h1>
 				<p class="vsc-single-article__meta">
 					<?php
 					printf(
