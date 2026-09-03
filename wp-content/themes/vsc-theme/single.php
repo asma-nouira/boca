@@ -83,6 +83,30 @@ get_header();
 
 		</article>
 			</div>
+			<div class="vce-row-container" data-vce-boxed-width="true"><div class="vce-row vce-element--has-background vce-row--col-gap-30 vce-row-equal-height vce-row-content--top" id="el-20512734" data-vce-do-apply="all el-20512734"><div class="vce-content-background-container"></div><div class="vce-row-content" data-vce-element-content="true"><div class="vce-col vce-col--md-auto vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first plr-416 pt-116 pb-90" id="el-7327a57e"><div class="vce-col-inner" data-vce-do-apply="border margin background  el-7327a57e"><div class="vce-col-content" data-vce-element-content="true" data-vce-do-apply="padding el-7327a57e"><div class="vce-row-container reveal-up reveal-delay-3 in-view reveal-delay-2" data-vce-boxed-width="true"><div class="vce-row vce-row--col-gap-0 vce-row-equal-height vce-row-content--top" id="el-6f40954c" data-vce-do-apply="all el-6f40954c"><div class="vce-row-content" data-vce-element-content="true"><div class="vce-col vce-col--md-38p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-first vce-col--lg-first vce-col--xl-first no-pr pr-50" id="el-fd06c902"><div class="vce-col-inner" data-vce-do-apply="border margin background  el-fd06c902"><div class="vce-col-content" data-vce-element-content="true" data-vce-do-apply="padding el-fd06c902"><div class="vce-text-block reveal-up reveal-delay-4 in-view reveal-delay-3"><div class="vce-text-block-wrapper vce" id="el-909a27e1" data-vce-do-apply="all el-909a27e1"><h2 class="pb-15 reveal-up reveal-delay-4 in-view">Prendre <span class="nowrap">rendez-vous</span></h2>
+<p>Commencer vos soins dans un environnement rassurant et chaleureux, c’est possible.</p>
+</div></div></div></div></div><div class="vce-col vce-col--md-62p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last" id="el-7dcccc6b"><div class="vce-col-inner" data-vce-do-apply="border margin background  el-7dcccc6b"><div class="vce-col-content" data-vce-element-content="true" data-vce-do-apply="padding el-7dcccc6b"><div class="vce-shortcode contact-form reveal-up reveal-delay-2 in-view reveal-delay-1"><div class="vce-shortcode-wrapper vce" id="el-7ca733ef" data-vce-do-apply="all el-7ca733ef">
+<div class="wpcf7 js" id="wpcf7-f5-p97-o1" lang="fr-CA" dir="ltr" data-wpcf7-id="5">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blogue/#wpcf7-f5-p97-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="5"><input type="hidden" name="_wpcf7_version" value="6.1.7"><input type="hidden" name="_wpcf7_locale" value="fr_CA"><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-p97-o1"><input type="hidden" name="_wpcf7_container_post" value="97"><input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</fieldset>
+<div class="custom-cf7-form">
+	<p><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom complet*" value="" type="text" name="your-name"></span>
+	</p>
+	<div class="cf7-row">
+		<p><span class="wpcf7-form-control-wrap" data-name="your-phone"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Téléphone*" value="" type="tel" name="your-phone"></span><br>
+<span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Adresse courriel*" value="" type="email" name="your-email"></span>
+		</p>
+	</div>
+	<p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Votre message*" name="your-message"></textarea></span>
+	</p>
+	<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Envoyer"><span class="wpcf7-spinner"></span>
+	</p>
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div>
 		<?php
 
 	endwhile; // End of the loop.
