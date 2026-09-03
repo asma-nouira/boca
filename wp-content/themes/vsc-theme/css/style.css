@@ -248,7 +248,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .fs24 h1, .fs24 h2, .fs24 p, .fs24 h3, .fs24 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 }
 
