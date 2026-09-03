@@ -340,7 +340,7 @@ h2 {
   .site-header__inner {
     padding: 15px !important;
   }
-  .hero-section {
+  .hero-section, .hero-section-page, .hero-section-page.service, .hero-section-page.faq, .hero-section-page.second-page {
     padding: 100px 150px 100px 25px !important;
   }
   body {
