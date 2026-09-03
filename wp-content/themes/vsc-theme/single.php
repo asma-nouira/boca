@@ -33,11 +33,15 @@ get_header();
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna felis, eleifend in tincidunt ac, rhoncus eu eros. Vestibulum tempus velit magna, ut tincidunt leo ultricies finibus. Mauris congue libero ut elit vehicula, non condimentum tellus finibus. Morbi rhoncus lacus velit, eget vehicula nisi pellentesque sit amet. Mauris malesuada semper molestie. Nulla facilisi.</p>
 </div></div></div></div></div></div></div></div>
 	
+<div class="vce-row-container" data-vce-boxed-width="true"><div class="vce-row vce-element--has-background vce-row--col-gap-30 vce-row-equal-height vce-row-content--top" id="el-313d9204" data-vce-do-apply="all el-313d9204"><div class="vce-content-background-container"></div><div class="vce-row-content" data-vce-element-content="true"><div class="vce-col vce-col--md-auto vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" id="el-4f558819"><div class="vce-col-inner" data-vce-do-apply="border margin background  el-4f558819"><div class="vce-col-content" data-vce-element-content="true" data-vce-do-apply="padding el-4f558819"><div class="vce-raw-html reveal-up reveal-delay-3 in-view"><div class="vce-raw-html-wrapper" id="el-4297d71d" data-vce-do-apply="all el-4297d71d"><div class="scroll-arrow" onclick="document.querySelector('#next-section').scrollIntoView({behavior:'smooth'})">
+ <img decoding="async" src="/wp-content/uploads/2026/08/Arrow-scroll.svg" class="reveal-up reveal-delay-4 in-view">
+</div></div></div></div></div></div></div></div></div>
+
 	<?php
 	while ( have_posts() ) :
 		the_post();
 		?>
-
+<div style="background-color:#F3F1ED">
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'vsc-single-article' ); ?>>
 
 			<header class="vsc-single-article__header">
@@ -78,7 +82,7 @@ get_header();
 			</div>
 
 		</article>
-
+			</div>
 		<?php
 
 	endwhile; // End of the loop.
