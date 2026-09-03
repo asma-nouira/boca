@@ -2242,15 +2242,31 @@ body {
   color: #5B6556;
   background: transparent;
 }
+@media (max-width: 767px) {
+  .badge {
+    width: 72px;
+    height: 72px;
+  }
+}
 .badge .small {
   font-size: 1.0416666667vw;
   font-family: "Manrope SemiBold";
   line-height: 1.05;
 }
+@media (max-width: 767px) {
+  .badge .small {
+    font-size: 16px;
+  }
+}
 .badge .big {
   font-size: 2.34375vw;
   font-family: "Manrope ExtraBold";
   font-weight: 800;
+}
+@media (max-width: 767px) {
+  .badge .big {
+    font-size: 16px;
+  }
 }
 
 .center-list {
