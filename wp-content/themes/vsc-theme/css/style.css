@@ -2154,6 +2154,13 @@ body {
   position: relative;
   transition: color 0.25s ease;
 }
+@media (max-width: 767px) {
+  .service-title span.label {
+    gap: 12px;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+  }
+}
 .service-title span.label::after {
   content: "";
   position: absolute;
@@ -2179,15 +2186,31 @@ body {
   transition: background 0.3s ease, transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  .service-title .arrow-btn {
+    width: 25px;
+    height: 25px;
+  }
+}
 
 .service-list {
   padding-bottom: 1.8229166667vw;
+}
+@media (max-width: 767px) {
+  .service-list {
+    padding-bottom: 25px;
+  }
 }
 .service-list:last-child {
   padding-bottom: 0;
 }
 .service-list p {
   padding-bottom: 1.3020833333vw !important;
+}
+@media (max-width: 767px) {
+  .service-list p {
+    padding-bottom: 20px !important;
+  }
 }
 
 .service-list:hover .service-title span.label::after {

@@ -574,6 +574,11 @@ line-height: 1.35;
     span.label{
     position: relative;
     transition: color 0.25s ease;
+    @media(max-width:767px){
+      gap:12px;
+      margin: 0 0 15px 0;
+      font-size: 20px;
+    }
   }
 span.label::after{
     content:"";
@@ -598,15 +603,25 @@ span.label::after{
     justify-content:center;
     transition: background 0.3s ease, transform 0.35s cubic-bezier(.2,.8,.2,1);
     overflow:hidden;
+    @media(max-width:767px){
+      width:25px;
+      height: 25px;
+    }
   }
   }
   .service-list {
     padding-bottom: calc(35vw / 19.2);
+    @media(max-width:767px){
+      padding-bottom: 25px;
+    }
     &:last-child{
       padding-bottom: 0;
     }
     p{
     padding-bottom:calc(25vw / 19.2)!important;
+       @media(max-width:767px){
+      padding-bottom: 20px!important;
+    }
   }
 
   } 
