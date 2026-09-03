@@ -2244,8 +2244,11 @@ body {
 }
 @media (max-width: 767px) {
   .badge {
-    width: 102px;
-    height: 1022px;
+    width: 145px;
+    height: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
   }
 }
 .badge .small {
