@@ -102,3 +102,58 @@
         color: #fff;
         border-color: #333;
     }
+    .vsc-single-article {
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 60px 20px 80px;
+		text-align: center;
+	}
+ 
+	.vsc-single-article__title {
+		font-size: 32px;
+		font-weight: 500;
+		color: #4a4a4a;
+		margin: 0 0 12px;
+	}
+ 
+	.vsc-single-article__meta {
+		font-size: 13px;
+		color: #8a8a8a;
+		margin: 0 0 40px;
+	}
+ 
+	.vsc-single-article__image {
+		margin-bottom: 40px;
+	}
+ 
+	.vsc-single-article__image img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+ 
+	.vsc-single-article__content {
+		text-align: left;
+		font-size: 14px;
+		line-height: 1.7;
+		color: #4a4a4a;
+	}
+ 
+	.vsc-single-article__content p {
+		margin: 0 0 20px;
+	}
+ 
+	.vsc-single-article__back {
+		text-align: left;
+		margin-top: 32px;
+	}
+ 
+	.vsc-single-article__back a {
+		font-size: 14px;
+		color: #4a4a4a;
+		text-decoration: underline;
+	}
+ 
+	.vsc-single-article__back a:hover {
+		color: #c58b5c;
+	}
