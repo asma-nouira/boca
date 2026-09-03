@@ -2028,7 +2028,8 @@ body {
 }
 @media (max-width: 767px) {
   .contact-form .custom-cf7-form .cf7-row p {
-    gap: 12px;
+    gap: 0;
+    display: inline-block;
   }
 }
 .contact-form .custom-cf7-form .cf7-row span {
