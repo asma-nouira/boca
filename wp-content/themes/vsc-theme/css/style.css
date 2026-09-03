@@ -2003,7 +2003,12 @@ body {
 
 .max-290 img {
   max-width: 15.1041666667vw;
-  height: auto;
+  height: auto !important;
+}
+@media (max-width: 767px) {
+  .max-290 img {
+    max-width: 268px;
+  }
 }
 
 .contact-form {
