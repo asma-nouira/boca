@@ -445,9 +445,6 @@ line-height: 1.35;
     }
 }
 .contact-form{
-
-
-/* Ligne pour téléphone + email côte à côte */
 .custom-cf7-form .cf7-row 
 {
       input{
@@ -457,6 +454,9 @@ line-height: 1.35;
   display: flex;
   gap: calc(12vw / 19.2);
   align-items: flex-start;
+  @media(max-width:767px){
+    gap:12px;
+  }
 }
 
 }
@@ -477,6 +477,10 @@ line-height: 1.35;
   font-size: calc(18vw / 19.2);
     font-family: 'Manrope Regular';
     color:$dark;
+    @media(max-width:767px){
+      font-size: 14px;
+      padding: 15px 20px;
+    }
 }
 .custom-cf7-form input[type="text"]::placeholder,
 .custom-cf7-form input[type="tel"]::placeholder,
@@ -484,6 +488,9 @@ line-height: 1.35;
     font-size: calc(18vw / 19.2);
     font-family: 'Manrope Regular';
     color:$dark;
+     @media(max-width:767px){
+      font-size: 14px;
+    }
 }
 
 /* Zone de message */
@@ -500,6 +507,10 @@ line-height: 1.35;
   margin-bottom: 5px;
   box-sizing: border-box;
   font-family: inherit;
+   @media(max-width:767px){
+      font-size: 14px;
+      padding: 15px 20px;
+    }
 }
 
 /* Bouton Envoyer */
@@ -513,6 +524,10 @@ line-height: 1.35;
   font-weight: 400;
   cursor: pointer;
   transition: background-color 0.3s ease;
+   @media(max-width:767px){
+      font-size: 18px;
+      padding: 15px 60px;
+    }
 }
 
 .custom-cf7-form input[type="submit"]:hover {

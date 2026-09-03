@@ -2012,7 +2012,6 @@ body {
 }
 
 .contact-form {
-  /* Ligne pour téléphone + email côte à côte */
   /* Champs texte, tel, email */
   /* Zone de message */
   /* Bouton Envoyer */
@@ -2026,6 +2025,11 @@ body {
   display: flex;
   gap: 0.625vw;
   align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .contact-form .custom-cf7-form .cf7-row p {
+    gap: 12px;
+  }
 }
 .contact-form .custom-cf7-form .cf7-row span {
   flex: 1;
@@ -2043,12 +2047,27 @@ body {
   font-family: "Manrope Regular";
   color: #31331F;
 }
+@media (max-width: 767px) {
+  .contact-form .custom-cf7-form input[type=text],
+  .contact-form .custom-cf7-form input[type=tel],
+  .contact-form .custom-cf7-form input[type=email] {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+}
 .contact-form .custom-cf7-form input[type=text]::placeholder,
 .contact-form .custom-cf7-form input[type=tel]::placeholder,
 .contact-form .custom-cf7-form input[type=email]::placeholder, .contact-form .custom-cf7-form textarea::placeholder {
   font-size: 0.9375vw;
   font-family: "Manrope Regular";
   color: #31331F;
+}
+@media (max-width: 767px) {
+  .contact-form .custom-cf7-form input[type=text]::placeholder,
+  .contact-form .custom-cf7-form input[type=tel]::placeholder,
+  .contact-form .custom-cf7-form input[type=email]::placeholder, .contact-form .custom-cf7-form textarea::placeholder {
+    font-size: 14px;
+  }
 }
 .contact-form .custom-cf7-form textarea {
   width: 100%;
@@ -2064,6 +2083,12 @@ body {
   box-sizing: border-box;
   font-family: inherit;
 }
+@media (max-width: 767px) {
+  .contact-form .custom-cf7-form textarea {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+}
 .contact-form .custom-cf7-form input[type=submit] {
   background-color: #B98B68;
   color: #fff;
@@ -2074,6 +2099,12 @@ body {
   font-weight: 400;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+@media (max-width: 767px) {
+  .contact-form .custom-cf7-form input[type=submit] {
+    font-size: 18px;
+    padding: 15px 60px;
+  }
 }
 .contact-form .custom-cf7-form input[type=submit]:hover {
   background-color: #a97b52;
