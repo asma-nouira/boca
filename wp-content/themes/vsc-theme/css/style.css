@@ -1366,7 +1366,7 @@ h2 {
 .vsc-blog-grid {
   display: grid;
   grid-template-columns: repeat(var(--vsc-colonnes, 3), 1fr);
-  gap: 2.8125vw 5.2083333333vw;
+  gap: 5.2083333333vw 2.8125vw;
 }
 
 @media (max-width: 900px) {
