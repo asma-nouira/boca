@@ -1478,21 +1478,12 @@ h2 {
   text-align: center;
 }
 
-.vsc-single-article__title {
-  font-size: 32px;
-  font-weight: 500;
-  color: #4a4a4a;
-  margin: 0 0 12px;
-}
-
 .vsc-single-article__meta {
-  font-size: 13px;
-  color: #8a8a8a;
-  margin: 0 0 40px;
+  margin: 0 0 3.125vw;
 }
 
 .vsc-single-article__image {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .vsc-single-article__image img {
