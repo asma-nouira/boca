@@ -403,6 +403,9 @@ h2 {
   .pb-30-mob {
     padding-bottom: 30px;
   }
+  .nowrap-mob {
+    white-space: nowrap;
+  }
   .infos-appointment {
     padding: 40px 25px !important;
   }
