@@ -1393,6 +1393,7 @@ h2 {
 .vsc-blog-card:hover .vsc-blog-card__body {
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .vsc-blog-card__image-link {

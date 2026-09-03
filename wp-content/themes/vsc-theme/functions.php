@@ -204,7 +204,7 @@ function vsc_blog_grid_shortcode( $atts ) {
 
     $atts = shortcode_atts(
         array(
-            'posts_par_page' => 6,
+            'posts_par_page' => 3,
             'colonnes'       => 3,
             'categorie'      => '',
         ),
