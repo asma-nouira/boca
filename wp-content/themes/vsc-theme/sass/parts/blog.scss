@@ -112,6 +112,7 @@
 		text-align: center;
         @media(max-width:767px){
             max-width:90%;
+            padding: 20px 15px 25px;
         }
 	}
     .vsc-single-article__content{
@@ -122,10 +123,16 @@
  
 	.vsc-single-article__meta {
 		margin: 0 0 calc(60vw / 19.2);
+         @media(max-width:767px){
+            margin:0 0 30px;
+        }
 	}
  
 	.vsc-single-article__image {
 		margin-bottom: calc(80vw / 19.2);
+         @media(max-width:767px){
+            margin-bottom:30px;
+        }
 	}
  
 	.vsc-single-article__image img {
@@ -140,6 +147,9 @@
 	.vsc-single-article__back {
 		text-align: left;
 		margin-top: calc(60vw / 19.2);
+        @media(max-width:767px){
+            margin-top:30px;
+        }
 	}
  
 	.vsc-single-article__back a {

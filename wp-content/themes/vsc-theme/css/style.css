@@ -1508,6 +1508,7 @@ h2 {
 @media (max-width: 767px) {
   .vsc-single-article {
     max-width: 90%;
+    padding: 20px 15px 25px;
   }
 }
 
@@ -1518,9 +1519,19 @@ h2 {
 .vsc-single-article__meta {
   margin: 0 0 3.125vw;
 }
+@media (max-width: 767px) {
+  .vsc-single-article__meta {
+    margin: 0 0 30px;
+  }
+}
 
 .vsc-single-article__image {
   margin-bottom: 4.1666666667vw;
+}
+@media (max-width: 767px) {
+  .vsc-single-article__image {
+    margin-bottom: 30px;
+  }
 }
 
 .vsc-single-article__image img {
@@ -1532,6 +1543,11 @@ h2 {
 .vsc-single-article__back {
   text-align: left;
   margin-top: 3.125vw;
+}
+@media (max-width: 767px) {
+  .vsc-single-article__back {
+    margin-top: 30px;
+  }
 }
 
 .vsc-single-article__back a {
