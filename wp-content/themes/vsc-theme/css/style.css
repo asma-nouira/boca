@@ -1450,6 +1450,11 @@ h2 {
   margin: 0 0 16px;
   line-height: 1.37;
 }
+@media (max-width: 767px) {
+  .vsc-blog-card__title {
+    font-size: 18px;
+  }
+}
 
 .vsc-blog-card__title a {
   color: inherit;
@@ -1499,6 +1504,11 @@ h2 {
   margin: 0 auto;
   padding: 60px 20px 80px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .vsc-single-article {
+    max-width: 90%;
+  }
 }
 
 .vsc-single-article__content p {
