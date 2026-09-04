@@ -763,7 +763,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .pb-70 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
 
@@ -772,7 +772,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .pb-75 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
 
