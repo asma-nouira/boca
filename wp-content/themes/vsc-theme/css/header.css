@@ -417,6 +417,10 @@ body.menu-is-open {
 /* ---------- Full-screen menu overlay ---------- */
 .menu-overlay {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 300;
   background: #DED8CC;
   color: #31331F;

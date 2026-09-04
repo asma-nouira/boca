@@ -208,7 +208,10 @@ margin-right: calc(13vw / 19.2);
 
 .menu-overlay {
 	position: fixed;
-	//inset: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	z-index: 300;
 	background: #DED8CC;
 	color: #31331F;
