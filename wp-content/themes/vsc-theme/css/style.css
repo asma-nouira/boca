@@ -262,6 +262,12 @@ h2 {
     font-size: calc(30vw / 19.2);
   }
 }
+@media (max-width: 767px) {
+  .fs30 h1, .fs30 h2, .fs30 p, .fs30 h3, .fs30 {
+    font-size: 20px !important;
+  }
+}
+
 .fs65 {
   font-size: calc(65vw / 13.66);
   line-height: 1.12;
