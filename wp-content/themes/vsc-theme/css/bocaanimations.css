@@ -44,7 +44,7 @@ header.site-header {
    comme il était déjà en absolute avant (donc hors flux), aucun
    padding-top supplémentaire n'est nécessaire sur le body. */
 
-header.site-header.is-scrolled {
+header.site-header.is-scrolled .site-header__inner{
   background-color: rgba(20, 18, 15, 0.82);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
