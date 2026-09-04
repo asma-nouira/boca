@@ -85,40 +85,26 @@
     display: none;
   }
 
-.menu-services-toggle-all {
+.menu-col__title.menu-service-row {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
-  width: auto;
-  margin: 10px auto 16px;
-  padding: 8px 18px;
-  background: transparent;
-  border: 1px solid rgba(49, 51, 31, 0.25);
-  border-radius: 30px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: inherit;
-  cursor: pointer;
+  justify-content: space-between;
+  gap: 12px;
 }
 
-.menu-services-toggle-all::after {
-  content: "\25BE"; /* ▾ */
-  font-size: 10px;
+.menu-service-toggle--all {
   transition: transform 0.2s ease;
 }
 
-.menu-services-toggle-all[aria-expanded="true"]::after {
-  transform: rotate(180deg);
+.menu-service-toggle--all[aria-expanded="true"] {
+  transform: rotate(45deg); // le "+" devient visuellement un "×", comme les sous-catégories
 }
 
-.menu-services-toggle-all:active,
-.menu-services-toggle-all:hover {
-  background: rgba(49, 51, 31, 0.06);
+@media (min-width: 993px) {
+  .menu-col__title .menu-service-toggle {
+    display: none !important; // en desktop, la liste reste toujours dépliée
+  }
 }
-
   .menu-col__address,
   .menu-col__hours {
     font-size: 14px;

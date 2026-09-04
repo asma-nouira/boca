@@ -296,36 +296,29 @@ h2 {
   .menu-col__list--services.is-collapsed {
     display: none;
   }
-  .menu-services-toggle-all {
+  .menu-col__title.menu-service-row {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 6px;
-    width: auto;
-    margin: 10px auto 16px;
-    padding: 8px 18px;
-    background: transparent;
-    border: 1px solid rgba(49, 51, 31, 0.25);
-    border-radius: 30px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: inherit;
-    cursor: pointer;
+    justify-content: space-between;
+    gap: 12px;
   }
-  .menu-services-toggle-all::after {
-    content: "▾"; /* ▾ */
-    font-size: 10px;
+  .menu-service-toggle--all {
     transition: transform 0.2s ease;
   }
-  .menu-services-toggle-all[aria-expanded=true]::after {
-    transform: rotate(180deg);
+  .menu-service-toggle--all[aria-expanded=true] {
+    transform: rotate(45deg);
   }
-  .menu-services-toggle-all:active,
-  .menu-services-toggle-all:hover {
-    background: rgba(49, 51, 31, 0.06);
+  /* 5. Icônes sociales et bouton "Prendre rendez-vous" du menu :
+        taille fixe, confortable au doigt. */
+  /* 6. Bouton de fermeture (X) : taille fixe plutôt qu'en vw,
+        pour rester facilement cliquable sur petit écran. */
+}
+@media (max-width: 992px) and (min-width: 993px) {
+  .menu-col__title .menu-service-toggle {
+    display: none !important;
   }
+}
+@media (max-width: 992px) {
   .menu-col__address,
   .menu-col__hours {
     font-size: 14px;
@@ -335,8 +328,6 @@ h2 {
   .menu-col__hours td {
     padding: 0.2rem 0;
   }
-  /* 5. Icônes sociales et bouton "Prendre rendez-vous" du menu :
-        taille fixe, confortable au doigt. */
   .menu-overlay__social {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -350,8 +341,6 @@ h2 {
     padding: 1rem 1.4rem;
     font-size: 0.8rem;
   }
-  /* 6. Bouton de fermeture (X) : taille fixe plutôt qu'en vw,
-        pour rester facilement cliquable sur petit écran. */
   .menu-close {
     top: 1rem;
     right: 1rem;

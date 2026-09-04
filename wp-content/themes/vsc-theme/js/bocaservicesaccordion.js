@@ -87,21 +87,38 @@
      ce bouton la déplie/replie. Le CSS ne montre ce bouton et
      n'applique le repli qu'en dessous de 992px — en desktop la
      liste reste affichée normalement. */
-  function initServicesToggle() {
-    document.querySelectorAll(".menu-services-toggle-all").forEach(function (btn) {
-      if (btn.dataset.enhanced) return;
-      btn.dataset.enhanced = "true";
+ function initServicesToggle() {
+  document.querySelectorAll(".menu-services-toggle-all").forEach(function (btn) {
+    if (btn.dataset.enhanced) return;
+    btn.dataset.enhanced = "true";
 
-      var list = btn.nextElementSibling;
-      if (!list || !list.classList.contains("menu-col__list--services")) return;
+    var list = btn.nextElementSibling;
+    if (!list || !list.classList.contains("menu-col__list--services")) return;
 
-      btn.addEventListener("click", function () {
-        var collapsed = list.classList.toggle("is-collapsed");
-        btn.setAttribute("aria-expanded", String(!collapsed));
-        btn.textContent = collapsed ? btn.dataset.labelMore : btn.dataset.labelLess;
-      });
+    var title = btn.previousElementSibling;
+    var anchor = title ? title.querySelector("a") : null;
+
+    if (title && anchor) {
+      title.classList.add("menu-service-row");
+      btn.classList.remove("menu-services-toggle-all");
+      btn.classList.add("menu-service-toggle", "menu-service-toggle--all");
+      btn.textContent = "+";
+      btn.removeAttribute("data-label-more");
+      btn.removeAttribute("data-label-less");
+      btn.setAttribute("aria-label", "Afficher tous les services dentaires");
+
+      list.id = list.id || "menu-services-list";
+      btn.setAttribute("aria-controls", list.id);
+
+      title.appendChild(btn);
+    }
+
+    btn.addEventListener("click", function () {
+      var collapsed = list.classList.toggle("is-collapsed");
+      btn.setAttribute("aria-expanded", String(!collapsed));
     });
-  }
+  });
+}
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
