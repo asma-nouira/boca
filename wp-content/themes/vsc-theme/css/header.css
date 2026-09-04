@@ -591,4 +591,8 @@ body.menu-is-open .menu-overlay {
   padding-right: 1.5rem;
   white-space: nowrap;
 }
+
+.menu-col__title--services.menu-service-row .menu-service-toggle {
+  display: none;
+}
 /*# sourceMappingURL=../css/header.css.map */
