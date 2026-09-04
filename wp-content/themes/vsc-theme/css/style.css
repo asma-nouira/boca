@@ -1170,6 +1170,12 @@ h2 {
   padding-left: 2.96875vw;
   padding-right: 2.96875vw;
 }
+@media (max-width: 767px) {
+  .plr-57 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
 
 .pt-95 {
   padding-top: 4.9479166667vw;
