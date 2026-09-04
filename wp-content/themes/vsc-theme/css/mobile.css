@@ -451,5 +451,8 @@ h2 {
   .page-id-93 .scroll-arrow {
     top: 11vw !important;
   }
+  .mb-30-mob {
+    margin-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=../css/mobile.css.map */
