@@ -1508,7 +1508,7 @@ h2 {
 @media (max-width: 767px) {
   .vsc-single-article {
     max-width: 90%;
-    padding: 20px 15px 25px;
+    padding: 30px 0;
   }
 }
 
