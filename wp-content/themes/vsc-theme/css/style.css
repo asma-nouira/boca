@@ -2142,6 +2142,11 @@ body {
 .details-hours {
   max-width: 15.625vw;
 }
+@media (max-width: 767px) {
+  .details-hours {
+    max-width: 250px;
+  }
+}
 .details-hours div {
   display: flex;
   justify-content: space-between;
