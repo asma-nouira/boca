@@ -1947,7 +1947,7 @@ body {
 }
 @media (max-width: 767px) {
   .list-faq .vce-faq-toggle-text-block {
-    padding-right: 50px;
+    padding-right: 40px;
   }
 }
 .list-faq .vce-faq-toggle-icon {
