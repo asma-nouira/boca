@@ -85,9 +85,39 @@
     display: none;
   }
 
-  .menu-services-toggle-all {
-    display: block;
-  }
+.menu-services-toggle-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: auto;
+  margin: 10px auto 16px;
+  padding: 8px 18px;
+  background: transparent;
+  border: 1px solid rgba(49, 51, 31, 0.25);
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: inherit;
+  cursor: pointer;
+}
+
+.menu-services-toggle-all::after {
+  content: "\25BE"; /* ▾ */
+  font-size: 10px;
+  transition: transform 0.2s ease;
+}
+
+.menu-services-toggle-all[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+.menu-services-toggle-all:active,
+.menu-services-toggle-all:hover {
+  background: rgba(49, 51, 31, 0.06);
+}
 
   .menu-col__address,
   .menu-col__hours {
