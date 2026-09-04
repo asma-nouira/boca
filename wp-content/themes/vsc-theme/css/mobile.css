@@ -288,6 +288,9 @@ h2 {
     font-size: 14px;
     line-height: 1.4;
   }
+  .menu-col__title--services.menu-service-row .menu-service-toggle {
+    display: block !important;
+  }
   /* Menu mobile trop long : la liste des services principaux
      (Orthodontie, Esthétique du sourire...) est repliée par
      défaut et ne s'affiche qu'au clic sur "Voir plus de nos
