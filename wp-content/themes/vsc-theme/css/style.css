@@ -1314,6 +1314,12 @@ h2 {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 992px) and (min-width: 768px) {
+  .site-footer .footer-social a {
+    width: 50px;
+    height: 50px;
+  }
+}
 @media (max-width: 767px) {
   .site-footer .footer-social a {
     width: 50px;
@@ -1327,7 +1333,7 @@ h2 {
   fill: #B98B68;
 }
 .site-footer .menu-col__list {
-  gap: 1.1px;
+  gap: 1px;
 }
 .site-footer .menu-col__list a {
   text-decoration: underline;
