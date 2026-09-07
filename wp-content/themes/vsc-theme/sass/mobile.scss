@@ -1,8 +1,6 @@
 @import './statics.scss';
 @media(max-width:992px){
-  header.site-header.is-scrolled{
-    inset:0;
-  }
+
    .btn-cta.btn--pill{
     display: none!important;
    }
