@@ -1,6 +1,6 @@
  .site-footer {
-  .menu-service-toggle{
-    display: none;
+  .menu-col__title--services.menu-service-row .menu-service-toggle{
+    display: none!important;
   }
     background-color: $green;
     color: white;
