@@ -21,6 +21,9 @@
     .footer-brand {
    width:38.5%;
     padding-right: calc(113vw / 19.2);
+      @media(max-width:992px) and (min-width:768px){
+        padding-right: 50px;
+      }
     img{
         width:100%;
         height: auto;
@@ -34,6 +37,9 @@
   .col-2{
     width:30%;
     padding-right: calc(75vw / 19.2);
+       @media(max-width:992px) and (min-width:768px){
+        padding-right: 40px;
+      }
     @media(max-width:767px){
       width:45%;
       padding-right:0;
@@ -44,6 +50,9 @@
   .col-3{
     padding-right: calc(107vw / 19.2);
     width:48%;
+       @media(max-width:992px) and (min-width:768px){
+        padding-right: 50px;
+      }
      @media(max-width:767px){
       width:100%;
       padding-right: 0;
