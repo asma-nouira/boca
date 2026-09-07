@@ -256,7 +256,7 @@ h2 {
   .menu-overlay__columns .col-4 {
     width: 100%;
     padding-right: 0;
-    margin-bottom: 1.25rem;
+    margin-bottom: 15px;
     border-bottom: 1px solid rgba(49, 51, 31, 0.12);
   }
   .menu-overlay__columns .col-3 {
@@ -267,9 +267,9 @@ h2 {
   /* 4. Tailles de texte fixes et lisibles (fini le "1.3vw") +
         zones tactiles confortables (mini. ~44px de hauteur). */
   .menu-col__title {
-    font-size: 1.05rem;
+    font-size: 14px;
     line-height: 1.4;
-    margin-bottom: 0.85rem;
+    margin-bottom: 15px;
   }
   .menu-col__list {
     display: flex;
@@ -342,7 +342,7 @@ h2 {
   .menu-overlay__cta {
     margin-top: 1.25rem;
     padding: 1rem 1.4rem;
-    font-size: 0.8rem;
+    font-size: 14px;
   }
   .menu-close {
     top: 1rem;
