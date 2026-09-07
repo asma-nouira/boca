@@ -2081,14 +2081,20 @@ body {
   }
 }
 
-.max-290 img {
+.max-290 {
   max-width: 15.1041666667vw;
   height: auto !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 767px) {
-  .max-290 img {
+  .max-290 {
     max-width: 268px;
   }
+}
+.max-290 img {
+  width: 100%;
+  height: auto !important;
 }
 
 .contact-form {
