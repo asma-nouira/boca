@@ -98,6 +98,10 @@ svg path{
     gap:1.1px;
    a{
         text-decoration: underline;
+           @media(max-width:992px) and (min-width:768px){
+        min-height: 30px;
+      }
+       
     }
   }
   .menu-col__title{

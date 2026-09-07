@@ -1332,6 +1332,11 @@ h2 {
 .site-footer .menu-col__list a {
   text-decoration: underline;
 }
+@media (max-width: 992px) and (min-width: 768px) {
+  .site-footer .menu-col__list a {
+    min-height: 30px;
+  }
+}
 .site-footer .menu-col__title {
   padding-bottom: 0;
 }
