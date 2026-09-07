@@ -1,4 +1,7 @@
  .site-footer {
+  ul{
+    padding-inline-start: 0;
+  }
   .menu-col__title--services.menu-service-row .menu-service-toggle{
     display: none!important;
   }
@@ -51,7 +54,8 @@
     padding-right: calc(107vw / 19.2);
     width:48%;
        @media(max-width:992px) and (min-width:768px){
-        padding-right: 50px;
+        padding-right: 40px;
+        width:49%;
       }
      @media(max-width:767px){
       width:100%;
