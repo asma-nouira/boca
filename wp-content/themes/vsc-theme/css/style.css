@@ -1245,6 +1245,7 @@ h2 {
 @media (max-width: 992px) and (min-width: 768px) {
   .site-footer .footer-brand {
     padding-right: 50px;
+    width: 35%;
   }
 }
 .site-footer .footer-brand img {
@@ -1265,6 +1266,7 @@ h2 {
 @media (max-width: 992px) and (min-width: 768px) {
   .site-footer .col-2 {
     padding-right: 40px;
+    width: 33%;
   }
 }
 @media (max-width: 767px) {
