@@ -477,7 +477,7 @@ h2 {
   .mb-30-mob {
     margin-bottom: 30px;
   }
-  .third-cercle {
+  .third-cercle .circle-item {
     margin-left: auto;
     margin-right: auto;
   }
