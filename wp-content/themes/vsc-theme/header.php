@@ -108,7 +108,7 @@
 						) );
 						?>
 						<div class="menu-overlay__social">
-						<a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+						<a href="https://www.facebook.com/bocacliniquedentaire" target="_blank" rel="noopener" aria-label="Facebook">
 						<svg xmlns="http://www.w3.org/2000/svg" width="57.372" height="57.372" viewBox="0 0 57.372 57.372">
   <g id="Groupe_247" data-name="Groupe 247" transform="translate(-604 -8595.5)">
     <path id="Tracé_430" data-name="Tracé 430" d="M770.022,46.813h-6.865V29.959h-5.611V23.413h5.585c.013-.276.03-.492.034-.708.032-1.823-.022-3.652.108-5.468a7.578,7.578,0,0,1,7.664-7.351c1.737-.051,3.48.086,5.219.146a4.1,4.1,0,0,1,.582.108v5.875c-.7,0-1.348-.015-1.993,0-.9.025-1.8.015-2.694.127a2,2,0,0,0-1.918,1.923c-.1,1.749-.026,3.506-.026,5.323h6.413l-.845,6.563h-5.653Z" transform="translate(-134.429 8596)" fill="#43544a"/>
@@ -117,7 +117,7 @@
 </svg>
 
 						</a>
-						<a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+						<a href="https://www.instagram.com/clinique_dentaire_boca" target="_blank" rel="noopener" aria-label="Instagram">
 							<svg xmlns="http://www.w3.org/2000/svg" width="57.372" height="57.372" viewBox="0 0 57.372 57.372">
   <g id="Groupe_248" data-name="Groupe 248" transform="translate(-604 -8675.928)">
     <circle id="Ellipse_3" data-name="Ellipse 3" cx="27.686" cy="27.686" r="27.686" transform="translate(605 8676.928)" fill="none" stroke="#43544a" stroke-miterlimit="10" stroke-width="2"/>
