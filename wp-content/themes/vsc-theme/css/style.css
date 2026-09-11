@@ -1219,6 +1219,9 @@ h2 {
 .site-footer .menu-col__title--services.menu-service-row .menu-service-toggle {
   display: none !important;
 }
+.site-footer .menu-service-row .menu-service-toggle {
+  display: none !important;
+}
 @media (max-width: 992px) and (min-width: 768px) {
   .site-footer {
     padding: 50px;

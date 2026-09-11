@@ -5,6 +5,9 @@
   .menu-col__title--services.menu-service-row .menu-service-toggle{
     display: none!important;
   }
+ .menu-service-row .menu-service-toggle{
+   display: none!important;
+  }
     background-color: $green;
     color: white;
     padding: calc(70vw / 19.2) calc(190vw / 19.2) calc(90vw / 19.2) calc(278vw / 19.2);
