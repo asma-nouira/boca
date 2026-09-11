@@ -46,7 +46,7 @@
 
 				<a href="/urgence-dentaire/" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'Urgence dentaire', 'vsc-theme' ); ?></a>
 
-				<a href="/prendre-rendez-vous/" class="btn btn--round" aria-label="<?php esc_attr_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>">
+				<a target="_blank" href="https://www.docclik.com/fr/clinic/12333/booking" class="btn btn--round" aria-label="<?php esc_attr_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>">
 					<svg xmlns="http://www.w3.org/2000/svg" width="35" height="41.077" viewBox="0 0 35 41.077">
   <g id="Groupe_170" data-name="Groupe 170" transform="translate(-1756 -88.923)">
     <g id="Groupe_158" data-name="Groupe 158" transform="translate(39 -359)">
