@@ -1861,8 +1861,8 @@ body {
 }
 @media (max-width: 767px) {
   .infos-appointment .contacts-infos .circle-item {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
   }
 }
 .infos-appointment .contacts-infos .circle-item.in-view {
