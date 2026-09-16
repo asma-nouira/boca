@@ -716,6 +716,6 @@ span.label::after{
   .no-desktop{
     display: none;
     @media(max-width:992px){
-      display: block;
+      display: flex;
     }
   }

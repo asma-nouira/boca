@@ -326,6 +326,8 @@ h2 {
   .menu-col__hours {
     font-size: 14px;
     gap: 0.6rem;
+    width: 76%;
+    margin-top: 2vw;
   }
   .menu-col__hours th,
   .menu-col__hours td {
