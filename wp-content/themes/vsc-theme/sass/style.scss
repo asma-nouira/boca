@@ -713,3 +713,9 @@ span.label::after{
       top:-3px;
     }
   }
+  .no-desktop{
+    display: none;
+    @media(max-width:992px){
+      display: block;
+    }
+  }
