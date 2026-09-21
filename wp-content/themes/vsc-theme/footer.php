@@ -113,7 +113,7 @@
       </a>
  
       <span class="site-footer__credit">
-        Conception web par <a href="https://virussantecommunication.com" target="_blank" rel="noopener">Virus Santé Communication</a>
+        Conception web par <a href="https://virussantecommunication.ca" target="_blank" rel="noopener">Virus Santé Communication</a>
       </span>
  
     </div><!-- .site-footer__bottom -->
