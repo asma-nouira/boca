@@ -122,7 +122,7 @@
 <?php wp_footer(); ?>
 <script>
 document.querySelector('.scroll-arrow').addEventListener('click', () => {
-  document.querySelector('#next-section').scrollIntoView({ behavior: 'smooth' });
+  document.querySelector('#colophon').scrollIntoView({ behavior: 'smooth' });
 });
 </script>
 <script>
