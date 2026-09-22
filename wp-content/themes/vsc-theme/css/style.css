@@ -1825,12 +1825,12 @@ body {
   display: block;
   position: relative;
 }
-.services-slider .slide-img img {
+.services-slider .slide-img a img {
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
-.services-slider .slide-img img::after {
+.services-slider .slide-img a img::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -1839,7 +1839,7 @@ body {
   transition: opacity 0.3s ease;
   pointer-events: none;
 }
-.services-slider .slide-img img:hover::after {
+.services-slider .slide-img a:hover img::after {
   opacity: 0.75;
 }
 .services-slider .slide-arrow:hover {
