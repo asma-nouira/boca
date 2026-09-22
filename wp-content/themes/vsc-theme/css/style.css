@@ -1425,11 +1425,11 @@ h2 {
     text-align: center;
   }
 }
-.site-footer__bottom svg#facebook {
+.site-footer__bottom #facebook {
   width: 1.0416666667vw;
   height: auto;
 }
-.site-footer__bottom svg#instagram {
+.site-footer__bottom #instagram {
   width: 1.6145833333vw;
   height: auto;
 }
