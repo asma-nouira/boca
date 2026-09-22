@@ -1882,6 +1882,8 @@ body {
   .infos-appointment .contacts-infos .circle-item {
     width: 160px;
     height: 160px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .infos-appointment .contacts-infos .circle-item.in-view {
