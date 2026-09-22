@@ -1430,9 +1430,19 @@ h2 {
   width: 1.0416666667vw;
   height: auto;
 }
+@media (max-width: 767px) {
+  .footer-social #facebook {
+    width: 15px;
+  }
+}
 .footer-social #instagram {
   width: 1.6145833333vw;
   height: auto;
+}
+@media (max-width: 767px) {
+  .footer-social #instagram {
+    width: 25px;
+  }
 }
 
 .vsc-blog-grid {
