@@ -1425,6 +1425,14 @@ h2 {
     text-align: center;
   }
 }
+.site-footer__bottom svg#facebook {
+  width: 1.0416666667vw;
+  height: auto;
+}
+.site-footer__bottom svg#instagram {
+  width: 1.6145833333vw;
+  height: auto;
+}
 
 .vsc-blog-grid {
   display: grid;
