@@ -182,7 +182,12 @@ body{
 .slide-img{
 	display: block;
 	position: relative;
-   img::after{
+   img{  
+    position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+&::after{
 content: "";
   position: absolute;
   inset: 0;
@@ -192,6 +197,7 @@ content: "";
   pointer-events: none;
    
     }
+   }
   img:hover::after{
     opacity: 0.75;
   }
