@@ -182,25 +182,26 @@ body{
 .slide-img{
 	display: block;
 	position: relative;
-  a img{  
-    position: relative;
+.vce-single-image-inner {
+  position: relative;
   overflow: hidden;
   display: inline-block;
+}
 
-&::after{
-content: "";
+.vce-single-image-inner::after {
+  content: "";
   position: absolute;
   inset: 0;
   background-color: #5F8575;
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
-   
-    }
-   }
-  a:hover img::after{
-    opacity: 0.75;
-  }
+  z-index: 1;
+}
+
+.vce-single-image-inner:hover::after {
+  opacity: 0.75;
+}
 }
 .slide-arrow:hover {
     background-color: $green;

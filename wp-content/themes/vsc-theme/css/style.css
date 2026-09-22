@@ -1825,12 +1825,12 @@ body {
   display: block;
   position: relative;
 }
-.services-slider .slide-img a img {
+.services-slider .slide-img .vce-single-image-inner {
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
-.services-slider .slide-img a img::after {
+.services-slider .slide-img .vce-single-image-inner::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -1838,8 +1838,9 @@ body {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
+  z-index: 1;
 }
-.services-slider .slide-img a:hover img::after {
+.services-slider .slide-img .vce-single-image-inner:hover::after {
   opacity: 0.75;
 }
 .services-slider .slide-arrow:hover {
