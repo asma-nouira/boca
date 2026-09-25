@@ -1,4 +1,13 @@
  .site-footer {
+  .menu-col__title{
+      a {
+      text-decoration: none!important;
+      &:hover,
+    &:focus-visible{
+   color:$orange;
+    }
+  }
+}
   ul{
     padding-inline-start: 0;
     a {

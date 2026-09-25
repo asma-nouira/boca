@@ -1213,6 +1213,12 @@ h2 {
   color: white;
   padding: 3.6458333333vw 9.8958333333vw 4.6875vw 14.4791666667vw;
 }
+.site-footer .menu-col__title a {
+  text-decoration: none !important;
+}
+.site-footer .menu-col__title a:hover, .site-footer .menu-col__title a:focus-visible {
+  color: #B98B68;
+}
 .site-footer ul {
   padding-inline-start: 0;
 }
