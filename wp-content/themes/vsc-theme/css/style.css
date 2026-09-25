@@ -1216,6 +1216,9 @@ h2 {
 .site-footer ul {
   padding-inline-start: 0;
 }
+.site-footer ul a {
+  text-decoration: none !important;
+}
 .site-footer .menu-col__title--services.menu-service-row .menu-service-toggle {
   display: none !important;
 }
