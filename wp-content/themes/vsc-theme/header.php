@@ -167,8 +167,16 @@
 								<td><?php esc_html_e( '8h30 à 17h00', 'vsc-theme' ); ?></td>
 							</tr>
 							<tr>
+								<th><?php esc_html_e( 'Mardi', 'vsc-theme' ); ?></th>
+								<td><?php esc_html_e( '8h00 à 17h00', 'vsc-theme' ); ?></td>
+							</tr>
+							<tr>
+								<th><?php esc_html_e( 'Mercredi', 'vsc-theme' ); ?></th>
+								<td><?php esc_html_e( '8h30 à 17h00', 'vsc-theme' ); ?></td>
+							</tr>
+							<tr>
 								<th><?php esc_html_e( 'Jeudi', 'vsc-theme' ); ?></th>
-								<td><?php esc_html_e( '8h30 à 18h00', 'vsc-theme' ); ?></td>
+								<td><?php esc_html_e( '8h00 à 18h00', 'vsc-theme' ); ?></td>
 							</tr>
 							<tr>
 								<th><?php esc_html_e( 'Vendredi', 'vsc-theme' ); ?></th>

@@ -87,7 +87,9 @@
 
       <div class="footer-hours">
         <div><span>Lundi à Mercredi</span><span>8h30 à 17h00</span></div>
-        <div><span>Jeudi</span><span>8h30 à 18h00</span></div>
+        <div><span>Mardi</span><span>8h00 à 17h00</span></div>
+        <div><span>Mercredi</span><span>8h30 à 17h00</span></div>
+        <div><span>Jeudi</span><span>8h00 à 18h00</span></div>
         <div><span>Vendredi</span><span>8h30 à 16h00</span></div>
         <div><span>Samedi</span><span>8h30 à 14h00</span></div>
         <div><span>Dimanche</span><span>Fermé</span></div>
