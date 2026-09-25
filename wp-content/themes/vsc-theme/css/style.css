@@ -1667,9 +1667,9 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #5B6556; /* color of the scroll thumb */
+  background-color: #B98B68; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 5px solid #5B6556; /* creates padding around scroll thumb */
+  border: 5px solid #B98B68; /* creates padding around scroll thumb */
 }
 
 body {
