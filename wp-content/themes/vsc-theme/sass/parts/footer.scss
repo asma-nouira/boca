@@ -143,6 +143,9 @@ svg path{
       font-size: 16px;
       margin-bottom: 20px;
      }
+     &:hover{
+      color:$orange;
+     }
   }
   address {
     font-style: normal;

@@ -1375,6 +1375,9 @@ h2 {
     margin-bottom: 20px;
   }
 }
+.site-footer .phone:hover {
+  color: #B98B68;
+}
 .site-footer address {
   font-style: normal;
   font-size: 1.1458333333vw;
