@@ -158,7 +158,7 @@
 						<p class="menu-col__title">+ <a href="/contactez-nous/"><?php esc_html_e( 'Contact', 'vsc-theme' ); ?></a></p>
 						<address class="menu-col__address">
 							<a href="tel:+14502325202" class="bold">T (450) 232-5202</a>
-							<p>1500 Rue Montgolfier, suite 201 <span class="nowrap">Chomedey (Laval), Québec&nbsp; H7T 0A2</span></p>
+							<a target="_blank" href="https://www.google.com/maps/place/Clinique+dentaire+Boca/@45.5423163,-73.7931709,17z/data=!4m14!1m7!3m6!1s0x4cc9233a9d86edc1:0x83404ca3227be21!2sClinique+dentaire+Boca!8m2!3d45.5423126!4d-73.790596!16s%2Fg%2F11mk7nnk6x!3m5!1s0x4cc9233a9d86edc1:0x83404ca3227be21!8m2!3d45.5423126!4d-73.790596!16s%2Fg%2F11mk7nnk6x?entry=ttu&g_ep=EgoyMDI2MDkyMi4wIKXMDSoASAFQAw%3D%3D"><p>1500 Rue Montgolfier, suite 201 <span class="nowrap">Chomedey (Laval), Québec&nbsp; H7T 0A2</span></p></a>
 						</address>
 
 						<table class="menu-col__hours">
