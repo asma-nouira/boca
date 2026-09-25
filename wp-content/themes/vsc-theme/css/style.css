@@ -1219,6 +1219,9 @@ h2 {
 .site-footer ul a {
   text-decoration: none !important;
 }
+.site-footer ul a:hover, .site-footer ul a:focus-visible {
+  color: #B98B68;
+}
 .site-footer .menu-col__title--services.menu-service-row .menu-service-toggle {
   display: none !important;
 }

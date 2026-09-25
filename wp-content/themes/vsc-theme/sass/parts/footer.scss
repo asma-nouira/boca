@@ -1,9 +1,14 @@
  .site-footer {
   ul{
     padding-inline-start: 0;
-    a{
+    a {
       text-decoration: none!important;
+      &:hover,
+    &:focus-visible{
+   color:$orange;
     }
+    }
+    
   }
   .menu-col__title--services.menu-service-row .menu-service-toggle{
     display: none!important;
