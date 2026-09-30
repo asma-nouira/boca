@@ -222,15 +222,16 @@ h2 {
 }
 
 .wpml-ls-link {
-  background-color: #D1B9A8;
+  background-color: #B98B68;
   border-radius: 100%;
   width: 70px;
   height: 70px;
-  color: white;
+  color: #D1B9A8;
   vertical-align: middle;
   justify-content: center;
-  display: flex;
+  display: flex !important;
   align-items: center;
+  font-weight: 700;
 }
 
 .fs50 h1, .fs50 h2, .fs50 p, .fs50 h3, .fs65 h1, .fs65 h2, .fs65 p, .fs65 h3, .fs45 h1, .fs45 h2, .fs45 p, .fs45 h3, .fs45 {
