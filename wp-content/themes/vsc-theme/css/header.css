@@ -232,6 +232,9 @@ h2 {
   align-items: center;
   font-weight: 700;
 }
+.wpml-ls-link:hover {
+  background-color: #5B6556;
+}
 
 * {
   box-sizing: border-box;

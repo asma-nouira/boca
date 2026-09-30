@@ -233,6 +233,9 @@ h2 {
   align-items: center;
   font-weight: 700;
 }
+.wpml-ls-link:hover {
+  background-color: #5B6556;
+}
 
 .fs50 h1, .fs50 h2, .fs50 p, .fs50 h3, .fs65 h1, .fs65 h2, .fs65 p, .fs65 h3, .fs45 h1, .fs45 h2, .fs45 p, .fs45 h3, .fs45 {
   font-size: calc(45vw / 13.66);
