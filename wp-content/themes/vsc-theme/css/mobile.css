@@ -221,6 +221,10 @@ h2 {
   height: auto;
 }
 
+.wpml-ls-native {
+  color: #D1B9A8;
+}
+
 @media (max-width: 992px) {
   .btn-cta.btn--pill {
     display: none !important;

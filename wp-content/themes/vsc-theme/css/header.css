@@ -220,6 +220,10 @@ h2 {
   height: auto;
 }
 
+.wpml-ls-native {
+  color: #D1B9A8;
+}
+
 * {
   box-sizing: border-box;
 }

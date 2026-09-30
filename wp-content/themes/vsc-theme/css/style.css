@@ -221,6 +221,10 @@ h2 {
   height: auto;
 }
 
+.wpml-ls-native {
+  color: #D1B9A8;
+}
+
 .fs50 h1, .fs50 h2, .fs50 p, .fs50 h3, .fs65 h1, .fs65 h2, .fs65 p, .fs65 h3, .fs45 h1, .fs45 h2, .fs45 p, .fs45 h3, .fs45 {
   font-size: calc(45vw / 13.66);
   line-height: 1.22;
