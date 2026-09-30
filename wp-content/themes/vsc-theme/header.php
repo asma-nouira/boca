@@ -73,6 +73,7 @@
 				</a>
 
 				<div class="lang-switcher">
+					<?php do_action( 'wpml_add_language_selector' ); ?>
 				</div>
 
 			</div><!-- .site-header__actions -->
