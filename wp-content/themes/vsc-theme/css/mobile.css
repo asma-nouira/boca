@@ -221,8 +221,16 @@ h2 {
   height: auto;
 }
 
-.wpml-ls-native {
-  color: #D1B9A8;
+.wpml-ls-link {
+  background-color: #D1B9A8;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  color: white;
+  vertical-align: middle;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
