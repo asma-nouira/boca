@@ -87,7 +87,7 @@
 
       <div class="footer-hours">
 
-        <?php echo ICL_LANGUAGE_CODE; if (ICL_LANGUAGE_CODE == 'en-ca') { ?> 
+        <?php  if (ICL_LANGUAGE_CODE == 'en-ca') { ?> 
           <div><span>Monday to Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
         <div><span>Tuesday</span><span>8:00 AM to 5:00 PM</span></div>
         <div><span>Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
@@ -121,8 +121,23 @@
 	</footer><!-- #colophon -->
 	<!-- Barre bas : copyright + politique + signature -->
     <div class="site-footer__bottom">
- 
+  <?php if (ICL_LANGUAGE_CODE == 'en-ca') { ?> 
+  
       <span class="site-footer__copyright">
+        &copy; <?php echo date('Y'); ?> Clinique dentaire BOCA. All rights reserved.
+      </span>
+ 
+      <a href="/en/privacy-policy/" class="site-footer__policy">
+        Privacy Policy
+      </a>
+ 
+      <span class="site-footer__credit">
+        Web design by <a href="https://virussantecommunication.ca" target="_blank" rel="noopener">Virus Santé Communication</a>
+      </span>
+ 
+   
+ <?php } else { ?>
+ <span class="site-footer__copyright">
         &copy; <?php echo date('Y'); ?> Clinique dentaire BOCA. Tous droits réservés.
       </span>
  
@@ -133,7 +148,7 @@
       <span class="site-footer__credit">
         Conception web par <a href="https://virussantecommunication.ca" target="_blank" rel="noopener">Virus Santé Communication</a>
       </span>
- 
+ <?php } ?>
     </div><!-- .site-footer__bottom -->
 </div><!-- #page -->
 
