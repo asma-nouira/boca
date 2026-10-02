@@ -322,7 +322,7 @@ body.menu-is-open {
 /* Logo */
 .site-branding {
   position: absolute;
-  left: 45%;
+  left: 50%;
   transform: translateX(-50%);
   text-align: center;
   top: 2.2395833333vw;
