@@ -87,7 +87,7 @@
 
       <div class="footer-hours">
 
-        <?php echo ICL_LANGUAGE_CODE; if (ICL_LANGUAGE_CODE == 'en') { ?> 
+        <?php echo ICL_LANGUAGE_CODE; if (ICL_LANGUAGE_CODE == 'en-ca') { ?> 
           <div><span>Monday to Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
         <div><span>Tuesday</span><span>8:00 AM to 5:00 PM</span></div>
         <div><span>Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
@@ -108,7 +108,7 @@
       </div>
 
       <a target="_blank" href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--outline menu-overlay__cta">
-        <?php if (ICL_LANGUAGE_CODE == 'en') { ?> 
+        <?php if (ICL_LANGUAGE_CODE == 'en-ca') { ?> 
 						<?php esc_html_e( 'Book an appointment', 'vsc-theme' ); ?>
              <?php } else { ?>
              	<?php esc_html_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>

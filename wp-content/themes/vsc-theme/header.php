@@ -43,7 +43,7 @@
 			<div class="site-header__actions">
 
 				<a href="tel:+14502325202" class="site-header__phone">(450) 232-5202</a>
-				<?php if (ICL_LANGUAGE_CODE == 'en') { ?>
+				<?php if (ICL_LANGUAGE_CODE == 'en-ca') { ?>
 
 				<a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'Online Appt', 'vsc-theme' ); ?></a>
 
