@@ -44,33 +44,8 @@
 
 				<a href="tel:+14502325202" class="site-header__phone">(450) 232-5202</a>
 
-				<a href="/urgence-dentaire/" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'Prendre rendez-vous en urgence', 'vsc-theme' ); ?></a>
+				<a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'RDV en ligne', 'vsc-theme' ); ?></a>
 
-				<a target="_blank" href="https://www.docclik.com/fr/clinic/12333/booking" class="btn btn--round" aria-label="<?php esc_attr_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>">
-					<svg xmlns="http://www.w3.org/2000/svg" width="35" height="41.077" viewBox="0 0 35 41.077">
-  <g id="Groupe_170" data-name="Groupe 170" transform="translate(-1756 -88.923)">
-    <g id="Groupe_158" data-name="Groupe 158" transform="translate(39 -359)">
-      <g id="Groupe_157" data-name="Groupe 157">
-        <g id="Groupe_155" data-name="Groupe 155">
-          <g id="Rectangle_47" data-name="Rectangle 47" transform="translate(1717 453)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2">
-            <rect width="35" height="36" stroke="none"/>
-            <rect x="1" y="1" width="33" height="34" fill="none"/>
-          </g>
-          <path id="Tracé_149" data-name="Tracé 149" d="M3803,507.857h32.963" transform="translate(-2085.105 -45.287)" fill="none" stroke="#fff" stroke-width="2"/>
-          <g id="Groupe_153" data-name="Groupe 153" transform="translate(1726 448.923)">
-            <path id="Tracé_150" data-name="Tracé 150" d="M0,0H8.951" transform="translate(0 8.951) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-            <path id="Tracé_151" data-name="Tracé 151" d="M0,0H8.951" transform="translate(17 8.951) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g id="__TEMP__SVG__" transform="translate(1727.97 177.038) rotate(-90)">
-      <path id="Tracé_153" data-name="Tracé 153" d="M60.806,53V36.383m0,16.618-6.232-6.232M60.806,53l6.232-6.232" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    </g>
-  </g>
-</svg>
-
-				</a>
 
 				<div class="lang-switcher">
 					<?php do_action( 'wpml_add_language_selector' ); ?>
