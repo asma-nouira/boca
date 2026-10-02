@@ -94,6 +94,7 @@
         <div><span>Friday</span><span>8:30 AM to 4:00 PM</span></div>
         <div><span>Saturday</span><span>8:30 AM to 2:00 PM</span></div>
         <div><span>Sunday</span><span>Closed</span></div>
+        
         <?php } else { ?>
           <div><span>Lundi à Mercredi</span><span>8h30 à 17h00</span></div>
         <div><span>Mardi</span><span>8h00 à 17h00</span></div>
