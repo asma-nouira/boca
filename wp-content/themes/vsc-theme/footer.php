@@ -88,7 +88,7 @@
       <div class="footer-hours">
 
         <?php  if (ICL_LANGUAGE_CODE == 'en-ca') { ?> 
-          <div><span>Monday to Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
+          <div><span>Monday</span><span>8:30 AM to 5:00 PM</span></div>
         <div><span>Tuesday</span><span>8:00 AM to 5:00 PM</span></div>
         <div><span>Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
         <div><span>Thursday</span><span>8:00 AM to 6:00 PM</span></div>
@@ -97,7 +97,7 @@
         <div><span>Sunday</span><span>Closed</span></div>
 
         <?php } else { ?>
-          <div><span>Lundi à Mercredi</span><span>8h30 à 17h00</span></div>
+          <div><span>Lundi</span><span>8h30 à 17h00</span></div>
         <div><span>Mardi</span><span>8h00 à 17h00</span></div>
         <div><span>Mercredi</span><span>8h30 à 17h00</span></div>
         <div><span>Jeudi</span><span>8h00 à 18h00</span></div>
