@@ -43,10 +43,14 @@
 			<div class="site-header__actions">
 
 				<a href="tel:+14502325202" class="site-header__phone">(450) 232-5202</a>
+				<?php if (ICL_LANGUAGE_CODE == 'en') { ?>
 
-				<a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'RDV en ligne', 'vsc-theme' ); ?></a>
+				<a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'Online Appt', 'vsc-theme' ); ?></a>
 
-
+                 <?php } else { ?>
+  <a href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--pill no-mobile"><?php esc_html_e( 'RDV en ligne', 'vsc-theme' ); ?></a>
+				 <?php } ?>
+                
 				<div class="lang-switcher">
 					<?php do_action( 'wpml_add_language_selector' ); ?>
 				</div>
