@@ -86,17 +86,31 @@
       </address></a>
 
       <div class="footer-hours">
-        <div><span>Lundi à Mercredi</span><span>8h30 à 17h00</span></div>
+        <?php if (ICL_LANGUAGE_CODE == 'en') { ?> 
+          <div><span>Monday to Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
+        <div><span>Tuesday</span><span>8:00 AM to 5:00 PM</span></div>
+        <div><span>Wednesday</span><span>8:30 AM to 5:00 PM</span></div>
+        <div><span>Thursday</span><span>8:00 AM to 6:00 PM</span></div>
+        <div><span>Friday</span><span>8:30 AM to 4:00 PM</span></div>
+        <div><span>Saturday</span><span>8:30 AM to 2:00 PM</span></div>
+        <div><span>Sunday</span><span>Closed</span></div>
+        <?php } else { ?>
+          <div><span>Lundi à Mercredi</span><span>8h30 à 17h00</span></div>
         <div><span>Mardi</span><span>8h00 à 17h00</span></div>
         <div><span>Mercredi</span><span>8h30 à 17h00</span></div>
         <div><span>Jeudi</span><span>8h00 à 18h00</span></div>
         <div><span>Vendredi</span><span>8h30 à 16h00</span></div>
         <div><span>Samedi</span><span>8h30 à 14h00</span></div>
         <div><span>Dimanche</span><span>Fermé</span></div>
+           <?php } ?>
       </div>
 
       <a target="_blank" href="https://www.docclik.com/fr/clinic/12333/booking" class="btn-cta btn--outline menu-overlay__cta">
-						<?php esc_html_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>
+        <?php if (ICL_LANGUAGE_CODE == 'en') { ?> 
+						<?php esc_html_e( 'Book an appointment', 'vsc-theme' ); ?>
+             <?php } else { ?>
+             	<?php esc_html_e( 'Prendre rendez-vous', 'vsc-theme' ); ?>
+              <?php } ?>
 						<svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true"><path d="M1 6H15M15 6L10 1M15 6L10 11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
 					</a>
     </div>
