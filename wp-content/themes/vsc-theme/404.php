@@ -173,7 +173,7 @@ $boca_liens = array(
 }
 	</style>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area pt-160">
 		<main id="main" class="site-main">
 
 			<section class="error-404 not-found boca-404" aria-labelledby="boca-404-titre">
