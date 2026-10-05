@@ -18,7 +18,7 @@ $boca_tel_txt = '(450) 232-5202';
    Page 404 — Clinique dentaire Boca
    Remplace les 4 variables par les couleurs du thème.
    ========================================================== */
-.boca-404 {
+   .boca-404 {
 	--boca-encre:   #1f2a2e; /* texte principal */
 	--boca-accent:  #8fa89b; /* couleur de marque (boutons, gencive) */
 	--boca-doux:    #f3f1ee; /* fond doux */
@@ -30,6 +30,17 @@ $boca_tel_txt = '(450) 232-5202';
 	color: var(--boca-encre);
 	font-family: inherit;
 }
+   /* Header lisible sur la 404 (pas de photo derrière) */
+body.error404 .site-header {
+	background-color: #2e2723;
+	position: relative; /* annule le header transparent superposé, si c'est le cas */
+}
+
+/* Titre : le thème le met en blanc */
+.boca-404 .page-title {
+	color: var(--boca-encre);
+}
+
 
 /* ---------- Bloc principal ---------- */
 .boca-404__hero {
