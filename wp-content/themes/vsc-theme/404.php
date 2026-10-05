@@ -12,29 +12,6 @@ get_header();
 $boca_rdv_url = 'https://www.docclik.com/fr/clinic/12333/booking';
 $boca_tel     = '+14502325202';
 $boca_tel_txt = '(450) 232-5202';
-
-$boca_liens = array(
-	array(
-		'titre' => __( 'Nos services dentaires', 'vsc-theme' ),
-		'desc'  => __( 'Dentisterie générale, orthodontie, esthétique, implants.', 'vsc-theme' ),
-		'url'   => home_url( '/nos-services-dentaires/' ),
-	),
-	array(
-		'titre' => __( 'Urgence dentaire', 'vsc-theme' ),
-		'desc'  => __( 'Douleur, dent cassée ou enflure : voici quoi faire.', 'vsc-theme' ),
-		'url'   => home_url( '/nos-services-dentaires/urgence-dentaire/' ),
-	),
-	array(
-		'titre' => __( 'Nouveau patient', 'vsc-theme' ),
-		'desc'  => __( 'Comment se passe votre première visite chez Boca.', 'vsc-theme' ),
-		'url'   => home_url( '/nouveau-patient/' ),
-	),
-	array(
-		'titre' => __( 'Nous joindre', 'vsc-theme' ),
-		'desc'  => __( 'Adresse, heures d’ouverture et coordonnées.', 'vsc-theme' ),
-		'url'   => home_url( '/contactez-nous/' ),
-	),
-);
 ?>
 <style>
 	 /* ==========================================================
@@ -222,19 +199,6 @@ $boca_liens = array(
 						</p>
 					</div>
 				</div>
-
-				<nav class="boca-404__liens" aria-label="<?php esc_attr_e( 'Pages utiles', 'vsc-theme' ); ?>">
-					<ul>
-						<?php foreach ( $boca_liens as $lien ) : ?>
-							<li>
-								<a href="<?php echo esc_url( $lien['url'] ); ?>">
-									<span class="boca-404__lien-titre"><?php echo esc_html( $lien['titre'] ); ?></span>
-									<span class="boca-404__lien-desc"><?php echo esc_html( $lien['desc'] ); ?></span>
-								</a>
-							</li>
-						<?php endforeach; ?>
-					</ul>
-				</nav>
 
 			</section><!-- .error-404 -->
 
