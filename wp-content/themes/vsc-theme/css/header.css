@@ -286,7 +286,7 @@ body.menu-is-open {
   display: flex;
   align-items: start;
   justify-content: space-between;
-  padding: 2.2395833333vw 4.4791666667vw 2.2395833333vw 2.4479166667vw;
+  padding: 1.1979166667vw 4.4791666667vw 1.1979166667vw 2.4479166667vw;
 }
 
 /* Hamburger */
