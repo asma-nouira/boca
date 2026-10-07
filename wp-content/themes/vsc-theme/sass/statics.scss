@@ -190,8 +190,8 @@ h2{
 .wpml-ls-link{
   background-color:  #B98B68;
   border-radius: 100%;
-    width: 70px;
-    height: 70px;
+    width: calc(70vw / 19.2);
+    height: calc(70vw / 19.2);
     color: white;
     vertical-align: middle;
     justify-content: center;
