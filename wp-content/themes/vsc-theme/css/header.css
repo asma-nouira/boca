@@ -236,6 +236,11 @@ h2 {
   background-color: #5B6556;
 }
 
+.wpml-ls-legacy-list-horizontal {
+  padding: 0;
+  border: none;
+}
+
 * {
   box-sizing: border-box;
 }
