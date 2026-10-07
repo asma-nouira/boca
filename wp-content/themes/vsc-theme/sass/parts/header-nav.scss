@@ -66,6 +66,7 @@ body.menu-is-open {
 	font-size: calc(24vw / 19.2);
 	font-family: 'Manrope Regular';
 	letter-spacing: 0.03em;
+	padding-top: 2%;
 }
 
 .menu-toggle__icon {
@@ -96,7 +97,7 @@ body.menu-is-open {
 	left: 50%;
 	transform: translateX(-50%);
 	text-align: center;
-	top:calc(43vw / 19.2);
+	top:54%;
 
 	.custom-logo {
 		height: auto;
